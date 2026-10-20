@@ -1,0 +1,901 @@
+Loading FAISS index and metadata...
+Loading BM25 index and metadata...
+BM25 pickle dictionary keys: ['bm25', 'tokenized_corpus']
+Embedding-ready chunks: 8728
+FAISS vectors: 8728
+BM25 documents: 8728
+
+Loading embedding model: BAAI/bge-small-en-v1.5
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 1504.59it/s]
+
+
+TEST: Natural-language query
+
+====================================================================================================
+QUERY: What were TCS's employee cost-to-revenue ratio, EBIT-to-revenue ratio, and profit-after-tax-to-revenue ratio for FY 2025?
+====================================================================================================
+
+Top dense retrieval results (FAISS):
+  Rank  1 | Similarity: 0.8020 | Annual_Report_TCS_2025_p0088_c002
+  Rank  2 | Similarity: 0.7281 | Annual_Report_TCS_2025_p0022_c002
+  Rank  3 | Similarity: 0.7224 | Annual_Report_TCS_2025_p0012_c001
+  Rank  4 | Similarity: 0.7195 | Annual_Report_TCS_2025_p0089_c001
+  Rank  5 | Similarity: 0.7192 | Annual_Report_TCS_2025_p0096_c001_s001
+
+Top lexical retrieval results (BM25):
+  Rank  1 | BM25: 38.8094 | Annual_Report_TCS_2025_p0307_c001
+  Rank  2 | BM25: 36.6946 | Annual_Report_AtlasCopco_2025_p0068_c002
+  Rank  3 | BM25: 34.2105 | Annual_Report_Renishaw_2025_p0101_c001_s001
+  Rank  4 | BM25: 33.4254 | Annual_Report_Renishaw_2025_p0101_c002
+  Rank  5 | BM25: 33.3442 | Annual_Report_TCS_2025_p0023_c002
+
+Top hybrid retrieval results (RRF):
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 1 | RRF Score: 0.029828
+Dense Rank: 13 | BM25 Rank: 2
+Chunk ID: Annual_Report_AtlasCopco_2025_p0068_c002
+Source: Annual_Report_AtlasCopco_2025.pdf
+Physical page: 68
+Evidence:
+t. 
+Remuneration metrics
+2025
+2024
+2023
+Gender pay gap, % 
+9
+–
+–
+Total remuneration ratio 
+54
+–
+–
+The global unadjusted gender pay gap is calculated using contractual base and 
+variable pay, expressed as an hourly rate. Data for this metric was extracted from 
+the HR system on November 30, 2025, and the currency rates applicable on the 
+extraction date were used in the calculation. This is our first year of reporting, 
+and we aim to continuously improve the quality of the data. It is important to dis-
+tinguish the global unadjusted gender pay gap from equal pay. The metric does 
+not consider factors that may influence compensation, such as job role, position 
+weight, performance, experience, country, or other objective factors. 
+The total remuneration ratio represents the ratio of the President and CEO’s an-
+nual total remuneration to the median annual total remuneration of other em-
+ployees. The President and CEO’s total remuneration is detailed in the 2025 annu-
+al remuneration repor...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 2 | RRF Score: 0.028205
+Dense Rank: 5 | BM25 Rank: 18
+Chunk ID: Annual_Report_TCS_2025_p0096_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+94
+Ratio Analysis – 10 years 
+Units
+FY 2025 FY 2024*
+FY 2024
+FY 2023 FY 2022  FY 2021*  FY 2021  FY 2020  FY 2019  FY 2018  FY 2017  FY 2016 
+Ratios - Financial Performance
+Employee Cost / Total Revenue 
+%
+57.1
+58.2
+58.2
+56.6
+56.1
+55.9
+55.9
+54.8
+53.4
+53.9
+52.2
+50.9
+Other Operating Cost / Total Revenue 
+%
+16.5
+15.1
+15.5
+17.1
+16.2
+15.7
+16.5
+18.4
+19.6
+19.7
+20.4
+20.9
+Total cost (excluding interest & 
+depreciation) / Total Revenue 
+%
+73.6
+73.3
+73.7
+73.7
+72.3
+71.6
+72.4
+73.2
+73.0
+73.6
+72.6
+71.8
+EBIT / Total Revenue 
+%
+24.3
+24.6
+24.2
+24.1
+25.3
+25.9
+25.1
+24.6
+25.6
+24.8
+25.7
+26.5
+Profit Before Tax / Total Revenue 
+%
+25.6
+26.2
+25.7
+25.2
+27.0
+27.4
+26.7
+26.9
+28.4
+27.7
+29.3
+29.3
+Tax / Total Revenue 
+%
+6.5
+6.8
+6.6
+6.5
+6.9
+7.0
+6.8
+6.2
+6.8
+6.7
+6.9
+6.9
+Effective Tax Rate - Tax / PBT 
+%
+25.3
+25.8
+25.6
+25.7
+25.6
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+Profit After Tax / Total Revenue 
+%
+19.0
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 3 | RRF Score: 0.025816
+Dense Rank: 16 | BM25 Rank: 19
+Chunk ID: Annual_Report_TCS_2025_p0023_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 23
+Evidence:
+TCS maintained an excellent cash conversion ratio exceeding 
+100%, highlighting its robust financial health and strong ability 
+to generate cash from operations. This efficiency in translating 
+profits to cash flows, enables TCS to meet financial obligations 
+and fund growth initiatives without relying on external 
+financing.
+TCS has a practice of returning substantial free cash flow to 
+shareholders and based on the company's performance, the 
+Board of Directors have declared three interim dividends of 
+₹10 each, a special dividend of ₹66, and recommended a final 
+dividend of ₹30 (pending shareholders' approval at this AGM), 
+for a total dividend of ₹126 per share for FY 2025. TCS has 
+consistently declared dividend every quarter since its listing, 
+complemented by three bonus issues and five buyback offers.
+TCS’ high and improving Return on Equity, reflects the 
+company’s ability to generate strong profitability and manage 
+resources efficiently. This highlights the company’s financi...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 4 | RRF Score: 0.016393
+Dense Rank: 1 | BM25 Rank: -
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastru...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 5 | RRF Score: 0.016393
+Dense Rank: - | BM25 Rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0307_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 307
+Evidence:
+Integrated Annual Report 2024-25
+Notes forming part of Standalone Financial Statements
+Standalone Financial Statements 2024-25
+305
+25)      Additional Regulatory Information
+
+•
+Ratios
+Ratio
+Numerator
+Denominator
+Current year
+Previous year
+Current ratio (in times)
+Total current assets
+Total current liabilities
+2.1
+2.2
+Debt-Equity ratio (in 
+times)
+Debt consists of borrowings 
+and lease liabilities.
+Total equity
+0.1
+0.1
+Debt service coverage 
+ratio (in times)
+Earning for Debt Service = Net 
+Profit after taxes + Non-cash 
+operating expenses + Interest 
++ Other non-cash adjustments
+Debt service = Interest and 
+lease payments + Principal 
+repayments
+23.5
+24.0
+Return on equity ratio 
+(in %)
+Profit for the year less 
+Preference dividend (if any)
+Average total equity
+65.1%
+59.4%
+Trade receivables 
+turnover ratio (in times)
+Revenue from operations
+Average trade receivables
+4.4
+4.5
+Trade payables turnover 
+ratio (in times)
+Cost of equipment and 
+software licences + Other 
+expenses
+Average trade pa...
+
+
+TEST: Exact financial table labels
+
+====================================================================================================
+QUERY: Employee Cost / Total Revenue EBIT / Total Revenue Profit After Tax / Total Revenue FY 2025
+====================================================================================================
+
+Top dense retrieval results (FAISS):
+  Rank  1 | Similarity: 0.7699 | Annual_Report_Amazon_2023_p0053_c002
+  Rank  2 | Similarity: 0.7691 | Annual_Report_TCS_2025_p0096_c001_s001
+  Rank  3 | Similarity: 0.7655 | Annual_Report_TCS_2025_p0096_c001_s002
+  Rank  4 | Similarity: 0.7610 | Annual_Report_AtlasCopco_2025_p0106_c001
+  Rank  5 | Similarity: 0.7588 | Annual_Report_mastercard_2023_p0094_c002
+
+Top lexical retrieval results (BM25):
+  Rank  1 | BM25: 54.6220 | Annual_Report_TCS_2025_p0096_c001_s001
+  Rank  2 | BM25: 42.0976 | Annual_Report_TCS_2025_p0096_c001_s002
+  Rank  3 | BM25: 35.3718 | Annual_Report_TCS_2025_p0088_c002
+  Rank  4 | BM25: 31.9667 | Annual_Report_TCS_2025_p0096_c002_s001
+  Rank  5 | BM25: 30.2263 | Annual_Report_TCS_2025_p0095_c001_s001
+
+Top hybrid retrieval results (RRF):
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 1 | RRF Score: 0.032522
+Dense Rank: 2 | BM25 Rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0096_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+94
+Ratio Analysis – 10 years 
+Units
+FY 2025 FY 2024*
+FY 2024
+FY 2023 FY 2022  FY 2021*  FY 2021  FY 2020  FY 2019  FY 2018  FY 2017  FY 2016 
+Ratios - Financial Performance
+Employee Cost / Total Revenue 
+%
+57.1
+58.2
+58.2
+56.6
+56.1
+55.9
+55.9
+54.8
+53.4
+53.9
+52.2
+50.9
+Other Operating Cost / Total Revenue 
+%
+16.5
+15.1
+15.5
+17.1
+16.2
+15.7
+16.5
+18.4
+19.6
+19.7
+20.4
+20.9
+Total cost (excluding interest & 
+depreciation) / Total Revenue 
+%
+73.6
+73.3
+73.7
+73.7
+72.3
+71.6
+72.4
+73.2
+73.0
+73.6
+72.6
+71.8
+EBIT / Total Revenue 
+%
+24.3
+24.6
+24.2
+24.1
+25.3
+25.9
+25.1
+24.6
+25.6
+24.8
+25.7
+26.5
+Profit Before Tax / Total Revenue 
+%
+25.6
+26.2
+25.7
+25.2
+27.0
+27.4
+26.7
+26.9
+28.4
+27.7
+29.3
+29.3
+Tax / Total Revenue 
+%
+6.5
+6.8
+6.6
+6.5
+6.9
+7.0
+6.8
+6.2
+6.8
+6.7
+6.9
+6.9
+Effective Tax Rate - Tax / PBT 
+%
+25.3
+25.8
+25.6
+25.7
+25.6
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+Profit After Tax / Total Revenue 
+%
+19.0
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 2 | RRF Score: 0.032002
+Dense Rank: 3 | BM25 Rank: 2
+Chunk ID: Annual_Report_TCS_2025_p0096_c001_s002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+Profit After Tax / Total Revenue 
+%
+19.0
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20.6
+21.5
+21.0
+22.3
+22.3
+Ratios - Growth
+Total Revenue 
+%
+6.0
+6.8
+6.8
+17.6
+16.8
+4.6
+4.6
+7.2
+19.0
+4.4
+8.6
+14.8
+EBIT
+%
+4.8
+9.4
+7.6
+11.9
+14.1
+10.1
+7.0
+3.0
+22.8
+0.6
+5.3
+13.7
+Profit After Tax 
+%
+4.2
+10.5
+8.9
+10.0
+14.8
+3.2
+0.3
+2
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 3 | RRF Score: 0.028205
+Dense Rank: 18 | BM25 Rank: 5
+Chunk ID: Annual_Report_TCS_2025_p0095_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 95
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+93
+Performance Trend – 10 years 
+(` crore)
+FY 2025
+FY 2024*
+FY 2024
+FY 2023
+FY 2022
+FY 2021*
+FY 2021
+FY 2020
+FY 2019
+FY 2018
+FY 2017
+FY 2016
+Revenue from 
+operations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total revenue from 
+operations
+255,324
+240,893
+240,893
+225,458
+191,754
+164,177
+164,177
+156,949
+146,463
+123,104
+117,966
+108,646
+Revenue by geographic 
+segments
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Americas
+127,870
+127,939
+127,939
+124,336
+100,072
+84,278
+84,278
+82,000
+77,562
+66,145
+66,091
+60,011
+Europe
+79,487
+75,624
+75,624
+67,436
+61,142
+52,346
+52,346
+48,037
+43,456
+34,155
+30,038
+29,092
+India
+22,060
+13,562
+13,562
+11,271
+9,805
+8,449
+8,449
+8,964
+8,393
+7,921
+7,415
+6,729
+Others
+25,907
+23,768
+23,768
+22,415
+20,735
+19,104
+19,104
+17,948
+17,052
+14,883
+14,422
+12,814
+Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Employee cost
+145,788
+140,131
+140,131
+127,522
+107,554
+91,814
+91,814
+85,952
+78,246
+66,396
+61,621
+55,348
+Other operating cost
+42,129
+36,466
+37,424
+38,677
+31,143
+25,817
+27,035...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 4 | RRF Score: 0.027047
+Dense Rank: 12 | BM25 Rank: 16
+Chunk ID: Annual_Report_Renishaw_2025_p0122_c001_s001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 122
+Evidence:
+Financial statements
+from continuing operations
+notes
+Adjusted 
+total
+2025 
+£’000
+Adjusting
+ items
+2025 
+£’000 
+Statutory 
+total
+2025 
+£’000
+Adjusted 
+total
+2024 
+£’000
+Adjusting 
+items
+2024 
+£’000
+Statutory 
+total
+2024 
+£’000
+Revenue 
+2 
+713,044
+–
+713,044
+691,301
+–
+691,301
+Cost of sales 
+4 
+(379,650)
+(4,379)
+(384,029)
+(367,658)
+–
+(367,658)
+Gross profit 
+333,394
+(4,379)
+329,015
+323,643
+–
+323,643
+Distribution costs 
+(144,031)
+–
+(144,031)
+(139,901)
+–
+(139,901)
+Administrative expenses 
+(77,099)
+–
+(77,099)
+(75,075)
+–
+(75,075)
+Operating profit 
+112,264
+(4,379)
+107,885
+108,667
+–
+108,667
+Financial income 
+5 
+16,517
+–
+16,517
+12,336
+–
+12,336
+Financial expenses 
+5 
+(5,088)
+(4,852)
+(9,940)
+(2,289)
+–
+(2,289)
+Share of profits of joint ventures
+13 
+3,538
+–
+3,538
+3,880
+–
+3,880
+Profit before tax 
+127,231
+(9,231)
+118,000
+122,594
+–
+122,594
+Income tax expense
+7 
+(27,010)
+(7,233)
+(34,243)
+(25,705)
+–
+(25,705)
+Profit for the year 
+100,221
+(16,464)
+83,757
+96,889
+–
+96,889
+Profit attributable to:
+Equity shareh...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 5 | RRF Score: 0.016393
+Dense Rank: 1 | BM25 Rank: -
+Chunk ID: Annual_Report_Amazon_2023_p0053_c002
+Source: Annual_Report_Amazon_2023.pdf
+Physical page: 53
+Evidence:
+000)  
+— 
+ 
+— 
+ 
+— 
+ 
+(6,000) 
+Balance as of December 31, 2022
+ 
+10,242 
+ 
+108 
+ 
+(7,837)  
+75,066 
+ 
+(4,487)  
+83,193 
+ 
+146,043 
+Net income
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+30,425 
+ 
+30,425 
+Other comprehensive income (loss)
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+1,447 
+ 
+— 
+ 
+1,447 
+Stock-based compensation and issuance of 
+employee benefit plan stock
+ 
+141 
+ 
+1 
+ 
+— 
+ 
+23,959 
+ 
+— 
+ 
+— 
+ 
+23,960 
+Balance as of December 31, 2023
+ 
+10,383 
+$ 
+109 
+$ 
+(7,837) $ 99,025 
+$ 
+(3,040) $ 113,618 
+$ 201,875 
+See accompanying notes to consolidated financial statements.
+41
+
+====================================================================================================
+HYBRID RETRIEVAL TEST COMPLETED
+====================================================================================================
+Inspect whether the TCS FY 2025 ratio-table chunk appears near the top for both query styles.
+Expected target chunk ID: Annual_Report_TCS_2025_p0096_c001_s001
