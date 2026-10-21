@@ -15,7 +15,7 @@ MODEL_NAME = "BAAI/bge-small-en-v1.5"
 TOP_K = 5
 
 QUESTION = (
- "What were TCS's employee cost-to-revenue ratio, EBIT-to-revenue ratio, and profit-after-tax-to-revenue ratio for FY 2025?"
+    "What percentage of TCS revenue went to employee costs in FY2025?"
 )
 
 
