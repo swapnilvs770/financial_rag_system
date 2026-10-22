@@ -1,0 +1,713 @@
+====================================================================================================
+Q01: What percentage of TCS revenue went to employee costs in FY2025?
+====================================================================================================
+
+Original question: What percentage of TCS revenue went to employee costs in FY2025?
+BM25 expansion: Employee Cost / Total Revenue financial performance ratio FY 2025
+BM25 query used: What percentage of TCS revenue went to employee costs in FY2025? Employee Cost / Total Revenue financial performance ratio FY 2025
+Expected target chunk IDs: Annual_Report_TCS_2025_p0096_c001_s001
+
+Candidate counts: dense=50, BM25=50, hybrid=85
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.7736 | Annual_Report_TCS_2025_p0088_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  2 | Similarity: 0.7407 | Annual_Report_TCS_2025_p0139_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 139
+Rank  3 | Similarity: 0.7399 | Annual_Report_TCS_2025_p0095_c001_s001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 95
+Rank  4 | Similarity: 0.7395 | Annual_Report_TCS_2025_p0022_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 22
+Rank  5 | Similarity: 0.7389 | Annual_Report_TCS_2025_p0096_c001_s002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 96
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 45.3780 | Annual_Report_TCS_2025_p0096_c001_s001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 96
+Rank  2 | BM25: 42.2685 | Annual_Report_TCS_2025_p0139_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 139
+Rank  3 | BM25: 42.1519 | Annual_Report_TCS_2025_p0139_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 139
+Rank  4 | BM25: 41.8612 | Annual_Report_TCS_2025_p0030_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 30
+Rank  5 | BM25: 41.7210 | Annual_Report_Renishaw_2025_p0091_c003
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 91
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.032002
+Dense rank: 2 | BM25 rank: 3
+Chunk ID: Annual_Report_TCS_2025_p0139_c003
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 139
+Evidence:
+ures as a % of total revenue of the Company
+1.7
+1.7
+	
+	
+•	
+Employee salary/wages during Parental benefits are included as part of well-being cost
+	
+	
+•	
+All expenditures related to staff welfare including Employee Insurance, Benefits, Rewards, Reimbursement and other staff 
+related expenditures excluding salary/wages.
+2.	
+Details of retirement benefits, for Current Financial Year and Previous Financial Year46.
+Benefits
+FY 2025
+FY 2024
+No. of employees 
+covered as a % of total 
+employees
+Deducted and 
+deposited with the 
+authority (Y/N/N.A.)
+No. of employees 
+covered as a % of total 
+employees
+Deducted and 
+deposited with the 
+authority (Y/N/N.A.)
+India retirement benefits
+Provident Fund (PF)
+100.0
+Y
+100.0
+Y
+Gratuity
+100.0
+Y
+100.0
+Y
+Employee State Insurance (ESI)
+6.0
+Y
+6.0
+Y
+Superannuation (SA)
+6.0
+Y
+6.0
+Y
+National Pension Scheme (NPS)
+3.0
+Y
+2.0
+Y
+Overseas retirement benefits
+100.0
+Y
+99.0
+Y
+	
+•	
+Each geography has its own retiral benefits/social security measures extended to the employees in compliance with the local 
+governing laws in which TCS operates.
+45	
+GRI 401-2 
+46	
+GRI 201-3
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.031319
+Dense rank: 7 | BM25 rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0096_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+94
+Ratio Analysis – 10 years 
+Units
+FY 2025 FY 2024*
+FY 2024
+FY 2023 FY 2022  FY 2021*  FY 2021  FY 2020  FY 2019  FY 2018  FY 2017  FY 2016 
+Ratios - Financial Performance
+Employee Cost / Total Revenue 
+%
+57.1
+58.2
+58.2
+56.6
+56.1
+55.9
+55.9
+54.8
+53.4
+53.9
+52.2
+50.9
+Other Operating Cost / Total Revenue 
+%
+16.5
+15.1
+15.5
+17.1
+16.2
+15.7
+16.5
+18.4
+19.6
+19.7
+20.4
+20.9
+Total cost (excluding interest & 
+depreciation) / Total Revenue 
+%
+73.6
+73.3
+73.7
+73.7
+72.3
+71.6
+72.4
+73.2
+73.0
+73.6
+72.6
+71.8
+EBIT / Total Revenue 
+%
+24.3
+24.6
+24.2
+24.1
+25.3
+25.9
+25.1
+24.6
+25.6
+24.8
+25.7
+26.5
+Profit Before Tax / Total Revenue 
+%
+25.6
+26.2
+25.7
+25.2
+27.0
+27.4
+26.7
+26.9
+28.4
+27.7
+29.3
+29.3
+Tax / Total Revenue 
+%
+6.5
+6.8
+6.6
+6.5
+6.9
+7.0
+6.8
+6.2
+6.8
+6.7
+6.9
+6.9
+Effective Tax Rate - Tax / PBT 
+%
+25.3
+25.8
+25.6
+25.7
+25.6
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+Profit After Tax / Total Revenue 
+%
+19.0
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.030282
+Dense rank: 1 | BM25 rank: 12
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastructure and capability building. However, 
+tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to 
+the margins. 
+Averag
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.029324
+Dense rank: 4 | BM25 rank: 13
+Chunk ID: Annual_Report_TCS_2025_p0022_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+g capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently high shareholder returns
+TCS Value Creation and Distribution (FY 2021 - 25)1
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+1 GRI 201-1
+Revenue Trend
+CAGR 10.2%
+(₹ crore)
+(₹ crore)
+FY
+2021
+FY
+2022
+FY
+2023
+FY
+2024
+FY
+2025
+164,177
+191,754
+225,458
+240,893
+255,324
+In FY 2025, TCS reported an operating margin of 24.3%, a 
+marginal decline of 30 basis points compared to FY 2024. 
+This moderation was primarily attributable to the impact 
+of annual wage hikes, associates promotions, and strategic 
+investments in infrastructure and capability development. 
+These cost pressures were partially offset by improvements in 
+workforce utilization, productivity, and realization, along with 
+favourable currency movements.
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+42,481 
+48,453
+54,237 
+59,311 
+62,165 
+Operating Margin
+Operating Proﬁt
+25.9%
+25.3% 24.1% 24.6%
+24.3%
+Financial Capital
+Integrated Annual Report 2024-25
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.026743
+Dense rank: 3 | BM25 rank: 32
+Chunk ID: Annual_Report_TCS_2025_p0095_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 95
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+93
+Performance Trend – 10 years 
+(` crore)
+FY 2025
+FY 2024*
+FY 2024
+FY 2023
+FY 2022
+FY 2021*
+FY 2021
+FY 2020
+FY 2019
+FY 2018
+FY 2017
+FY 2016
+Revenue from 
+operations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total revenue from 
+operations
+255,324
+240,893
+240,893
+225,458
+191,754
+164,177
+164,177
+156,949
+146,463
+123,104
+117,966
+108,646
+Revenue by geographic 
+segments
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Americas
+127,870
+127,939
+127,939
+124,336
+100,072
+84,278
+84,278
+82,000
+77,562
+66,145
+66,091
+60,011
+Europe
+79,487
+75,624
+75,624
+67,436
+61,142
+52,346
+52,346
+48,037
+43,456
+34,155
+30,038
+29,092
+India
+22,060
+13,562
+13,562
+11,271
+9,805
+8,449
+8,449
+8,964
+8,393
+7,921
+7,415
+6,729
+Others
+25,907
+23,768
+23,768
+22,415
+20,735
+19,104
+19,104
+17,948
+17,052
+14,883
+14,422
+12,814
+Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Employee cost
+145,788
+140,131
+140,131
+127,522
+107,554
+91,814
+91,814
+85,952
+78,246
+66,396
+61,621
+55,348
+Other operating cost
+42,129
+36,466
+37,424
+38,677
+31,143
+25,817
+27,035
+28,888
+28,711
+24,192
+24,034
+22,621
+Total cost (
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.026050
+Dense rank: 10 | BM25 rank: 25
+Chunk ID: Annual_Report_TCS_2025_p0070_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 70
+Evidence:
+The Dividend Distribution Policy, in terms of Regulation 
+43A of the Securities and Exchange Board of India (Listing 
+Obligations and Disclosure Requirements) Regulations, 2015 
+(“SEBI Listing Regulations”), is available on the Company’s 
+website at https://on.tcs.com/Dividend.
+3. 	 Transfer to reserves
+	
+The closing balance of the retained earnings of the Company 
+for FY 2025 after all appropriation and adjustments was 
+`73,380 crore.
+4.	
+Company’s performance
+	
+On a consolidated basis, the revenue from operations for 
+FY 2025 was `2,55,324 crore, higher by 6.0% over the 
+previous year’s revenue from operations of `2,40,893 
+crore. The profit for the year attributable to shareholders 
+for FY 2025 was `48,553 crore registering a growth of 5.8% 
+over the profit for the year attributable to shareholders of 
+`45,908 crore in FY 2024.
+	
+On a standalone basis, the revenue from operations for 
+FY 2025 was `2,14,853 crore, higher by 6.2% over the 
+previous year’s revenue from operations of `2,02,359 
+crore. The profit for the year attributable to shareholders 
+in FY 2025 was `48,057 crore registering a growth of 10.3% 
+over the  profit for the year attributable to shareholders of 
+`43,559
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.025008
+Dense rank: 14 | BM25 rank: 27
+Chunk ID: Annual_Report_TCS_2025_p0088_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+86
+Financial Performance Overview
+The discussions in this section relate to the consolidated, Rupee-denominated financial results pertaining to the year that ended March 
+31, 2025. The financial statements of Tata Consultancy Services Limited and its subsidiaries (collectively referred to as ‘TCS’ or ‘the 
+Company’) are prepared in accordance with the Indian Accounting Standards (referred to as ‘Ind AS’) prescribed under section 133 of 
+the Companies Act, 2013, read with the Companies (Indian Accounting Standards) Rules, as amended from time to time. Significant 
+accounting policies used in the preparation of the financial statements are disclosed in the notes to the consolidated financial statements.
+The following table gives an overview of the consolidated financial results of the Company:
+(₹ crore)
+FY 2025
+FY 2024*
+Amount
+% of 
+Revenue
+% Growth
+Amount
+% of 
+Revenue
+Revenue from operations
+255,324
+100.0
+6.0
+240,893
+100.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per sha
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.024652
+Dense rank: 27 | BM25 rank: 16
+Chunk ID: Annual_Report_TCS_2025_p0140_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 140
+Evidence:
+ees
+Return to work rate (%)
+Retention rate (%)
+Male
+100.0
+93.9
+Female
+99.8
+93.7
+Total
+99.8
+93.8
+	
+•	
+Return to work: Rate of employees who joined back from their parental leave in FY 2025.
+	
+•	
+Retention Rate: Of the employees “Returned to Work”, % of employees those who are employed with TCS at the end of  
+FY 2025.
+	
+•	
+Parental leave includes maternity, paternity and adoption leave.
+6.	
+Is there a mechanism available to receive and redress grievances48 for the following categories of employees and workers?  
+If yes, give details of the mechanism in brief.
+Yes/No (If Yes, then give details of the mechanism in brief)
+Permanent Employees
+Yes, employees can use the “Employee Concerns” application to log their grievances in TCS internal 
+portal, which is addressed by the respective stakeholders within the stipulated timelines.
+Other than Permanent 
+Employees
+Yes, non-permanent employees can raise the grievances through e-mail to the concerned 
+stakeholders.
+7.	
+ Membership of employees in association(s) or Unions recognised by the listed entity49:
+Category
+FY 2025
+FY 2024
+Total 
+employees 
+in 
+respective 
+category (A)
+No. of employees in 
+respective category, 
+who are part of 
+assoc
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.024100
+Dense rank: 49 | BM25 rank: 7
+Chunk ID: Annual_Report_Renishaw_2025_p0101_c002
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 101
+Evidence:
+n added back to give a full-time equivalent figure. 
+No other adjustments were made to the underlying data.
+2 We have restated the FY2024 ratios and total remuneration and base salary figures following a change in the selection criteria for employees in each quartile, 
+such that the calculation of the FY2024 figures is consistent with the approach for other years.
+The base salary for the Chief Executive Officer increased by 3.5% in January 2025. This was lower than the average for the wider 
+workforce. The P25 employee base pay has increased over the period FY2023 to FY2025, reflecting targeting of pay investment in 
+the lower quartile staff following external benchmarking. This has had the effect of reducing the ratio with that of the Chief Executive 
+Officer since FY2023. The P50 and P75 employee base pay has also increased with small reductions in the ratios, again reflecting 
+higher base pay rises to staff than the Chief Executive Officer. The total remuneration ratios have increased in FY2025, this was 
+expected with the award of a bonus in FY2025 to the Chief Executive Officer after no awards in either of FY2023 and FY2024.
+Taking into account the above, the Committee consid
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.023545
+Dense rank: 48 | BM25 rank: 10
+Chunk ID: Annual_Report_Renishaw_2025_p0098_c003
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 98
+Evidence:
+t
+	
+— Level of significant non-
+conformances
+	
+— Scope 1 and 2 emission reduction was 13%, which exceeded 
+threshold but did not meet the maximum performance level.
+	
+— Employee voluntary turnover levels at 5.9% were lower than the 
+7% target.
+	
+— The employee engagement score from our new global employee 
+engagement survey was 74%, in line with the threshold.
+	
+— Significant non-conformances were zero, achieving the maximum.
+Operational excellence
+	
+— Revenue per subsidiary employee
+	
+— Cost of product quality
+	
+— The revenue per subsidiary employee was at the midpoint of the 
+range set at £590,000 per employee.
+	
+— Product quality outcomes were within the target range set by 
+the Committee.
+Incentive opportunity outcome
+The maximum opportunity for FY2025 was 200% of salary for Will Lee and 150% of salary for Allen Roberts. For Will Lee, 62.5% of 
+any bonus earned is to be deferred into shares for three years. Half of the deferred shares will be subject to continued employment, 
+while the other half will be subject to continued employment and the enhanced recovery provisions described in the Committee 
+Chair's statement. For Allen Roberts, 50% of any bonus earned is to be deferred
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0096_c001_s001 | dense rank: 7 | BM25 rank: 1 | hybrid rank: 2

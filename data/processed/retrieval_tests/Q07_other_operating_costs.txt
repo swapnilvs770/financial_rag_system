@@ -1,0 +1,763 @@
+====================================================================================================
+Q07: What were TCS's other operating costs in FY2025?
+====================================================================================================
+
+Original question: What were TCS's other operating costs in FY2025?
+BM25 expansion: Other operating cost expenses FY 2025 amount
+BM25 query used: What were TCS's other operating costs in FY2025? Other operating cost expenses FY 2025 amount
+Expected target chunk IDs: Annual_Report_TCS_2025_p0095_c001_s001, Annual_Report_TCS_2025_p0181_c001
+
+Candidate counts: dense=50, BM25=50, hybrid=94
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.6987 | Annual_Report_TCS_2025_p0028_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 28
+Rank  2 | Similarity: 0.6929 | Annual_Report_TCS_2025_p0074_c005
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 74
+Rank  3 | Similarity: 0.6916 | Annual_Report_TCS_2025_p0309_c004
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 309
+Rank  4 | Similarity: 0.6842 | Annual_Report_TCS_2025_p0309_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 309
+Rank  5 | Similarity: 0.6815 | Annual_Report_TCS_2025_p0155_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 155
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 30.7538 | Annual_Report_TCS_2025_p0022_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 22
+Rank  2 | BM25: 29.8991 | Annual_Report_Renishaw_2025_p0028_c003
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 28
+Rank  3 | BM25: 27.9147 | Annual_Report_TCS_2025_p0023_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 23
+Rank  4 | BM25: 26.8110 | Annual_Report_Renishaw_2025_p0028_c001
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 28
+Rank  5 | BM25: 26.3088 | Annual_Report_Renishaw_2025_p0162_c001
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 162
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.029052
+Dense rank: 19 | BM25 rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0022_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+g capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently high shareholder returns
+TCS Value Creation and Distribution (FY 2021 - 25)1
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+1 GRI 201-1
+Revenue Trend
+CAGR 10.2%
+(₹ crore)
+(₹ crore)
+FY
+2021
+FY
+2022
+FY
+2023
+FY
+2024
+FY
+2025
+164,177
+191,754
+225,458
+240,893
+255,324
+In FY 2025, TCS reported an operating margin of 24.3%, a 
+marginal decline of 30 basis points compared to FY 2024. 
+This moderation was primarily attributable to the impact 
+of annual wage hikes, associates promotions, and strategic 
+investments in infrastructure and capability development. 
+These cost pressures were partially offset by improvements in 
+workforce utilization, productivity, and realization, along with 
+favourable currency movements.
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+42,481 
+48,453
+54,237 
+59,311 
+62,165 
+Operating Margin
+Operating Proﬁt
+25.9%
+25.3% 24.1% 24.6%
+24.3%
+Financial Capital
+Integrated Annual Report 2024-25
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.025817
+Dense rank: 30 | BM25 rank: 8
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastructure and capability building. However, 
+tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to 
+the margins. 
+Averag
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.023415
+Dense rank: 41 | BM25 rank: 14
+Chunk ID: Annual_Report_TCS_2025_p0069_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 69
+Evidence:
+Board’s Report
+To the Members,
+The Directors present this Integrated Annual Report of 
+Tata Consultancy Services Limited (“the Company” or “TCS”) 
+along with the audited financial statements for the financial year 
+(“FY”) ended March 31, 2025.
+The consolidated performance of the Company and its 
+subsidiaries has been referred to wherever required.
+1.	
+Financial results
+(` crore)
+Standalone
+Consolidated
+Financial Year 
+2024-25 
+(FY 2025)
+Financial Year 
+2023-24 
+(FY 2024)
+Financial Year 
+2024-25 
+(FY 2025)
+Financial Year 
+2023-24 
+(FY 2024)
+Revenue from operations
+2,14,853
+2,02,359
+2,55,324
+2,40,893
+Other income
+9,642
+7,273
+3,962
+4,422
+Total income
+2,24,495
+2,09,632
+2,59,286
+2,45,315
+Expenses
+Operating expenditure
+1,56,924
+1,46,512
+1,87,917
+1,76,597
+Depreciation and amortisation expense
+4,220
+3,887
+5,242
+4,985
+Total expenses
+1,61,144
+1,50,399
+1,93,159
+1,81,582
+Profit before finance costs, exceptional item and tax
+63,351
+59,233
+66,127
+63,733
+Finance costs
+703
+673
+796
+778
+Profit before exceptional item and tax
+62,648
+58,560
+65,331
+62,955
+Exceptional item
+Settlement of legal claim
+-
+958
+-
+958
+Profit before tax
+62,648
+57,602
+65,331
+61,997
+Tax expense
+14,591
+14,043
+16,534
+15,898
+Profit f
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.021811
+Dense rank: 44 | BM25 rank: 22
+Chunk ID: Annual_Report_TCS_2025_p0095_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 95
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+93
+Performance Trend – 10 years 
+(` crore)
+FY 2025
+FY 2024*
+FY 2024
+FY 2023
+FY 2022
+FY 2021*
+FY 2021
+FY 2020
+FY 2019
+FY 2018
+FY 2017
+FY 2016
+Revenue from 
+operations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total revenue from 
+operations
+255,324
+240,893
+240,893
+225,458
+191,754
+164,177
+164,177
+156,949
+146,463
+123,104
+117,966
+108,646
+Revenue by geographic 
+segments
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Americas
+127,870
+127,939
+127,939
+124,336
+100,072
+84,278
+84,278
+82,000
+77,562
+66,145
+66,091
+60,011
+Europe
+79,487
+75,624
+75,624
+67,436
+61,142
+52,346
+52,346
+48,037
+43,456
+34,155
+30,038
+29,092
+India
+22,060
+13,562
+13,562
+11,271
+9,805
+8,449
+8,449
+8,964
+8,393
+7,921
+7,415
+6,729
+Others
+25,907
+23,768
+23,768
+22,415
+20,735
+19,104
+19,104
+17,948
+17,052
+14,883
+14,422
+12,814
+Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Employee cost
+145,788
+140,131
+140,131
+127,522
+107,554
+91,814
+91,814
+85,952
+78,246
+66,396
+61,621
+55,348
+Other operating cost
+42,129
+36,466
+37,424
+38,677
+31,143
+25,817
+27,035
+28,888
+28,711
+24,192
+24,034
+22,621
+Total cost (
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.021164
+Dense rank: 48 | BM25 rank: 24
+Chunk ID: Annual_Report_TCS_2025_p0022_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+Operating Profit Trend
+Financial Capital
+TCS' success is a testament to its robust business model and its 
+ability to perpetually adapt in a constantly changing technology 
+environment, ensuring it remains relevant to customers while 
+delivering value to all stakeholders.
+Key outcomes include: 
+•	
+Focus on operational excellence and cost optimization, 
+resulting in strong operating margins
+In FY 2025, TCS achieved a year-over-year revenue growth of 
+6.0%, demonstrating a resilient business performance in this 
+uncertain environment. 
+On a constant currency basis, revenue grew by 4.2%, 
+outpacing the growth in FY 2024.
+Over the past five financial years, the company recorded a 
+compound annual growth rate (CAGR) of 10.2%, highlighting 
+the resilience and scalability of its business model.
+•	
+Superior profitability, providing the financial strength to 
+invest in new capabilities, Research & Innovation, navigating 
+economic downturns and changing technology waves 
+•	
+Prudent use of working capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently hi
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.021111
+Dense rank: 40 | BM25 rank: 30
+Chunk ID: Annual_Report_Amazon_2022_p0036_c001
+Source: Annual_Report_Amazon_2022.pdf
+Physical page: 36
+Evidence:
+Operating Expenses
+Information about operating expenses is as follows (in millions): 
+ 
+Year Ended December 31,
+  
+2021
+2022
+Operating expenses:
+Cost of sales
+$ 272,344 
+$ 288,831 
+Fulfillment
+ 
+75,111 
+ 
+84,299 
+Technology and content
+ 
+56,052 
+ 
+73,213 
+Sales and marketing
+ 
+32,551 
+ 
+42,238 
+General and administrative
+ 
+8,823 
+ 
+11,891 
+Other operating expense (income), net
+ 
+62 
+ 
+1,263 
+Total operating expenses
+$ 444,943 
+$ 501,735 
+Year-over-year Percentage Growth (Decline):
+Cost of sales
+ 17 %
+ 6 %
+Fulfillment
+ 28 
+ 12 
+Technology and content
+ 31 
+ 31 
+Sales and marketing
+ 48 
+ 30 
+General and administrative
+ 32 
+ 35 
+Other operating expense (income), net
+ (183) 
+ 1,936 
+Percent of Net Sales:
+Cost of sales
+ 58.0 %
+ 56.2 %
+Fulfillment
+ 16.0 
+ 16.4 
+Technology and content
+ 11.9 
+ 14.2 
+Sales and marketing
+ 6.9 
+ 8.2 
+General and administrative
+ 1.9 
+ 2.3 
+Other operating expense (income), net
+ 0.0 
+ 0.2 
+Cost of Sales
+Cost of sales primarily consists of the purchase price of consumer products, inbound and outbound shipping costs, 
+including costs related to sortation and delivery centers and where we are the transportation service provider, and digital media 
+content costs whe
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.016393
+Dense rank: 1 | BM25 rank: -
+Chunk ID: Annual_Report_TCS_2025_p0028_c003
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 28
+Evidence:
+e 
+surveys across multiple firms 
+covering areas such as AI, GenAI, 
+Analytics, Data and Automation.
+1includes multiple investors in group meetings
+FY 2021
+FY 2025
+228
+298
+130
+64
+101
+48
+US$ 100Mn+
+US$ 50Mn+
+US$ 20Mn+
+148
+182
+FY 2024
+FY 2025
+TCS' global innovation network 
+includes 11 Pace Ports and 
+Studios, fostering collaboration 
+on cutting-edge solutions 
+through CXO discussions, 
+design thinking, and agile 
+building.
+TCS engages with 
+customers globally 
+through summits, trade 
+shows, and vendor 
+partner events.
+Integrated Annual Report 2024-25
+Social Capital
+26
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.016129
+Dense rank: - | BM25 rank: 2
+Chunk ID: Annual_Report_Renishaw_2025_p0028_c003
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 28
+Evidence:
+e measure this
+Adjusted PBT is defined in note 29 on page 159.
+How we performed
+Adjusted PBT increased by 3.8% to £127.2m this year, boosted 
+by an improvement in gross margin excluding engineering costs, 
+which was 0.7% higher at 61.7% of revenue. This gross margin 
+improvement offset inflationary fixed cost increases in engineering, 
+distribution and administration, resulting in a similar level 
+of profitability.
+Adjusted operating profit margin %
+0%
+5
+10
+15
+20
+30
+25
+21.0
+24.1
+18.9
+15.7
+15.7
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+Why we measure this
+Profitability demonstrates the efficiency of our strategy in delivering 
+value for shareholders. Our target is to exceed 20%.
+How we measure this
+Adjusted operating profit (see note 29 on page 159), expressed as 
+a percentage of revenue.
+How we performed
+This metric has been stable this year, with operating costs 
+increasing at the same rate as revenue growth. We have continued 
+to invest in our people to drive our future growth. We are focusing 
+on productivity and fixed cost control, aiming to drive this metric 
+back above our target.
+ Adjusted operating profit margin     
+ Target range
+26
+Renishaw plc Annual Report 2025
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.016129
+Dense rank: 2 | BM25 rank: -
+Chunk ID: Annual_Report_TCS_2025_p0074_c005
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 74
+Evidence:
+otprint. The Company’s data centers have achieved a 
+weighted average PUE of 1.59 in FY 2025 compared to 1.7 in 
+FY 2024. The data centers use 100% renewable electricity. In 
+addition to this, the Company will continue to ensure energy 
+efficiency of the procured equipment.
+	
+TCS’ IoT-based Real-time Energy Management System (TCS 
+Clever EnergyTM) involves real-time energy monitoring, 
+continues to yield benefits in terms of optimization of 
+operational energy efficiency across the Company’s offices.
+	
+The roof top solar photo voltaic installations this year 
+remained at 10.2 MWp contributing to 2.7% of total 
+electricity use in the reporting year. The Company continued 
+its procurement of renewable energy through power 
+purchase agreements (“PPA’s”), availing green tariffs in India 
+and procurement of Energy Attribute Certificates (“EACs”). 
+Renewable energy procurement has resulted in an increase 
+in renewable energy use to 79% of total energy use during  
+the year.
+Integrated Annual Report 2024-25
+Board's Report
+72
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.015873
+Dense rank: - | BM25 rank: 3
+Chunk ID: Annual_Report_TCS_2025_p0023_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 23
+Evidence:
+al 
+discipline and operational rigor, as well as its judicious use of 
+shareholder capital.
+Operating Cash Flow and Cash Conversion
+Shareholder Payouts
+Return on Equity
+(₹ crore)
+(₹ crore)
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+38.9%
+43.4% 46.9%
+51.3% 52.2%
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+39,949 
+41,965 
+45,097 
+OCF to Net 
+Profit Ratio
+Operating Cash 
+Flow (OCF)
+38,802 
+48,908 
+116.2%
+104.2%
+99.6%
+96.8% 100.7%
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+33,873
+38,010
+42,079
+45,588
+Shareholder Payout 
+Shareholder Payout ratio 
+47,445
+101.5% 99.2% 99.8%
+101.8% 93.9%
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+TCS has consistently grown its Earnings Per Share (EPS), 
+achieving a CAGR of 9.3% over the past five financial years. 
+This steady increase highlights the company’s growing 
+earnings and its commitment to delivering long-term value to 
+shareholders.
+Earnings Per Share
+CAGR 9.3%
+(Amount in ₹)
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+89.27 
+103.62 
+115.19 
+127.74 
+134.19 
+Financial Capital
+Integrated Annual Report 2024-25
+21
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0095_c001_s001 | dense rank: 44 | BM25 rank: 22 | hybrid rank: 4
+Annual_Report_TCS_2025_p0181_c001 | dense rank: - | BM25 rank: - | hybrid rank: -

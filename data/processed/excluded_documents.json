@@ -1,0 +1,15 @@
+
+{
+  "excluded_documents": [
+    {
+      "filename": "Annual_Report_Nvidia_2025.pdf",
+      "reason": "Embedded PDF character mapping produces corrupted extracted text; deferred for future recovery.",
+      "status": "temporarily_excluded"
+    },
+    {
+        "filename": "Annual_Report_Infosys_2025.pdf",
+      "reason": "Embedded PDF character mapping produces corrupted extracted text; deferred for future recovery.",
+      "status": "temporarily_excluded"
+    }
+  ]
+}

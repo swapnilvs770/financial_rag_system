@@ -1,0 +1,38 @@
+Loading FAISS index and metadata...
+Loading BM25 index and metadata...
+Loading canonical embedding-ready chunks...
+Embedding-ready chunks: 8728
+FAISS vectors: 8728
+BM25 documents: 8728
+Loading embedding model: BAAI/bge-small-en-v1.5
+[1/12] Running Q01: What percentage of TCS revenue went to employee costs in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q01_employee_cost_ratio.txt
+[2/12] Running Q02: What was TCS's revenue in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q02_revenue.txt
+[3/12] Running Q03: What was TCS's EBIT margin in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q03_ebit_margin.txt
+[4/12] Running Q04: What percentage of TCS revenue was profit after tax in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q04_profit_after_tax_ratio.txt
+[5/12] Running Q05: How much did TCS revenue grow in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q05_revenue_growth.txt
+[6/12] Running Q06: How much did TCS spend on employee costs in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q06_employee_expenses.txt
+[7/12] Running Q07: What were TCS's other operating costs in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q07_other_operating_costs.txt
+[8/12] Running Q08: How much operating cash flow did TCS generate in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q08_operating_cash_flow.txt
+[9/12] Running Q09: Does TCS report debt excluding lease liabilities in its FY2025 ratio analysis?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q09_debt_ratio.txt
+[10/12] Running Q10: What was TCS's earnings per share in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q10_earnings_per_share.txt
+[11/12] Running Q11: What percentage of TCS revenue was spent on capital expenditure in FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q11_capital_expenditure_ratio.txt
+[12/12] Running Q12: How did TCS's employee cost ratio change between FY2024 and FY2025?
+    Saved: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\Q12_historical_employee_cost_ratio.txt
+
+================================================================================
+BATCH RETRIEVAL TEST COMPLETED
+================================================================================
+Reports created: 12
+Output directory: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests
+Batch summary: C:\Users\SwapnilShinde\OneDrive\Documents\Study Material\Major Project\Financial-RAG\data\processed\retrieval_tests\batch_summary.txt

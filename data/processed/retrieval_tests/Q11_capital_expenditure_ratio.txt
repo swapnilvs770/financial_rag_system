@@ -1,0 +1,605 @@
+====================================================================================================
+Q11: What percentage of TCS revenue was spent on capital expenditure in FY2025?
+====================================================================================================
+
+Original question: What percentage of TCS revenue was spent on capital expenditure in FY2025?
+BM25 expansion: Capital Expenditure / Total Revenue ratio FY 2025
+BM25 query used: What percentage of TCS revenue was spent on capital expenditure in FY2025? Capital Expenditure / Total Revenue ratio FY 2025
+Expected target chunk IDs: Annual_Report_TCS_2025_p0096_c002_s001
+
+Candidate counts: dense=50, BM25=50, hybrid=91
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.7627 | Annual_Report_TCS_2025_p0088_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  2 | Similarity: 0.7538 | Annual_Report_TCS_2025_p0022_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 22
+Rank  3 | Similarity: 0.7395 | Annual_Report_TCS_2025_p0070_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 70
+Rank  4 | Similarity: 0.7381 | Annual_Report_TCS_2025_p0195_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 195
+Rank  5 | Similarity: 0.7363 | Annual_Report_TCS_2025_p0088_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 60.2332 | Annual_Report_TCS_2025_p0076_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 76
+Rank  2 | BM25: 52.0283 | Annual_Report_Renishaw_2025_p0028_c001
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 28
+Rank  3 | BM25: 48.0088 | Annual_Report_TCS_2025_p0137_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 137
+Rank  4 | BM25: 46.0857 | Annual_Report_Renishaw_2025_p0035_c004
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 35
+Rank  5 | BM25: 42.4343 | Annual_Report_TCS_2025_p0023_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 23
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.030835
+Dense rank: 2 | BM25 rank: 8
+Chunk ID: Annual_Report_TCS_2025_p0022_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+g capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently high shareholder returns
+TCS Value Creation and Distribution (FY 2021 - 25)1
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+1 GRI 201-1
+Revenue Trend
+CAGR 10.2%
+(₹ crore)
+(₹ crore)
+FY
+2021
+FY
+2022
+FY
+2023
+FY
+2024
+FY
+2025
+164,177
+191,754
+225,458
+240,893
+255,324
+In FY 2025, TCS reported an operating margin of 24.3%, a 
+marginal decline of 30 basis points compared to FY 2024. 
+This moderation was primarily attributable to the impact 
+of annual wage hikes, associates promotions, and strategic 
+investments in infrastructure and capability development. 
+These cost pressures were partially offset by improvements in 
+workforce utilization, productivity, and realization, along with 
+favourable currency movements.
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+42,481 
+48,453
+54,237 
+59,311 
+62,165 
+Operating Margin
+Operating Proﬁt
+25.9%
+25.3% 24.1% 24.6%
+24.3%
+Financial Capital
+Integrated Annual Report 2024-25
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.029418
+Dense rank: 9 | BM25 rank: 7
+Chunk ID: Annual_Report_Renishaw_2025_p0033_c001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 33
+Evidence:
+FY2025 was a year of adjusted profit progress and record 
+revenue in challenging market conditions. While we have 
+continued to experience cost pressures, and are taking action 
+to move us towards our operating margin target, Adjusted* profit 
+before tax increased by 3.8% to £127.2m (FY2024: £122.6m).
+We have exceeded our target for cash flow conversion and 
+further strengthened our financial position, with cash and 
+cash equivalents and bank deposit balances at the year end 
+of £273.6m (30 June 2024: £217.8m). This includes our 
+planned reduction in capital expenditure this year, as we 
+now look to benefit from recent investments made in 
+manufacturing infrastructure. 
+Although we face global political and economic uncertainties, 
+we are well positioned for future growth opportunities and 
+unexpected market downturns.
+Financial performance
+Revenue 
+As Will has explained in his review, we achieved 3.1% growth 
+in revenue to £713.0m (FY2024: £691.3m) and so have again 
+achieved record revenue. We continue to benefit from being 
+diversified across a range of markets; while the automotive 
+market was weaker, the semiconductor and defence markets 
+were positive, and we also saw good gr
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.027638
+Dense rank: 3 | BM25 rank: 25
+Chunk ID: Annual_Report_TCS_2025_p0070_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 70
+Evidence:
+The Dividend Distribution Policy, in terms of Regulation 
+43A of the Securities and Exchange Board of India (Listing 
+Obligations and Disclosure Requirements) Regulations, 2015 
+(“SEBI Listing Regulations”), is available on the Company’s 
+website at https://on.tcs.com/Dividend.
+3. 	 Transfer to reserves
+	
+The closing balance of the retained earnings of the Company 
+for FY 2025 after all appropriation and adjustments was 
+`73,380 crore.
+4.	
+Company’s performance
+	
+On a consolidated basis, the revenue from operations for 
+FY 2025 was `2,55,324 crore, higher by 6.0% over the 
+previous year’s revenue from operations of `2,40,893 
+crore. The profit for the year attributable to shareholders 
+for FY 2025 was `48,553 crore registering a growth of 5.8% 
+over the profit for the year attributable to shareholders of 
+`45,908 crore in FY 2024.
+	
+On a standalone basis, the revenue from operations for 
+FY 2025 was `2,14,853 crore, higher by 6.2% over the 
+previous year’s revenue from operations of `2,02,359 
+crore. The profit for the year attributable to shareholders 
+in FY 2025 was `48,057 crore registering a growth of 10.3% 
+over the  profit for the year attributable to shareholders of 
+`43,559
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.027032
+Dense rank: 1 | BM25 rank: 34
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastructure and capability building. However, 
+tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to 
+the margins. 
+Averag
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.026862
+Dense rank: 31 | BM25 rank: 3
+Chunk ID: Annual_Report_TCS_2025_p0137_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 137
+Evidence:
+Integrated Annual Report 2024-25
+Business Responsibility & Sustainability Report
+135
+PRINCIPLE 2 : Businesses should provide goods and services in a manner that is sustainable and safe 
+Essential Indicators
+1.	
+Percentage of R&D and capital expenditure (capex) investments in specific technologies to improve the environmental and social 
+impacts of product and processes to total R&D and capex investments made by the entity, respectively.
+FY 2025 
+(` crore)
+FY 2024  
+(` crore)
+Details of improvements in environmental and social impacts
+Total R&D 
+Expenditure
+2,630 
+(1.0% of Turnover)
+2,751 
+(1.1% of Turnover)
+TCS Software Carbon Foot printing Framework and Green Performance 
+Dashboard estimate/predict energy consumption of software 
+applications and provide a ‘Green Rating’ for the applications. TCS 
+Clever Energy is used to monitor and help reduce energy consumption 
+in operations. TCS DigiFleet solution provides real time actionable 
+insights to monitor, optimize and transform fleet operations. TCS 
+Circle4Life mobile app captures TCS associates’ consumption footprints 
+and offsets with details of carbon, water, plastic usage, and trees 
+planted. TCS Sustainathon is a Web applicati
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.026145
+Dense rank: 17 | BM25 rank: 16
+Chunk ID: Annual_Report_TCS_2025_p0023_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 23
+Evidence:
+TCS maintained an excellent cash conversion ratio exceeding 
+100%, highlighting its robust financial health and strong ability 
+to generate cash from operations. This efficiency in translating 
+profits to cash flows, enables TCS to meet financial obligations 
+and fund growth initiatives without relying on external 
+financing.
+TCS has a practice of returning substantial free cash flow to 
+shareholders and based on the company's performance, the 
+Board of Directors have declared three interim dividends of 
+₹10 each, a special dividend of ₹66, and recommended a final 
+dividend of ₹30 (pending shareholders' approval at this AGM), 
+for a total dividend of ₹126 per share for FY 2025. TCS has 
+consistently declared dividend every quarter since its listing, 
+complemented by three bonus issues and five buyback offers.
+TCS’ high and improving Return on Equity, reflects the 
+company’s ability to generate strong profitability and manage 
+resources efficiently. This highlights the company’s financial 
+discipline and operational rigor, as well as its judicious use of 
+shareholder capital.
+Operating Cash Flow and Cash Conversion
+Shareholder Payouts
+Return on Equity
+(₹ crore)
+(₹ crore)
+FY
+2021*
+FY
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.025589
+Dense rank: 38 | BM25 rank: 5
+Chunk ID: Annual_Report_TCS_2025_p0023_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 23
+Evidence:
+al 
+discipline and operational rigor, as well as its judicious use of 
+shareholder capital.
+Operating Cash Flow and Cash Conversion
+Shareholder Payouts
+Return on Equity
+(₹ crore)
+(₹ crore)
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+38.9%
+43.4% 46.9%
+51.3% 52.2%
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+39,949 
+41,965 
+45,097 
+OCF to Net 
+Profit Ratio
+Operating Cash 
+Flow (OCF)
+38,802 
+48,908 
+116.2%
+104.2%
+99.6%
+96.8% 100.7%
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+33,873
+38,010
+42,079
+45,588
+Shareholder Payout 
+Shareholder Payout ratio 
+47,445
+101.5% 99.2% 99.8%
+101.8% 93.9%
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+TCS has consistently grown its Earnings Per Share (EPS), 
+achieving a CAGR of 9.3% over the past five financial years. 
+This steady increase highlights the company’s growing 
+earnings and its commitment to delivering long-term value to 
+shareholders.
+Earnings Per Share
+CAGR 9.3%
+(Amount in ₹)
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+89.27 
+103.62 
+115.19 
+127.74 
+134.19 
+Financial Capital
+Integrated Annual Report 2024-25
+21
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.024093
+Dense rank: 12 | BM25 rank: 38
+Chunk ID: Annual_Report_TCS_2025_p0069_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 69
+Evidence:
+Board’s Report
+To the Members,
+The Directors present this Integrated Annual Report of 
+Tata Consultancy Services Limited (“the Company” or “TCS”) 
+along with the audited financial statements for the financial year 
+(“FY”) ended March 31, 2025.
+The consolidated performance of the Company and its 
+subsidiaries has been referred to wherever required.
+1.	
+Financial results
+(` crore)
+Standalone
+Consolidated
+Financial Year 
+2024-25 
+(FY 2025)
+Financial Year 
+2023-24 
+(FY 2024)
+Financial Year 
+2024-25 
+(FY 2025)
+Financial Year 
+2023-24 
+(FY 2024)
+Revenue from operations
+2,14,853
+2,02,359
+2,55,324
+2,40,893
+Other income
+9,642
+7,273
+3,962
+4,422
+Total income
+2,24,495
+2,09,632
+2,59,286
+2,45,315
+Expenses
+Operating expenditure
+1,56,924
+1,46,512
+1,87,917
+1,76,597
+Depreciation and amortisation expense
+4,220
+3,887
+5,242
+4,985
+Total expenses
+1,61,144
+1,50,399
+1,93,159
+1,81,582
+Profit before finance costs, exceptional item and tax
+63,351
+59,233
+66,127
+63,733
+Finance costs
+703
+673
+796
+778
+Profit before exceptional item and tax
+62,648
+58,560
+65,331
+62,955
+Exceptional item
+Settlement of legal claim
+-
+958
+-
+958
+Profit before tax
+62,648
+57,602
+65,331
+61,997
+Tax expense
+14,591
+14,043
+16,534
+15,898
+Profit f
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.023129
+Dense rank: 44 | BM25 rank: 14
+Chunk ID: Annual_Report_TCS_2025_p0022_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+Operating Profit Trend
+Financial Capital
+TCS' success is a testament to its robust business model and its 
+ability to perpetually adapt in a constantly changing technology 
+environment, ensuring it remains relevant to customers while 
+delivering value to all stakeholders.
+Key outcomes include: 
+•	
+Focus on operational excellence and cost optimization, 
+resulting in strong operating margins
+In FY 2025, TCS achieved a year-over-year revenue growth of 
+6.0%, demonstrating a resilient business performance in this 
+uncertain environment. 
+On a constant currency basis, revenue grew by 4.2%, 
+outpacing the growth in FY 2024.
+Over the past five financial years, the company recorded a 
+compound annual growth rate (CAGR) of 10.2%, highlighting 
+the resilience and scalability of its business model.
+•	
+Superior profitability, providing the financial strength to 
+invest in new capabilities, Research & Innovation, navigating 
+economic downturns and changing technology waves 
+•	
+Prudent use of working capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently hi
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.016393
+Dense rank: - | BM25 rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0076_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 76
+Evidence:
+a and other parts of the world. The research centers in India function from Pune, Chennai, 
+Bengaluru, Delhi-NCR, Hyderabad, Kolkata and Mumbai. The Company’s Pace Port and Pace Studio innovation hubs operate in 
+Amsterdam, Toronto, Pittsburgh, Tokyo, New York, London, Paris, Riyadh, Letterkenny, Sydney, Stockholm and Manila.
+Expenditure incurred in the R&D centers and innovation centers of the Company during FY 2025 and FY 2024 is given below:
+(` crore)
+Expenditure on R&D and innovation
+Standalone
+Consolidated
+FY 2025
+FY 2024
+FY 2025
+FY 2024
+a.
+Capital
+4
+8
+4
+8
+b.
+Recurring
+411
+419
+416
+426
+c.
+Total R&D expenditure (a+b)
+415
+427
+420
+434
+d.
+Innovation center expenditure
+2,131
+2,228
+2,210
+2,317
+e.
+Total R&D and innovation expenditure (c+d)
+2,546
+2,655
+2,630
+2,751
+f.
+R&D and innovation expenditure as a percentage of total 
+turnover
+1.2%
+1.3%
+1.0%
+1.1%
+Foreign exchange earnings and outgo
+Export revenue constituted 90.0% of the total standalone revenue in FY 2025 (93.5% in FY 2024).
+(` crore)
+Foreign exchange earnings and outgo
+FY 2025
+FY 2024
+a.
+Foreign exchange earnings
+2,00,801
+1,93,252
+b.
+CIF Value of imports
+117
+174
+c.
+Expenditure in foreign currency
+79,991
+81,726
+27.	 Acknowledgeme
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0096_c002_s001 | dense rank: - | BM25 rank: 20 | hybrid rank: 37

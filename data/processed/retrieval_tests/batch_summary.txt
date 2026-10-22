@@ -1,0 +1,94 @@
+FINANCIAL RAG — BATCH RETRIEVAL TEST SUMMARY
+====================================================================================================
+Queries tested: 12
+Model: BAAI/bge-small-en-v1.5
+Retrieval candidates per method: 50
+Hybrid results per query: 10
+RRF_K: 60
+
+Query-level results
+----------------------------------------------------------------------------------------------------
+Q01 | What percentage of TCS revenue went to employee costs in FY2025?
+  Report: Q01_employee_cost_ratio.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0139_c003
+  Top source/page: Annual_Report_TCS_2025.pdf / 139
+  Best configured target hybrid rank: 2
+  Configured target in hybrid top 10: yes
+
+Q02 | What was TCS's revenue in FY2025?
+  Report: Q02_revenue.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0070_c001
+  Top source/page: Annual_Report_TCS_2025.pdf / 70
+  Best configured target hybrid rank: 1
+  Configured target in hybrid top 10: yes
+
+Q03 | What was TCS's EBIT margin in FY2025?
+  Report: Q03_ebit_margin.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0088_c002
+  Top source/page: Annual_Report_TCS_2025.pdf / 88
+  Best configured target hybrid rank: 1
+  Configured target in hybrid top 10: yes
+
+Q04 | What percentage of TCS revenue was profit after tax in FY2025?
+  Report: Q04_profit_after_tax_ratio.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0088_c002
+  Top source/page: Annual_Report_TCS_2025.pdf / 88
+  Best configured target hybrid rank: 1
+  Configured target in hybrid top 10: yes
+
+Q05 | How much did TCS revenue grow in FY2025?
+  Report: Q05_revenue_growth.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0022_c002
+  Top source/page: Annual_Report_TCS_2025.pdf / 22
+  Best configured target hybrid rank: 2
+  Configured target in hybrid top 10: yes
+
+Q06 | How much did TCS spend on employee costs in FY2025?
+  Report: Q06_employee_expenses.txt
+  Top hybrid chunk: Annual_Report_Renishaw_2025_p0102_c005
+  Top source/page: Annual_Report_Renishaw_2025.pdf / 102
+  Best configured target hybrid rank: 45
+  Configured target in hybrid top 10: no
+
+Q07 | What were TCS's other operating costs in FY2025?
+  Report: Q07_other_operating_costs.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0022_c002
+  Top source/page: Annual_Report_TCS_2025.pdf / 22
+  Best configured target hybrid rank: 4
+  Configured target in hybrid top 10: yes
+
+Q08 | How much operating cash flow did TCS generate in FY2025?
+  Report: Q08_operating_cash_flow.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0023_c001
+  Top source/page: Annual_Report_TCS_2025.pdf / 23
+  Best configured target hybrid rank: not configured/not retrieved
+  Configured target in hybrid top 10: not evaluated
+
+Q09 | Does TCS report debt excluding lease liabilities in its FY2025 ratio analysis?
+  Report: Q09_debt_ratio.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0307_c001
+  Top source/page: Annual_Report_TCS_2025.pdf / 307
+  Best configured target hybrid rank: 12
+  Configured target in hybrid top 10: no
+
+Q10 | What was TCS's earnings per share in FY2025?
+  Report: Q10_earnings_per_share.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0088_c002
+  Top source/page: Annual_Report_TCS_2025.pdf / 88
+  Best configured target hybrid rank: 1
+  Configured target in hybrid top 10: yes
+
+Q11 | What percentage of TCS revenue was spent on capital expenditure in FY2025?
+  Report: Q11_capital_expenditure_ratio.txt
+  Top hybrid chunk: Annual_Report_TCS_2025_p0022_c002
+  Top source/page: Annual_Report_TCS_2025.pdf / 22
+  Best configured target hybrid rank: 37
+  Configured target in hybrid top 10: no
+
+Q12 | How did TCS's employee cost ratio change between FY2024 and FY2025?
+  Report: Q12_historical_employee_cost_ratio.txt
+  Top hybrid chunk: Annual_Report_Renishaw_2025_p0101_c002
+  Top source/page: Annual_Report_Renishaw_2025.pdf / 101
+  Best configured target hybrid rank: 2
+  Configured target in hybrid top 10: yes
+

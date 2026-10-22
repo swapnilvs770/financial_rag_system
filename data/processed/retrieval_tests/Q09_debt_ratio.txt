@@ -1,0 +1,781 @@
+====================================================================================================
+Q09: Does TCS report debt excluding lease liabilities in its FY2025 ratio analysis?
+====================================================================================================
+
+Original question: Does TCS report debt excluding lease liabilities in its FY2025 ratio analysis?
+BM25 expansion: Debt excluding lease liabilities equity ratio FY 2025
+BM25 query used: Does TCS report debt excluding lease liabilities in its FY2025 ratio analysis? Debt excluding lease liabilities equity ratio FY 2025
+Expected target chunk IDs: Annual_Report_TCS_2025_p0096_c002_s001
+
+Candidate counts: dense=50, BM25=50, hybrid=91
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.7665 | Annual_Report_AtlasCopco_2025_p0136_c002
+  Source: Annual_Report_AtlasCopco_2025.pdf
+  Physical page: 136
+Rank  2 | Similarity: 0.7634 | Annual_Report_TCS_2025_p0196_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 196
+Rank  3 | Similarity: 0.7602 | Annual_Report_TCS_2025_p0307_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 307
+Rank  4 | Similarity: 0.7536 | Annual_Report_Ford_2025_p0072_c005
+  Source: Annual_Report_Ford_2025.pdf
+  Physical page: 72
+Rank  5 | Similarity: 0.7452 | Annual_Report_TCS_2025_p0063_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 63
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 56.4510 | Annual_Report_TCS_2025_p0307_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 307
+Rank  2 | BM25: 48.1070 | Annual_Report_Ford_2025_p0072_c005
+  Source: Annual_Report_Ford_2025.pdf
+  Physical page: 72
+Rank  3 | BM25: 44.6755 | Annual_Report_Ford_2025_p0160_c001
+  Source: Annual_Report_Ford_2025.pdf
+  Physical page: 160
+Rank  4 | BM25: 43.7980 | Annual_Report_TCS_2025_p0096_c002_s001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 96
+Rank  5 | BM25: 43.5031 | Annual_Report_TCS_2025_p0023_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 23
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.032266
+Dense rank: 3 | BM25 rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0307_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 307
+Evidence:
+Integrated Annual Report 2024-25
+Notes forming part of Standalone Financial Statements
+Standalone Financial Statements 2024-25
+305
+25)	 Additional Regulatory Information
+	
+•	
+Ratios
+Ratio
+Numerator
+Denominator
+Current year
+Previous year
+Current ratio (in times)
+Total current assets
+Total current liabilities
+2.1
+2.2
+Debt-Equity ratio (in 
+times)
+Debt consists of borrowings 
+and lease liabilities.
+Total equity
+0.1
+0.1
+Debt service coverage 
+ratio (in times)
+Earning for Debt Service = Net 
+Profit after taxes + Non-cash 
+operating expenses + Interest 
++ Other non-cash adjustments
+Debt service = Interest and 
+lease payments + Principal 
+repayments
+23.5
+24.0
+Return on equity ratio 
+(in %)
+Profit for the year less 
+Preference dividend (if any)
+Average total equity
+65.1%
+59.4%
+Trade receivables 
+turnover ratio (in times)
+Revenue from operations
+Average trade receivables
+4.4
+4.5
+Trade payables turnover 
+ratio (in times)
+Cost of equipment and 
+software licences + Other 
+expenses
+Average trade payables
+3.1
+3.1
+Net capital turnover ratio 
+(in times)
+Revenue from operations
+Average working capital (i.e. 
+Total current assets less Total 
+current liabilities)
+4.1
+3.8
+Net profit ratio (in %)
+Profi
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.031754
+Dense rank: 4 | BM25 rank: 2
+Chunk ID: Annual_Report_Ford_2025_p0072_c005
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 72
+Evidence:
+es to the Financial Statements, at December 31, 2025, Company debt excluding 
+Ford Credit was $21.9 billion (including $0.9 billion of finance leases).  This balance is $1.3 billion higher than at 
+December 31, 2024.
+Leverage.  We manage Company debt (excluding Ford Credit) levels with a leverage framework that targets 
+investment grade credit ratings through a normal business cycle.  The leverage framework includes a ratio of total 
+Company debt (excluding Ford Credit), underfunded pension liabilities, operating leases, and other adjustments, divided 
+by Company adjusted EBIT (excluding Ford Credit EBT), and further adjusted to exclude depreciation and tooling 
+amortization (excluding Ford Credit).
+Ford Credit’s leverage is calculated separately as described in the “Liquidity and Capital Resources - Ford Credit 
+Segment” section of Item 7.  Ford Credit is self-funding and its debt, which is used to fund its operations, is separate from 
+our Company debt excluding Ford Credit.
+Item 7.  Management’s Discussion and Analysis of Financial Condition and Results of Operations (Continued)
+66
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.029572
+Dense rank: 13 | BM25 rank: 3
+Chunk ID: Annual_Report_Ford_2025_p0160_c001
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 160
+Evidence:
+NOTE 17.  LEASE COMMITMENTS (Continued)
+Lease right-of-use assets and liabilities at December 31 were as follows (in millions):
+2024
+2025
+Operating leases
+Other assets, non-current
+$ 
+2,308 
+$ 
+2,389 
+Other liabilities and deferred revenue, current
+$ 
+558 
+$ 
+567 
+Other liabilities and deferred revenue, non-current
+ 
+1,782 
+ 
+1,835 
+Total operating lease liabilities
+$ 
+2,340 
+$ 
+2,402 
+Finance leases
+Property and equipment, gross
+$ 
+1,150 
+$ 
+1,304 
+Accumulated depreciation
+ 
+(162)  
+(298) 
+Property and equipment, net
+$ 
+988 
+$ 
+1,006 
+Company excluding Ford Credit debt payable within one year
+$ 
+94 
+$ 
+136 
+Company excluding Ford Credit long-term debt
+ 
+711 
+ 
+754 
+Total finance lease liabilities
+$ 
+805 
+$ 
+890 
+The amounts contractually due on our lease liabilities as of December 31, 2025 were as follows (in millions):
+Operating 
+Leases (a)
+Finance 
+Leases
+2026
+$ 
+666 
+$ 
+180 
+2027
+ 
+548 
+ 
+177 
+2028
+ 
+414 
+ 
+119 
+2029
+ 
+305 
+ 
+101 
+2030
+ 
+202 
+ 
+96 
+Thereafter
+ 
+644 
+ 
+455 
+Total
+ 
+2,779 
+ 
+1,128 
+Less:  Present value discount
+ 
+377 
+ 
+238 
+Total lease liabilities
+$ 
+2,402 
+$ 
+890 
+__________
+(a) Excludes approximately $1,141 million in future lease payments for various leases c
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.025989
+Dense rank: 11 | BM25 rank: 24
+Chunk ID: Annual_Report_TCS_2025_p0279_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 279
+Evidence:
+Integrated Annual Report 2024-25
+Notes forming part of Standalone Financial Statements
+Standalone Financial Statements 2024-25
+277
+	
+Interest on lease liabilities is `556 crore and `438 crore for the years ended March 31, 2025 and 2024, respectively.
+	
+The Company incurred `199 crore and `221 crore for the years ended March 31, 2025 and 2024, respectively, towards expenses 
+relating to short-term leases and leases of low-value assets.
+	
+The total cash outflow for leases is `1,961 crore and `1,737 crore for the years ended March 31, 2025 and 2024, respectively, 
+including cash outflow for short term leases and leases of low-value assets.
+	
+The Company has lease term extension options that are not reflected in the measurement of lease liabilities. The present value of 
+future cash outflows for such extension periods is `943 crore and `815 crore as at March 31, 2025 and 2024, respectively.
+	
+Lease contracts entered by the Company majorly pertain for buildings taken on lease to conduct its business in the ordinary course.
+	
+The Company does not have any lease restrictions and commitment towards variable rent as per the contract.
+8)	
+Non-financial assets and non-financial liabilities 
+(
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.024243
+Dense rank: 23 | BM25 rank: 22
+Chunk ID: Annual_Report_Ford_2025_p0118_c002
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 118
+Evidence:
+
+$ 
+24,128 
+$ 
+25,809 
+Other liabilities and deferred revenue (Note 15 and Note 24)
+ 
+27,782 
+ 
+31,779 
+Debt payable within one year (Note 18)
+Company excluding Ford Credit
+ 
+1,756 
+ 
+5,550 
+Ford Credit
+ 
+53,193 
+ 
+51,752 
+Total current liabilities
+ 
+106,859 
+ 
+114,890 
+Other liabilities and deferred revenue (Note 15 and Note 24)
+ 
+28,832 
+ 
+30,902 
+Long-term debt (Note 18)
+Company excluding Ford Credit
+ 
+18,898 
+ 
+16,369 
+Ford Credit
+ 
+84,675 
+ 
+89,665 
+Deferred income taxes (Note 7)
+ 
+1,074 
+ 
+1,354 
+Total liabilities
+ 
+240,338 
+ 
+253,180 
+EQUITY
+ 
+ 
+Common Stock, par value $0.01 per share (4,138 million shares issued of 6 billion authorized)
+ 
+41 
+ 
+41 
+Class B Stock, par value $0.01 per share (71 million shares issued of 530 million authorized)
+ 
+1 
+ 
+1 
+Capital in excess of par value of stock
+ 
+23,502 
+ 
+23,922 
+Retained earnings
+ 
+33,740 
+ 
+22,508 
+Accumulated other comprehensive income/(loss) (Note 22)
+ 
+(9,639)  
+(7,710) 
+Treasury stock
+ 
+(2,810)  
+(2,810) 
+Total equity attributable to Ford Motor Company
+ 
+44,835 
+ 
+35,952 
+Equity attributable to noncontrolling interests
+ 
+23 
+ 
+28 
+Total equity
+ 
+44,858 
+ 
+35,980 
+Total liabilities and equity
+$ 
+285,196 
+$ 
+289,160 
+The fo
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.024203
+Dense rank: 15 | BM25 rank: 32
+Chunk ID: Annual_Report_Ford_2025_p0075_c002
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 75
+Evidence:
+ed (in billions):
+2026
+2027
+2028
+2029 and Beyond
+Balance Sheet Liquidity Profile
+Assets (a)
+$ 
+77 
+$ 
+108 
+$ 
+135 
+$ 
+163 
+Total debt (b)
+ 
+65 
+ 
+92 
+ 
+111 
+ 
+142 
+Memo:  Unsecured long-term debt maturities
+ 
+14 
+ 
+13 
+ 
+12 
+ 
+28 
+__________
+(a)
+Includes gross finance receivables less the allowance for credit losses (including certain finance receivables that are reclassified in consolidation to 
+Trade and other receivables), investment in operating leases net of accumulated depreciation, cash and cash equivalents, and marketable 
+securities (excluding amounts related to insurance activities).  Amounts shown include the impact of expected prepayments.
+(b)
+Excludes unamortized debt (discount)/premium, unamortized issuance costs, and fair value adjustments. 
+Maturities of investment in operating leases consist primarily of the portion of rental payments attributable to 
+depreciation over the remaining life of the lease and the expected residual value at lease termination.  Maturities of 
+finance receivables and investment in operating leases in the table above include expected prepayments for Ford Credit’s 
+retail installment sale contracts and investment in operating leases.  The ta
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.024016
+Dense rank: 7 | BM25 rank: 50
+Chunk ID: Annual_Report_TCS_2025_p0206_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 206
+Evidence:
+Integrated Annual Report 2024-25
+Notes forming part of Consolidated Financial Statements
+Consolidated Financial Statements 2024-25
+204
+	
+Changes in lease liabilities are as follows:
+(` crore)
+As at  
+March 31, 2025
+As at  
+March 31, 2024
+Balance at the beginning of the year 
+ 8,021 
+ 7,688 
+Additions during the year
+ 3,026 
+ 1,854 
+Repayment of lease liabilities during the year
+ (1,664)
+ (1,614)
+Other non-cash movement
+ 8 
+ 77 
+Translation Exchange difference
+ 1 
+ 16 
+Balance at the end of the year
+ 9,392 
+ 8,021 
+	
+Interest on lease liabilities is `631 crore and `518 crore for the years ended March 31, 2025 and 2024, respectively.
+	
+The Group incurred `343 crore and `353 crore for the years ended March 31, 2025 and 2024, respectively, towards expenses 
+relating to short-term leases and leases of low-value assets.
+	
+The total cash outflow for leases is `2,715 crore and `2,515 crore for the years ended March 31, 2025 and 2024, respectively, 
+including cash outflow for short term leases and leases of low-value assets.
+	
+The Group has lease term extension options that are not reflected in the measurement of lease liabilities. The present value of future 
+cash outflows for such extensi
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.023736
+Dense rank: 29 | BM25 rank: 20
+Chunk ID: Annual_Report_TCS_2025_p0022_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+g capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently high shareholder returns
+TCS Value Creation and Distribution (FY 2021 - 25)1
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+1 GRI 201-1
+Revenue Trend
+CAGR 10.2%
+(₹ crore)
+(₹ crore)
+FY
+2021
+FY
+2022
+FY
+2023
+FY
+2024
+FY
+2025
+164,177
+191,754
+225,458
+240,893
+255,324
+In FY 2025, TCS reported an operating margin of 24.3%, a 
+marginal decline of 30 basis points compared to FY 2024. 
+This moderation was primarily attributable to the impact 
+of annual wage hikes, associates promotions, and strategic 
+investments in infrastructure and capability development. 
+These cost pressures were partially offset by improvements in 
+workforce utilization, productivity, and realization, along with 
+favourable currency movements.
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+42,481 
+48,453
+54,237 
+59,311 
+62,165 
+Operating Margin
+Operating Proﬁt
+25.9%
+25.3% 24.1% 24.6%
+24.3%
+Financial Capital
+Integrated Annual Report 2024-25
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.019139
+Dense rank: 44 | BM25 rank: 45
+Chunk ID: Annual_Report_TCS_2025_p0206_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 206
+Evidence:
+and leases of low-value assets.
+	
+The Group has lease term extension options that are not reflected in the measurement of lease liabilities. The present value of future 
+cash outflows for such extension periods is `943 crore and `815 crore as at March 31, 2025 and 2024, respectively.
+	
+Lease contracts entered by the Group majorly pertain for buildings taken on lease to conduct its business in the ordinary course. 
+	
+The Group does not have any lease restrictions and commitment towards variable rent as per the contract.
+10)	 Non-financial assets and non-financial liabilities
+(a)	 Property, plant and equipment
+	
+The Group recognizes the cost of an item of property, plant and equipment as an asset if, and only if it is probable that future 
+economic benefits associated with the item will flow to the Group and the cost of the item can measured reliably.
+	
+Property, plant and equipment are stated at cost comprising of purchase price and any initial directly attributable cost of bringing the 
+asset to its working condition for its intended use, less accumulated depreciation (other than freehold land) and impairment loss, if 
+any.
+	
+Depreciation is provided for property, plant and equipme
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.016393
+Dense rank: 1 | BM25 rank: -
+Chunk ID: Annual_Report_AtlasCopco_2025_p0136_c002
+Source: Annual_Report_AtlasCopco_2025.pdf
+Physical page: 136
+Evidence:
+ities
+31 668 
+2 372 
+1 548
+–93
+1 694
+13
+–850
+–1205
+– 6 739 
+28 428
+Current
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Current portion of long-term borrowings
+280 
+–1 960 
+– 
+–
+13
+–41
+–123
+–22
+5 528
+3 675
+Short-term loans
+1 025 
+2 
+– 
+– 
+112
+1
+–
+–117
+5
+1 028
+Lease liabilities
+1 762 
+–2 213 ¹ 
+1 089
+–107
+43
+185
+–
+–197
+1 206
+1 768
+Total current liabilities
+3 067 
+–4 171 
+1 089
+–107
+168
+145
+–123
+–336 
+6 739
+6 471
+Total
+34 775 
+–1 799 
+2 637
+–200
+1 862
+158
+–973
+–1 541
+–
+34 899
+¹ 	 Includes paid interest on lease liabilities.
+2024
+Cash changes
+Non cash changes
+Reconciliation of liabilities from  
+financing activities
+Opening 
+balance, Jan. 1
+Financing 
+cash flows
+Lease 
+additions
+Lease 
+deductions
+Business acquisitions 
+and divestments
+Change in fair value 
+through P/L
+Change in fair value 
+through equity
+FX change
+Reclassi­fica­tion
+Closing balance, 
+Dec. 31
+Non-current
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Non-current bonds and loans
+25 598
+–242 
+–
+–
+175
+11
+603
+353
+–258
+26 240
+Lease liabilities
+4 251
+– 
+1 801
+–98
+219
+69
+–
+219
+–1 069
+5 392
+Other financial liabilities 
+118
+–21 
+–
+–
+2
+2
+–
+3
+–48
+56
+Total non-current liabilities
+29 967
+–263 
+1 801
+–98
+396
+82
+603
+575
+–1 375
+31 688
+Current
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Current portion o
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0096_c002_s001 | dense rank: - | BM25 rank: 4 | hybrid rank: 12

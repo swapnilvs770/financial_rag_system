@@ -1,0 +1,743 @@
+====================================================================================================
+Q06: How much did TCS spend on employee costs in FY2025?
+====================================================================================================
+
+Original question: How much did TCS spend on employee costs in FY2025?
+BM25 expansion: TCS consolidated statement of profit and loss employee benefit expenses 145788 140131 FY 2025 FY 2024
+BM25 query used: How much did TCS spend on employee costs in FY2025? TCS consolidated statement of profit and loss employee benefit expenses 145788 140131 FY 2025 FY 2024
+Expected target chunk IDs: Annual_Report_TCS_2025_p0181_c001, Annual_Report_TCS_2025_p0095_c001_s001
+
+Candidate counts: dense=50, BM25=50, hybrid=94
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.7091 | Annual_Report_TCS_2025_p0218_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 218
+Rank  2 | Similarity: 0.7075 | Annual_Report_TCS_2025_p0028_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 28
+Rank  3 | Similarity: 0.7012 | Annual_Report_TCS_2025_p0309_c004
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 309
+Rank  4 | Similarity: 0.7006 | Annual_Report_TCS_2025_p0195_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 195
+Rank  5 | Similarity: 0.6987 | Annual_Report_TCS_2025_p0182_c004
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 182
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 53.9068 | Annual_Report_Renishaw_2025_p0102_c005
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 102
+Rank  2 | BM25: 52.7109 | Annual_Report_TCS_2025_p0030_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 30
+Rank  3 | BM25: 50.8329 | Annual_Report_Renishaw_2025_p0029_c001
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 29
+Rank  4 | BM25: 49.5879 | Annual_Report_TCS_2025_p0139_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 139
+Rank  5 | BM25: 49.0373 | Annual_Report_Renishaw_2025_p0029_c002
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 29
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.030886
+Dense rank: 9 | BM25 rank: 1
+Chunk ID: Annual_Report_Renishaw_2025_p0102_c005
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 102
+Evidence:
+ce of spend on pay
+The following table sets out the total amount spent in FY2025 and FY2024 on remuneration to all Group employees and on dividends 
+to shareholders:
+FY2025
+£’000
+FY2024
+£’000
+Change
+%
+Employee remuneration
+306,853
+288,516
+6
+Shareholder dividends paid*
+55,424
+55,412
+0
+*Does not include dividends declared but not yet paid.
+Except as shown above, no other distributions have been made to shareholders, or other payments or uses of profit or cash flow, 
+that affect the understanding of the relative importance of spend on pay. 
+100
+Renishaw plc Annual Report 2025
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.027623
+Dense rank: 2 | BM25 rank: 27
+Chunk ID: Annual_Report_TCS_2025_p0028_c003
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 28
+Evidence:
+e 
+surveys across multiple firms 
+covering areas such as AI, GenAI, 
+Analytics, Data and Automation.
+1includes multiple investors in group meetings
+FY 2021
+FY 2025
+228
+298
+130
+64
+101
+48
+US$ 100Mn+
+US$ 50Mn+
+US$ 20Mn+
+148
+182
+FY 2024
+FY 2025
+TCS' global innovation network 
+includes 11 Pace Ports and 
+Studios, fostering collaboration 
+on cutting-edge solutions 
+through CXO discussions, 
+design thinking, and agile 
+building.
+TCS engages with 
+customers globally 
+through summits, trade 
+shows, and vendor 
+partner events.
+Integrated Annual Report 2024-25
+Social Capital
+26
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.025155
+Dense rank: 32 | BM25 rank: 10
+Chunk ID: Annual_Report_TCS_2025_p0022_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+g capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently high shareholder returns
+TCS Value Creation and Distribution (FY 2021 - 25)1
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+1 GRI 201-1
+Revenue Trend
+CAGR 10.2%
+(₹ crore)
+(₹ crore)
+FY
+2021
+FY
+2022
+FY
+2023
+FY
+2024
+FY
+2025
+164,177
+191,754
+225,458
+240,893
+255,324
+In FY 2025, TCS reported an operating margin of 24.3%, a 
+marginal decline of 30 basis points compared to FY 2024. 
+This moderation was primarily attributable to the impact 
+of annual wage hikes, associates promotions, and strategic 
+investments in infrastructure and capability development. 
+These cost pressures were partially offset by improvements in 
+workforce utilization, productivity, and realization, along with 
+favourable currency movements.
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+42,481 
+48,453
+54,237 
+59,311 
+62,165 
+Operating Margin
+Operating Proﬁt
+25.9%
+25.3% 24.1% 24.6%
+24.3%
+Financial Capital
+Integrated Annual Report 2024-25
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.024394
+Dense rank: 11 | BM25 rank: 37
+Chunk ID: Annual_Report_TCS_2025_p0139_c003
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 139
+Evidence:
+ures as a % of total revenue of the Company
+1.7
+1.7
+	
+	
+•	
+Employee salary/wages during Parental benefits are included as part of well-being cost
+	
+	
+•	
+All expenditures related to staff welfare including Employee Insurance, Benefits, Rewards, Reimbursement and other staff 
+related expenditures excluding salary/wages.
+2.	
+Details of retirement benefits, for Current Financial Year and Previous Financial Year46.
+Benefits
+FY 2025
+FY 2024
+No. of employees 
+covered as a % of total 
+employees
+Deducted and 
+deposited with the 
+authority (Y/N/N.A.)
+No. of employees 
+covered as a % of total 
+employees
+Deducted and 
+deposited with the 
+authority (Y/N/N.A.)
+India retirement benefits
+Provident Fund (PF)
+100.0
+Y
+100.0
+Y
+Gratuity
+100.0
+Y
+100.0
+Y
+Employee State Insurance (ESI)
+6.0
+Y
+6.0
+Y
+Superannuation (SA)
+6.0
+Y
+6.0
+Y
+National Pension Scheme (NPS)
+3.0
+Y
+2.0
+Y
+Overseas retirement benefits
+100.0
+Y
+99.0
+Y
+	
+•	
+Each geography has its own retiral benefits/social security measures extended to the employees in compliance with the local 
+governing laws in which TCS operates.
+45	
+GRI 401-2 
+46	
+GRI 201-3
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.023800
+Dense rank: 39 | BM25 rank: 13
+Chunk ID: Annual_Report_TCS_2025_p0140_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 140
+Evidence:
+ees
+Return to work rate (%)
+Retention rate (%)
+Male
+100.0
+93.9
+Female
+99.8
+93.7
+Total
+99.8
+93.8
+	
+•	
+Return to work: Rate of employees who joined back from their parental leave in FY 2025.
+	
+•	
+Retention Rate: Of the employees “Returned to Work”, % of employees those who are employed with TCS at the end of  
+FY 2025.
+	
+•	
+Parental leave includes maternity, paternity and adoption leave.
+6.	
+Is there a mechanism available to receive and redress grievances48 for the following categories of employees and workers?  
+If yes, give details of the mechanism in brief.
+Yes/No (If Yes, then give details of the mechanism in brief)
+Permanent Employees
+Yes, employees can use the “Employee Concerns” application to log their grievances in TCS internal 
+portal, which is addressed by the respective stakeholders within the stipulated timelines.
+Other than Permanent 
+Employees
+Yes, non-permanent employees can raise the grievances through e-mail to the concerned 
+stakeholders.
+7.	
+ Membership of employees in association(s) or Unions recognised by the listed entity49:
+Category
+FY 2025
+FY 2024
+Total 
+employees 
+in 
+respective 
+category (A)
+No. of employees in 
+respective category, 
+who are part of 
+assoc
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.019960
+Dense rank: 50 | BM25 rank: 32
+Chunk ID: Annual_Report_Renishaw_2025_p0101_c002
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 101
+Evidence:
+n added back to give a full-time equivalent figure. 
+No other adjustments were made to the underlying data.
+2 We have restated the FY2024 ratios and total remuneration and base salary figures following a change in the selection criteria for employees in each quartile, 
+such that the calculation of the FY2024 figures is consistent with the approach for other years.
+The base salary for the Chief Executive Officer increased by 3.5% in January 2025. This was lower than the average for the wider 
+workforce. The P25 employee base pay has increased over the period FY2023 to FY2025, reflecting targeting of pay investment in 
+the lower quartile staff following external benchmarking. This has had the effect of reducing the ratio with that of the Chief Executive 
+Officer since FY2023. The P50 and P75 employee base pay has also increased with small reductions in the ratios, again reflecting 
+higher base pay rises to staff than the Chief Executive Officer. The total remuneration ratios have increased in FY2025, this was 
+expected with the award of a bonus in FY2025 to the Chief Executive Officer after no awards in either of FY2023 and FY2024.
+Taking into account the above, the Committee consid
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.016393
+Dense rank: 1 | BM25 rank: -
+Chunk ID: Annual_Report_TCS_2025_p0218_c003
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 218
+Evidence:
+21)
+ 49 
+ - 
+ - 
+ 26 
+ 13 
+ 39 
+Plan participants’ 
+contribution
+ - 
+ - 
+ 21 
+ - 
+ 21 
+ - 
+ - 
+ 20 
+ - 
+ 20 
+Service cost
+ 540 
+ - 
+ 32 
+ 64 
+ 636 
+ 485 
+ - 
+ 33 
+ 82 
+ 600 
+Interest cost
+ 395 
+ - 
+ 61 
+ 18 
+ 474 
+ 363 
+ - 
+ 57 
+ 18 
+ 438 
+Remeasurement of 
+the defined benefit 
+obligations
+ 319 
+ 1 
+ 48 
+ 17 
+ 385 
+ 168 
+ - 
+ (16)
+ 10 
+ 162 
+Past service cost
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 
+ 6 
+ 6 
+ 12 
+Benefits paid
+ (364)
+ - 
+ (68)
+ (35)
+ (467)
+ (383)
+ - 
+ (61)
+ (31)
+ (475)
+Benefit obligations, 
+end of the year
+ 6,190 
+ 4 
+ 2,062 
+ 435 8,691 
+ 5,300 
+ 3 
+ 1,898 
+ 392 
+ 7,593
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.016129
+Dense rank: - | BM25 rank: 2
+Chunk ID: Annual_Report_TCS_2025_p0030_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 30
+Evidence:
+ reduction of Scope 3 emissions:
+•	
+Employee Commute
+	◦
+Transition to transport fleet of cabs and buses with EV.
+	◦
+Employee engagement for use of public transport.
+•	
+Business Travel 
+	◦
+Reduce business travel through use of collaborative 
+tools and technology.
+	◦
+Invest in sustainable aviation fuel (SAF) as and when 
+these are commercially available.
+Outcomes
+Reduced
+Energy
+Consumption
+and…
+9%
+… reduced TCS’
+Carbon footprint.
+Scope 3
+84%
+32%
+…Increased
+Use of
+Renewable
+Energy..
+23x
+Total Energy
+Consumed
+in GWh
+Total Scope
+1 + 2
+emissions in 
+‘000 tCO2e
+Value chain 
+emissions in 
+'000 tCO2e
+Renewable
+Energy 
+Consumed 
+in GWh
+FY
+2016
+FY
+2025
+FY
+2016
+FY
+2025
+FY
+2016
+FY
+2025
+FY
+2020*
+FY
+2025
+FY 2016
+FY 2020
+FY 2025
+592
+539
+18.6
+427
+76
+772
+471
+524
+Achievements
+Reduced absolute carbon footprint across Scope 1 and Scope 2 
+by 84% in FY 2025 over a baseline of FY 2016 and 32% reduction 
+in Scope 3 from FY 2020.  
+Natural Capital
+71% 
+% total office space 
+(for India) as per 
+Indian Green Building 
+Council standards
+79%
+Renewable energy
+as % of total energy 
+consumed
+1.59 PUE
+weighted average 
+PUE at
+ TCS data centers
+10.2 MWp
+Rooftop solar 
+generation 
+capacity across 
+TCS campuses
+* Ple
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.015873
+Dense rank: - | BM25 rank: 3
+Chunk ID: Annual_Report_Renishaw_2025_p0029_c001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 29
+Evidence:
+Global voluntary employee turnover %
+ 5.9
+ 6.2
+ 6.8
+ 10.7
+ 8.0
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+Why we measure this
+The success of our strategy relies on our people feeling that 
+Renishaw is a great place to work, grow and contribute.
+How we measure this
+The number of voluntary leavers (excluding voluntary redundancy 
+and mutually agreed severance, if applicable) in the year, 
+as a percentage of our total headcount.
+How we performed
+We have invested significantly in pay and reward in recent years 
+which has, combined with slowing labour markets in the UK and 
+elsewhere, driven our turnover rate to a lower level. We continue 
+to pursue a range of activities to promote employee engagement. 
+More information can be found on pages 46 to 48.
+Total engineering costs, including R&D £m
+ 115.7
+ 106.8
+ 106.8
+ 98.1
+ 100.6
+ 90.2
+ 85.8
+ 78.6
+ 76.6
+ 72.0
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+Why we measure this
+Investing in engineering is fundamental to our growth, helping 
+us to develop innovative new products and evolve our existing 
+products to maintain their competitiveness.
+How we measure this
+Annual expenditure on engineering, including R&D that has been 
+capitalised in the year, net of amo
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.015873
+Dense rank: 3 | BM25 rank: -
+Chunk ID: Annual_Report_TCS_2025_p0309_c004
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 309
+Evidence:
+35 TCS FNS Pty Limited
+October 17, 2005
+April 1, 2024
+March 31, 2025
+AUD
+AUD
+ 53.790694 
+ 200 
+ (61)
+ 139 
+ - 
+ 2 
+ - 
+ 43 
+ - 
+ 43 
+ - 
+100%
+Australia
+36 TCS Financial Solutions 
+Australia Pty Ltd
+October 19, 2005
+April 1, 2024
+March 31, 2025
+AUD
+AUD
+ 53.790694 
+ - 
+ 87 
+ 148 
+ 61 
+ - 
+ 116 
+ 99 
+ 22 
+ 77 
+ - 
+100%
+Australia
+37 Tata Consultancy 
+Services Indonesia, PT
+October 5, 2006
+April 1, 2024
+March 31, 2025
+IDR
+USD
+ 0.005159 
+ 1 
+ 31 
+ 55 
+ 23 
+ - 
+ 48 
+ 8 
+ 3 
+ 5 
+ - 
+100%
+Indonesia
+38 Tata Consultancy 
+Services (China) Co., Ltd.
+November 16, 2006 January 1, 2024 December 31, 2024
+CNY
+USD
+ 11.762415 
+ 238 
+ 176 
+ 576 
+ 162 
+ - 
+ 1,148 
+ 123 
+ 35 
+ 88 
+ - 
+100%
+China
+39 TCS Financial Solutions 
+(Beijing) Co., Ltd.
+December 29, 2006 January 1, 2024 December 31, 2024
+CNY
+CNY
+ 11.762415 
+ - 
+ - 
+ - 
+ - 
+ - 
+ 18 
+ 2 
+ - 
+ 2 
+ - 
+-
+China
+40 Tata Consultancy 
+Services (Thailand) 
+Limited
+May 12, 2008
+April 1, 2024
+March 31, 2025
+THB
+USD
+ 2.514866 
+ 2 
+ 25 
+ 222 
+ 195 
+ - 
+ 277 
+ 14 
+ 4 
+ 10 
+ - 
+100%
+Thailand
+41 Tata Consultancy 
+Services (Philippines) Inc.
+September 19, 2008
+April 1, 2024
+March 31, 2025
+PHP
+USD
+ 1.488891 
+ (41)
+ 269 
+ 549 
+ 321 
+ - 
+ 1,142 
+ 184 
+ 15 
+ 169 
+ - 
+10
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0181_c001 | dense rank: - | BM25 rank: 23 | hybrid rank: 45
+Annual_Report_TCS_2025_p0095_c001_s001 | dense rank: - | BM25 rank: - | hybrid rank: -

@@ -1,0 +1,2056 @@
+Loading FAISS index and metadata...
+Loading BM25 index and metadata...
+BM25 pickle dictionary keys: ['bm25', 'tokenized_corpus']
+Embedding-ready chunks: 8728
+FAISS vectors: 8728
+BM25 documents: 8728
+
+Loading embedding model: BAAI/bge-small-en-v1.5
+
+BM25 query used: Revenue from operations total revenue FY 2025 amount
+
+====================================================================================================
+QUERY: Revenue from operations total revenue FY 2025 amount
+====================================================================================================
+
+Top dense retrieval results (FAISS):
+  Rank  1 | Similarity: 0.8067 | Annual_Report_Renishaw_2025_p0122_c001_s001
+  Rank  2 | Similarity: 0.8057 | Annual_Report_mastercard_2025_p0069_c001
+  Rank  3 | Similarity: 0.8002 | Annual_Report_mastercard_2024_p0066_c001
+  Rank  4 | Similarity: 0.7992 | Annual_Report_mastercard_2023_p0069_c001
+  Rank  5 | Similarity: 0.7904 | Annual_Report_mastercard_2025_p0074_c001
+
+Top lexical retrieval results (BM25):
+  Rank  1 | BM25: 20.7221 | Annual_Report_TCS_2025_p0096_c001_s001
+  Rank  2 | BM25: 19.2865 | Annual_Report_TCS_2025_p0070_c001
+  Rank  3 | BM25: 19.1786 | Annual_Report_TCS_2025_p0095_c001_s001
+  Rank  4 | BM25: 18.6281 | Annual_Report_Renishaw_2025_p0009_c005
+  Rank  5 | BM25: 18.3412 | Annual_Report_Renishaw_2025_p0029_c003
+
+Top hybrid retrieval results (RRF):
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 1 | RRF Score: 0.030159
+Dense Rank: 10 | BM25 Rank: 3
+Chunk ID: Annual_Report_TCS_2025_p0095_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 95
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+93
+Performance Trend – 10 years 
+(` crore)
+FY 2025
+FY 2024*
+FY 2024
+FY 2023
+FY 2022
+FY 2021*
+FY 2021
+FY 2020
+FY 2019
+FY 2018
+FY 2017
+FY 2016
+Revenue from 
+operations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total revenue from 
+operations
+255,324
+240,893
+240,893
+225,458
+191,754
+164,177
+164,177
+156,949
+146,463
+123,104
+117,966
+108,646
+Revenue by geographic 
+segments
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Americas
+127,870
+127,939
+127,939
+124,336
+100,072
+84,278
+84,278
+82,000
+77,562
+66,145
+66,091
+60,011
+Europe
+79,487
+75,624
+75,624
+67,436
+61,142
+52,346
+52,346
+48,037
+43,456
+34,155
+30,038
+29,092
+India
+22,060
+13,562
+13,562
+11,271
+9,805
+8,449
+8,449
+8,964
+8,393
+7,921
+7,415
+6,729
+Others
+25,907
+23,768
+23,768
+22,415
+20,735
+19,104
+19,104
+17,948
+17,052
+14,883
+14,422
+12,814
+Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Employee cost
+145,788
+140,131
+140,131
+127,522
+107,554
+91,814
+91,814
+85,952
+78,246
+66,396
+61,621
+55,348
+Other operating cost
+42,129
+36,466
+37,424
+38,677
+31,143
+25,817
+27,035...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 2 | RRF Score: 0.023001
+Dense Rank: 25 | BM25 Rank: 29
+Chunk ID: Annual_Report_mastercard_2025_p0057_c003
+Source: Annual_Report_mastercard_2025.pdf
+Physical page: 57
+Evidence:
+change in net revenue:
+For the Years Ended December 31,
+Operational
+Acquisitions
+Currency 
+Impact 1
+Total
+2025
+2024
+2025
+2024
+2025
+2024
+2025
+2024
+Payment network
+12%
+11%
+**
+**
+1%
+(1)%
+ 12 %
+ 10 %
+Value-added services and solutions
+18%
+17%
+3%
+—%
+2%
+(1)%
+ 23 %
+ 17 %
+Net revenue
+14%
+13%
+1%
+—%
+1%
+(1)%
+ 16 %
+ 12 %
+Note: Table may not sum due to rounding.
+**  Not applicable.
+1 
+Includes the translational and transactional impact of currency and the related impact of our foreign exchange derivative contracts designated as 
+cash flow hedging instruments.  See “Non-GAAP Financial Information - Currency-neutral Growth Rates” for further information on our currency 
+impact non-GAAP adjustment.
+No individual country, other than the United States, generated more than 10% of net revenue in any such period.  A significant 
+portion of our net revenue is concentrated among our five largest customers.  In 2025, the net revenue from these customers was 
+approximately $6.9 billion, or 21%, of total net re...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 3 | RRF Score: 0.022727
+Dense Rank: 28 | BM25 Rank: 28
+Chunk ID: Annual_Report_TCS_2025_p0287_c003
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 287
+Evidence:
+nded 
+March 31, 2025 and 2024, respectively.
+	
+•	
+(2) includes revenue in the United Kingdom of `38,104 crore and `35,625 crore for the years ended March 31, 2025 and 2024, 
+respectively.
+	
+Information about major customers
+	
+No single customer represents 10% or more of the Company’s total revenue during the years ended March 31, 2025 and 2024.
+	
+While disclosing the aggregate amount of transaction price yet to be recognised as revenue towards unsatisfied (or partially satisfied) 
+performance obligations, along with the broad time band for the expected time to recognise those revenues, the Company has 
+applied the practical expedient in Ind AS 115. Accordingly, the Company has not disclosed the aggregate transaction price allocated 
+to unsatisfied (or partially satisfied) performance obligations which pertain to contracts where revenue recognised corresponds to 
+the value transferred to customer typically involving time and material, outcome based and event based contracts.
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 4 | RRF Score: 0.016393
+Dense Rank: 1 | BM25 Rank: -
+Chunk ID: Annual_Report_Renishaw_2025_p0122_c001_s001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 122
+Evidence:
+Financial statements
+from continuing operations
+notes
+Adjusted 
+total
+2025 
+£’000
+Adjusting
+ items
+2025 
+£’000 
+Statutory 
+total
+2025 
+£’000
+Adjusted 
+total
+2024 
+£’000
+Adjusting 
+items
+2024 
+£’000
+Statutory 
+total
+2024 
+£’000
+Revenue 
+2 
+713,044
+–
+713,044
+691,301
+–
+691,301
+Cost of sales 
+4 
+(379,650)
+(4,379)
+(384,029)
+(367,658)
+–
+(367,658)
+Gross profit 
+333,394
+(4,379)
+329,015
+323,643
+–
+323,643
+Distribution costs 
+(144,031)
+–
+(144,031)
+(139,901)
+–
+(139,901)
+Administrative expenses 
+(77,099)
+–
+(77,099)
+(75,075)
+–
+(75,075)
+Operating profit 
+112,264
+(4,379)
+107,885
+108,667
+–
+108,667
+Financial income 
+5 
+16,517
+–
+16,517
+12,336
+–
+12,336
+Financial expenses 
+5 
+(5,088)
+(4,852)
+(9,940)
+(2,289)
+–
+(2,289)
+Share of profits of joint ventures
+13 
+3,538
+–
+3,538
+3,880
+–
+3,880
+Profit before tax 
+127,231
+(9,231)
+118,000
+122,594
+–
+122,594
+Income tax expense
+7 
+(27,010)
+(7,233)
+(34,243)
+(25,705)
+–
+(25,705)
+Profit for the year 
+100,221
+(16,464)
+83,757
+96,889
+–
+96,889
+Profit attributable to:
+Equity shareh...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 5 | RRF Score: 0.016393
+Dense Rank: - | BM25 Rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0096_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+94
+Ratio Analysis – 10 years 
+Units
+FY 2025 FY 2024*
+FY 2024
+FY 2023 FY 2022  FY 2021*  FY 2021  FY 2020  FY 2019  FY 2018  FY 2017  FY 2016 
+Ratios - Financial Performance
+Employee Cost / Total Revenue 
+%
+57.1
+58.2
+58.2
+56.6
+56.1
+55.9
+55.9
+54.8
+53.4
+53.9
+52.2
+50.9
+Other Operating Cost / Total Revenue 
+%
+16.5
+15.1
+15.5
+17.1
+16.2
+15.7
+16.5
+18.4
+19.6
+19.7
+20.4
+20.9
+Total cost (excluding interest & 
+depreciation) / Total Revenue 
+%
+73.6
+73.3
+73.7
+73.7
+72.3
+71.6
+72.4
+73.2
+73.0
+73.6
+72.6
+71.8
+EBIT / Total Revenue 
+%
+24.3
+24.6
+24.2
+24.1
+25.3
+25.9
+25.1
+24.6
+25.6
+24.8
+25.7
+26.5
+Profit Before Tax / Total Revenue 
+%
+25.6
+26.2
+25.7
+25.2
+27.0
+27.4
+26.7
+26.9
+28.4
+27.7
+29.3
+29.3
+Tax / Total Revenue 
+%
+6.5
+6.8
+6.6
+6.5
+6.9
+7.0
+6.8
+6.2
+6.8
+6.7
+6.9
+6.9
+Effective Tax Rate - Tax / PBT 
+%
+25.3
+25.8
+25.6
+25.7
+25.6
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+Profit After Tax / Total Revenue 
+%
+19.0
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 6 | RRF Score: 0.016129
+Dense Rank: - | BM25 Rank: 2
+Chunk ID: Annual_Report_TCS_2025_p0070_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 70
+Evidence:
+The Dividend Distribution Policy, in terms of Regulation 
+43A of the Securities and Exchange Board of India (Listing 
+Obligations and Disclosure Requirements) Regulations, 2015 
+(“SEBI Listing Regulations”), is available on the Company’s 
+website at https://on.tcs.com/Dividend.
+3. 	 Transfer to reserves
+	
+The closing balance of the retained earnings of the Company 
+for FY 2025 after all appropriation and adjustments was 
+`73,380 crore.
+4.	
+Company’s performance
+	
+On a consolidated basis, the revenue from operations for 
+FY 2025 was `2,55,324 crore, higher by 6.0% over the 
+previous year’s revenue from operations of `2,40,893 
+crore. The profit for the year attributable to shareholders 
+for FY 2025 was `48,553 crore registering a growth of 5.8% 
+over the profit for the year attributable to shareholders of 
+`45,908 crore in FY 2024.
+	
+On a standalone basis, the revenue from operations for 
+FY 2025 was `2,14,853 crore, higher by 6.2% over the 
+previous year’s revenue from operations of `2...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 7 | RRF Score: 0.016129
+Dense Rank: 2 | BM25 Rank: -
+Chunk ID: Annual_Report_mastercard_2025_p0069_c001
+Source: Annual_Report_mastercard_2025.pdf
+Physical page: 69
+Evidence:
+Consolidated Statements of Operations
+ 
+For the Years Ended December 31,
+ 
+2025
+2024
+2023
+ 
+(in millions, except per share data)
+Net Revenue
+$ 
+32,791 
+$ 
+28,167 
+$ 
+25,098 
+Operating Expenses:
+General and administrative
+ 
+11,318 
+ 
+10,193 
+ 
+8,927 
+Advertising and marketing
+ 
+929 
+ 
+815 
+ 
+825 
+Depreciation and amortization
+ 
+1,143 
+ 
+897 
+ 
+799 
+Provision for litigation
+ 
+504 
+ 
+680 
+ 
+539 
+Total operating expenses
+ 
+13,894 
+ 
+12,585 
+ 
+11,090 
+Operating income
+ 
+18,897 
+ 
+15,582 
+ 
+14,008 
+Other Income (Expense):
+Investment income
+ 
+325 
+ 
+327 
+ 
+274 
+Gains (losses) on equity investments, net
+ 
+(88)  
+(29)  
+(61) 
+Interest expense
+ 
+(722)  
+(646)  
+(575) 
+Other income (expense), net
+ 
+166 
+ 
+20 
+ 
+(7) 
+Total other income (expense)
+ 
+(319)  
+(328)  
+(369) 
+Income before income taxes
+ 
+18,578 
+ 
+15,254 
+ 
+13,639 
+Income tax expense
+ 
+3,610 
+ 
+2,380 
+ 
+2,444 
+Net Income
+$ 
+14,968 
+$ 
+12,874 
+$ 
+11,195 
+Basic Earnings per Share
+$ 
+16.54 
+$ 
+13.91 
+$ 
+11.86 
+Basic weighted-average shares...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 8 | RRF Score: 0.015873
+Dense Rank: 3 | BM25 Rank: -
+Chunk ID: Annual_Report_mastercard_2024_p0066_c001
+Source: Annual_Report_mastercard_2024.pdf
+Physical page: 66
+Evidence:
+Consolidated Statements of Operations
+ 
+For the Years Ended December 31,
+ 
+2024
+2023
+2022
+ 
+(in millions, except per share data)
+Net Revenue
+$ 
+28,167 
+$ 
+25,098 
+$ 
+22,237 
+Operating Expenses:
+General and administrative
+ 
+10,193 
+ 
+8,927 
+ 
+8,078 
+Advertising and marketing
+ 
+815 
+ 
+825 
+ 
+789 
+Depreciation and amortization
+ 
+897 
+ 
+799 
+ 
+750 
+Provision for litigation
+ 
+680 
+ 
+539 
+ 
+356 
+Total operating expenses
+ 
+12,585 
+ 
+11,090 
+ 
+9,973 
+Operating income
+ 
+15,582 
+ 
+14,008 
+ 
+12,264 
+Other Income (Expense):
+Investment income
+ 
+327 
+ 
+274 
+ 
+61 
+Gains (losses) on equity investments, net
+ 
+(29)  
+(61)  
+(145) 
+Interest expense
+ 
+(646)  
+(575)  
+(471) 
+Other income (expense), net
+ 
+20 
+ 
+(7)  
+23 
+Total other income (expense)
+ 
+(328)  
+(369)  
+(532) 
+Income before income taxes
+ 
+15,254 
+ 
+13,639 
+ 
+11,732 
+Income tax expense
+ 
+2,380 
+ 
+2,444 
+ 
+1,802 
+Net Income
+$ 
+12,874 
+$ 
+11,195 
+$ 
+9,930 
+Basic Earnings per Share
+$ 
+13.91 
+$ 
+11.86 
+$ 
+10.26 
+Basic weighted-average shares outsta...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 9 | RRF Score: 0.015625
+Dense Rank: - | BM25 Rank: 4
+Chunk ID: Annual_Report_Renishaw_2025_p0009_c005
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 9
+Evidence:
+t year, with mixed 
+performance for its product lines. While we saw 
+revenue growth in our metrology systems products, 
+including AGILITY CMMs, revenue for sensors was 
+slightly lower than last year. Our systems products 
+are benefiting from the continuing trend in 
+Chief Executive Officer’s review
+*Note 29, Alternative performance measures, defines how each of these measures is calculated.
+Region
+FY2025 
+revenue 
+£m
+FY2024 
+revenue
+£m
+Actual FX 
+variance
+%
+Constant FX
+variance
+%
+APAC
+337.7
+318.9
+6
+7
+EMEA
+207.8
+208.0
+0
+0
+Americas
+167.5
+164.4
+2
+2
+Total Group revenue
+713.0
+691.3
+3
+4
+7
+Renishaw plc Annual Report 2025
+STRATEGIC REPORT
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 10 | RRF Score: 0.015625
+Dense Rank: 4 | BM25 Rank: -
+Chunk ID: Annual_Report_mastercard_2023_p0069_c001
+Source: Annual_Report_mastercard_2023.pdf
+Physical page: 69
+Evidence:
+Consolidated Statement of Operations
+ 
+For the Years Ended December 31,
+ 
+2023
+2022
+2021
+ 
+(in millions, except per share data)
+Net Revenue
+$ 
+25,098 
+$ 
+22,237 
+$ 
+18,884 
+Operating Expenses:
+General and administrative
+ 
+8,927 
+ 
+8,078 
+ 
+7,087 
+Advertising and marketing
+ 
+825 
+ 
+789 
+ 
+895 
+Depreciation and amortization
+ 
+799 
+ 
+750 
+ 
+726 
+Provision for litigation
+ 
+539 
+ 
+356 
+ 
+94 
+Total operating expenses
+ 
+11,090 
+ 
+9,973 
+ 
+8,802 
+Operating income
+ 
+14,008 
+ 
+12,264 
+ 
+10,082 
+Other Income (Expense):
+Investment income
+ 
+274 
+ 
+61 
+ 
+11 
+Gains (losses) on equity investments, net
+ 
+(61)  
+(145)  
+645 
+Interest expense
+ 
+(575)  
+(471)  
+(431) 
+Other income (expense), net
+ 
+(7)  
+23 
+ 
+— 
+Total other income (expense)
+ 
+(369)  
+(532)  
+225 
+Income before income taxes
+ 
+13,639 
+ 
+11,732 
+ 
+10,307 
+Income tax expense
+ 
+2,444 
+ 
+1,802 
+ 
+1,620 
+Net Income
+$ 
+11,195 
+$ 
+9,930 
+$ 
+8,687 
+Basic Earnings per Share
+$ 
+11.86 
+$ 
+10.26 
+$ 
+8.79 
+Basic weighted-average shares outstanding
+ 
+944...
+
+BM25 query used: Employee Cost / Total Revenue EBIT / Total Revenue Profit After Tax / Total Revenue FY 2025
+
+====================================================================================================
+QUERY: Employee Cost / Total Revenue EBIT / Total Revenue Profit After Tax / Total Revenue FY 2025
+====================================================================================================
+
+Top dense retrieval results (FAISS):
+  Rank  1 | Similarity: 0.7699 | Annual_Report_Amazon_2023_p0053_c002
+  Rank  2 | Similarity: 0.7691 | Annual_Report_TCS_2025_p0096_c001_s001
+  Rank  3 | Similarity: 0.7655 | Annual_Report_TCS_2025_p0096_c001_s002
+  Rank  4 | Similarity: 0.7610 | Annual_Report_AtlasCopco_2025_p0106_c001
+  Rank  5 | Similarity: 0.7588 | Annual_Report_mastercard_2023_p0094_c002
+
+Top lexical retrieval results (BM25):
+  Rank  1 | BM25: 54.6220 | Annual_Report_TCS_2025_p0096_c001_s001
+  Rank  2 | BM25: 42.0976 | Annual_Report_TCS_2025_p0096_c001_s002
+  Rank  3 | BM25: 35.3718 | Annual_Report_TCS_2025_p0088_c002
+  Rank  4 | BM25: 31.9667 | Annual_Report_TCS_2025_p0096_c002_s001
+  Rank  5 | BM25: 30.2263 | Annual_Report_TCS_2025_p0095_c001_s001
+
+Top hybrid retrieval results (RRF):
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 1 | RRF Score: 0.032522
+Dense Rank: 2 | BM25 Rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0096_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+94
+Ratio Analysis – 10 years 
+Units
+FY 2025 FY 2024*
+FY 2024
+FY 2023 FY 2022  FY 2021*  FY 2021  FY 2020  FY 2019  FY 2018  FY 2017  FY 2016 
+Ratios - Financial Performance
+Employee Cost / Total Revenue 
+%
+57.1
+58.2
+58.2
+56.6
+56.1
+55.9
+55.9
+54.8
+53.4
+53.9
+52.2
+50.9
+Other Operating Cost / Total Revenue 
+%
+16.5
+15.1
+15.5
+17.1
+16.2
+15.7
+16.5
+18.4
+19.6
+19.7
+20.4
+20.9
+Total cost (excluding interest & 
+depreciation) / Total Revenue 
+%
+73.6
+73.3
+73.7
+73.7
+72.3
+71.6
+72.4
+73.2
+73.0
+73.6
+72.6
+71.8
+EBIT / Total Revenue 
+%
+24.3
+24.6
+24.2
+24.1
+25.3
+25.9
+25.1
+24.6
+25.6
+24.8
+25.7
+26.5
+Profit Before Tax / Total Revenue 
+%
+25.6
+26.2
+25.7
+25.2
+27.0
+27.4
+26.7
+26.9
+28.4
+27.7
+29.3
+29.3
+Tax / Total Revenue 
+%
+6.5
+6.8
+6.6
+6.5
+6.9
+7.0
+6.8
+6.2
+6.8
+6.7
+6.9
+6.9
+Effective Tax Rate - Tax / PBT 
+%
+25.3
+25.8
+25.6
+25.7
+25.6
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+Profit After Tax / Total Revenue 
+%
+19.0
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 2 | RRF Score: 0.032002
+Dense Rank: 3 | BM25 Rank: 2
+Chunk ID: Annual_Report_TCS_2025_p0096_c001_s002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+Profit After Tax / Total Revenue 
+%
+19.0
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20.6
+21.5
+21.0
+22.3
+22.3
+Ratios - Growth
+Total Revenue 
+%
+6.0
+6.8
+6.8
+17.6
+16.8
+4.6
+4.6
+7.2
+19.0
+4.4
+8.6
+14.8
+EBIT
+%
+4.8
+9.4
+7.6
+11.9
+14.1
+10.1
+7.0
+3.0
+22.8
+0.6
+5.3
+13.7
+Profit After Tax 
+%
+4.2
+10.5
+8.9
+10.0
+14.8
+3.2
+0.3
+2
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 3 | RRF Score: 0.028219
+Dense Rank: 21 | BM25 Rank: 3
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastru...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 4 | RRF Score: 0.028205
+Dense Rank: 18 | BM25 Rank: 5
+Chunk ID: Annual_Report_TCS_2025_p0095_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 95
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+93
+Performance Trend – 10 years 
+(` crore)
+FY 2025
+FY 2024*
+FY 2024
+FY 2023
+FY 2022
+FY 2021*
+FY 2021
+FY 2020
+FY 2019
+FY 2018
+FY 2017
+FY 2016
+Revenue from 
+operations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total revenue from 
+operations
+255,324
+240,893
+240,893
+225,458
+191,754
+164,177
+164,177
+156,949
+146,463
+123,104
+117,966
+108,646
+Revenue by geographic 
+segments
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Americas
+127,870
+127,939
+127,939
+124,336
+100,072
+84,278
+84,278
+82,000
+77,562
+66,145
+66,091
+60,011
+Europe
+79,487
+75,624
+75,624
+67,436
+61,142
+52,346
+52,346
+48,037
+43,456
+34,155
+30,038
+29,092
+India
+22,060
+13,562
+13,562
+11,271
+9,805
+8,449
+8,449
+8,964
+8,393
+7,921
+7,415
+6,729
+Others
+25,907
+23,768
+23,768
+22,415
+20,735
+19,104
+19,104
+17,948
+17,052
+14,883
+14,422
+12,814
+Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Employee cost
+145,788
+140,131
+140,131
+127,522
+107,554
+91,814
+91,814
+85,952
+78,246
+66,396
+61,621
+55,348
+Other operating cost
+42,129
+36,466
+37,424
+38,677
+31,143
+25,817
+27,035...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 5 | RRF Score: 0.027047
+Dense Rank: 12 | BM25 Rank: 16
+Chunk ID: Annual_Report_Renishaw_2025_p0122_c001_s001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 122
+Evidence:
+Financial statements
+from continuing operations
+notes
+Adjusted 
+total
+2025 
+£’000
+Adjusting
+ items
+2025 
+£’000 
+Statutory 
+total
+2025 
+£’000
+Adjusted 
+total
+2024 
+£’000
+Adjusting 
+items
+2024 
+£’000
+Statutory 
+total
+2024 
+£’000
+Revenue 
+2 
+713,044
+–
+713,044
+691,301
+–
+691,301
+Cost of sales 
+4 
+(379,650)
+(4,379)
+(384,029)
+(367,658)
+–
+(367,658)
+Gross profit 
+333,394
+(4,379)
+329,015
+323,643
+–
+323,643
+Distribution costs 
+(144,031)
+–
+(144,031)
+(139,901)
+–
+(139,901)
+Administrative expenses 
+(77,099)
+–
+(77,099)
+(75,075)
+–
+(75,075)
+Operating profit 
+112,264
+(4,379)
+107,885
+108,667
+–
+108,667
+Financial income 
+5 
+16,517
+–
+16,517
+12,336
+–
+12,336
+Financial expenses 
+5 
+(5,088)
+(4,852)
+(9,940)
+(2,289)
+–
+(2,289)
+Share of profits of joint ventures
+13 
+3,538
+–
+3,538
+3,880
+–
+3,880
+Profit before tax 
+127,231
+(9,231)
+118,000
+122,594
+–
+122,594
+Income tax expense
+7 
+(27,010)
+(7,233)
+(34,243)
+(25,705)
+–
+(25,705)
+Profit for the year 
+100,221
+(16,464)
+83,757
+96,889
+–
+96,889
+Profit attributable to:
+Equity shareh...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 6 | RRF Score: 0.024497
+Dense Rank: 47 | BM25 Rank: 6
+Chunk ID: Annual_Report_TCS_2025_p0181_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 181
+Evidence:
+Integrated Annual Report 2024-25
+Consolidated Financial Statements 2024-25
+179
+Consolidated Statement of Profit and Loss
+(` crore)
+Note
+Year ended  
+March 31, 2025
+Year ended  
+March 31, 2024
+Revenue from operations
+12 
+2,55,324
+2,40,893
+Other income
+13 
+3,962 
+4,422 
+TOTAL INCOME
+2,59,286
+2,45,315
+Expenses
+	
+Employee benefit expenses
+14 
+1,45,788
+1,40,131
+	
+Cost of equipment and software licences
+15(a)
+11,648 
+3,702 
+	
+Finance costs
+16 
+796 
+778 
+	
+Depreciation and amortisation expense
+5,242 
+4,985 
+	
+Other expenses
+15(b)
+30,481 
+32,764 
+TOTAL EXPENSES
+1,93,955
+1,82,360
+PROFIT BEFORE EXCEPTIONAL ITEM AND TAX
+65,331 
+ 62,955 
+Exceptional item
+	
+Settlement of legal claim
+20 
+ - 
+ 958 
+PROFIT BEFORE TAX 
+ 65,331 
+ 61,997 
+Tax expense
+	
+Current tax
+17 
+16,910 
+ 15,864 
+	
+Deferred tax 
+17 
+(376)
+34 
+TOTAL TAX EXPENSE
+16,534 
+ 15,898 
+PROFIT FOR THE YEAR
+ 48,797 
+ 46,099 
+OTHER COMPREHENSIVE INCOME (OCI)
+	 Items that will not be reclassified subsequently to profit or loss
+	 	
+Remeasurement ...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 7 | RRF Score: 0.016393
+Dense Rank: 1 | BM25 Rank: -
+Chunk ID: Annual_Report_Amazon_2023_p0053_c002
+Source: Annual_Report_Amazon_2023.pdf
+Physical page: 53
+Evidence:
+000)  
+— 
+ 
+— 
+ 
+— 
+ 
+(6,000) 
+Balance as of December 31, 2022
+ 
+10,242 
+ 
+108 
+ 
+(7,837)  
+75,066 
+ 
+(4,487)  
+83,193 
+ 
+146,043 
+Net income
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+30,425 
+ 
+30,425 
+Other comprehensive income (loss)
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+1,447 
+ 
+— 
+ 
+1,447 
+Stock-based compensation and issuance of 
+employee benefit plan stock
+ 
+141 
+ 
+1 
+ 
+— 
+ 
+23,959 
+ 
+— 
+ 
+— 
+ 
+23,960 
+Balance as of December 31, 2023
+ 
+10,383 
+$ 
+109 
+$ 
+(7,837) $ 99,025 
+$ 
+(3,040) $ 113,618 
+$ 201,875 
+See accompanying notes to consolidated financial statements.
+41
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 8 | RRF Score: 0.015625
+Dense Rank: 4 | BM25 Rank: -
+Chunk ID: Annual_Report_AtlasCopco_2025_p0106_c001
+Source: Annual_Report_AtlasCopco_2025.pdf
+Physical page: 106
+Evidence:
+Consolidated income statement
+For the year ended December 31 
+Amounts in MSEK
+Note
+2025
+2024
+Revenues
+3
+168 343
+176 771
+Cost of sales
+ 
+–96 131
+–101 027
+Gross profit 
+ 
+72 212
+75 744
+Marketing expenses
+ 
+–19 981
+–20 349
+Administrative expenses
+ 
+–10 424
+–10 753
+Research and development expenses
+ 
+–7 067
+–7 065
+Other operating income
+6
+661
+1 078
+Other operating expenses
+6
+–1 315
+–534
+Share of profit in associated companies and joint ventures
+13
+28
+45
+Operating profit
+3, 4, 5, 15
+34 114
+38 166
+Financial income
+7
+665
+707
+Financial expenses
+7
+–1 108
+–1 073
+Net financial items
+ 
+–443
+–366
+Profit before tax
+ 
+33 671
+37 800
+Income tax expense
+8
+–7 246
+–8 006
+Profit for the year
+ 
+26 425
+29 794
+Profit attributable to:
+ 
+ 
+ 
+– owners of the parent
+ 
+26 420
+29 782
+– non-controlling interests
+ 
+5
+12
+Basic earnings per share, SEK
+ 10
+5.43
+6.11
+Diluted earnings per share, SEK
+10
+5.42
+6.10
+Consolidated statement of comprehensive income
+For the year ended December 31   
+Amounts in MSEK
+Note
+2025
+2024...
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 9 | RRF Score: 0.015625
+Dense Rank: - | BM25 Rank: 4
+Chunk ID: Annual_Report_TCS_2025_p0096_c002_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+.3
+Ratios - Growth
+Total Revenue 
+%
+6.0
+6.8
+6.8
+17.6
+16.8
+4.6
+4.6
+7.2
+19.0
+4.4
+8.6
+14.8
+EBIT
+%
+4.8
+9.4
+7.6
+11.9
+14.1
+10.1
+7.0
+3.0
+22.8
+0.6
+5.3
+13.7
+Profit After Tax 
+%
+4.2
+10.5
+8.9
+10.0
+14.8
+3.2
+0.3
+2.8
+21.9
+(1.8)
+8.3
+22.3
+Ratios - Balance Sheet
+Debt (excluding lease liabilities) - Equity 
+Ratio
+Times
+-
+-
+-
+-
+-
+-
+-
+-
+-
+0.0
+0.0
+0.0
+Current Ratio
+Times
+2.3
+2.5
+2.5
+2.5
+2.6
+3.0
+2.9
+3.3
+4.2
+4.6
+5.5
+4.1
+Days Sales Outstanding (DSO) in ₹ terms
+Days
+72
+68
+68
+67
+65
+67
+67
+71
+68
+74
+70
+81
+Days Sales Outstanding (DSO) in US$ terms
+Days
+71
+67
+67
+65
+64
+68
+68
+67
+69
+74
+73
+80
+Invested Funds / Capital Employed
+%
+44.9
+47.7
+47.3
+50.4
+57.4
+52.6
+53.1
+47.7
+55.2
+55.6
+55.8
+45.8
+Capital Expenditure / Total Revenue 
+%
+1.9
+1.1
+1.1
+1.4
+1.5
+1.9
+1.9
+2.0
+1.5
+1.5
+1.7
+1.8
+Operating Cash Flows / Total Revenue 
+%
+19.2
+18.7
+18.4
+18.6
+20.8
+23.6
+23.6
+20.6
+19.5
+20.4
+21.4
+17.6
+Free Cash Flow / Operating Cash Flow Ratio 
+%
+89.8
+94.1
+94.0
+92.7
+92.6
+91.9
+91.9
+90
+
+--------------------------------------------------------------------------------
+Hybrid Rank: 10 | RRF Score: 0.015385
+Dense Rank: 5 | BM25 Rank: -
+Chunk ID: Annual_Report_mastercard_2023_p0094_c002
+Source: Annual_Report_mastercard_2023.pdf
+Physical page: 94
+Evidence:
+t recorded in earnings were as follows for the Plans for each of the years ended 
+December 31:
+Pension Plans
+Postretirement Plan
+2023
+2022
+2021
+2023
+2022
+2021
+(in millions)
+Service cost
+$ 
+14 
+$ 
+12 
+$ 
+14 
+$ 
+1 
+$ 
+1 
+$ 
+1 
+Interest cost
+ 
+18 
+ 
+9 
+ 
+9 
+ 
+2 
+ 
+2 
+ 
+2 
+Expected return on plan assets
+ 
+(18)  
+(14)  
+(19)  
+— 
+ 
+— 
+ 
+— 
+Amortization of actuarial loss
+ 
+— 
+ 
+— 
+ 
+(1)  
+— 
+ 
+— 
+ 
+— 
+Amortization of prior service credit
+ 
+— 
+ 
+— 
+ 
+— 
+ 
+(1)  
+(1)  
+(1) 
+Net periodic benefit cost
+$ 
+14 
+$ 
+7 
+$ 
+3 
+$ 
+2 
+$ 
+2 
+$ 
+2 
+The service cost component is recognized in general and administrative expenses on the consolidated statement of operations.  Net 
+periodic benefit cost, excluding the service cost component, is recognized in other income (expense) on the consolidated statement 
+of operations.
+Other changes in plan assets and benefit obligations recognized in other comprehensive income for the years ended December 31 
+were as follows:
+Pension Plans
+Postretirement Plan
+2023
+2022
+2...
+
+====================================================================================================
+HYBRID RETRIEVAL TEST COMPLETED
+====================================================================================================
+Inspect whether the TCS FY 2025 ratio-table chunk appears near the top for both query styles.
+Expected target chunk ID: Annual_Report_TCS_2025_p0096_c001_s001

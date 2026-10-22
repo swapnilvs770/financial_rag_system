@@ -1,0 +1,480 @@
+====================================================================================================
+Q03: What was TCS's EBIT margin in FY2025?
+====================================================================================================
+
+Original question: What was TCS's EBIT margin in FY2025?
+BM25 expansion: EBIT / Total Revenue operating margin FY 2025
+BM25 query used: What was TCS's EBIT margin in FY2025? EBIT / Total Revenue operating margin FY 2025
+Expected target chunk IDs: Annual_Report_TCS_2025_p0096_c001_s001, Annual_Report_TCS_2025_p0088_c002
+
+Candidate counts: dense=50, BM25=50, hybrid=86
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.8371 | Annual_Report_TCS_2025_p0088_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  2 | Similarity: 0.7620 | Annual_Report_Ford_2025_p0054_c001_s002
+  Source: Annual_Report_Ford_2025.pdf
+  Physical page: 54
+Rank  3 | Similarity: 0.7535 | Annual_Report_TCS_2025_p0309_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 309
+Rank  4 | Similarity: 0.7480 | Annual_Report_TCS_2025_p0088_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  5 | Similarity: 0.7437 | Annual_Report_TCS_2025_p0309_c004
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 309
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 46.3979 | Annual_Report_TCS_2025_p0088_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  2 | BM25: 44.6248 | Annual_Report_Ford_2025_p0056_c002
+  Source: Annual_Report_Ford_2025.pdf
+  Physical page: 56
+Rank  3 | BM25: 44.5349 | Annual_Report_Ford_2025_p0056_c001
+  Source: Annual_Report_Ford_2025.pdf
+  Physical page: 56
+Rank  4 | BM25: 44.0948 | Annual_Report_Ford_2025_p0054_c001_s001
+  Source: Annual_Report_Ford_2025.pdf
+  Physical page: 54
+Rank  5 | BM25: 40.8846 | Annual_Report_Ford_2025_p0063_c001
+  Source: Annual_Report_Ford_2025.pdf
+  Physical page: 63
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.032787
+Dense rank: 1 | BM25 rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastructure and capability building. However, 
+tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to 
+the margins. 
+Averag
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.030622
+Dense rank: 2 | BM25 rank: 9
+Chunk ID: Annual_Report_Ford_2025_p0054_c001_s002
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 54
+Evidence:
+% in 2025, down from 3.2% a year ago.  Company adjusted EBIT margin 
+was 3.6% in 2025, down from 5.5% a year ago.
+The table below shows our full year 2025 net income/(loss) attribut
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.028405
+Dense rank: 13 | BM25 rank: 8
+Chunk ID: Annual_Report_TCS_2025_p0022_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+g capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently high shareholder returns
+TCS Value Creation and Distribution (FY 2021 - 25)1
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+1 GRI 201-1
+Revenue Trend
+CAGR 10.2%
+(₹ crore)
+(₹ crore)
+FY
+2021
+FY
+2022
+FY
+2023
+FY
+2024
+FY
+2025
+164,177
+191,754
+225,458
+240,893
+255,324
+In FY 2025, TCS reported an operating margin of 24.3%, a 
+marginal decline of 30 basis points compared to FY 2024. 
+This moderation was primarily attributable to the impact 
+of annual wage hikes, associates promotions, and strategic 
+investments in infrastructure and capability development. 
+These cost pressures were partially offset by improvements in 
+workforce utilization, productivity, and realization, along with 
+favourable currency movements.
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+42,481 
+48,453
+54,237 
+59,311 
+62,165 
+Operating Margin
+Operating Proﬁt
+25.9%
+25.3% 24.1% 24.6%
+24.3%
+Financial Capital
+Integrated Annual Report 2024-25
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.028370
+Dense rank: 10 | BM25 rank: 11
+Chunk ID: Annual_Report_Ford_2025_p0083_c003
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 83
+Evidence:
+d cost structure to market demand and 
+changing model mix
+∘  Generally $100 million or more
+∘  Other items that we do not generally consider to be indicative 
+of earnings from ongoing operating activities
+∘  $500 million or more for individual field 
+service actions; generally $100 million or 
+more for other items
+•
+Company Adjusted EBIT Margin (Most Comparable GAAP Measure:  Company Net Income/(Loss) Margin) – 
+Company adjusted EBIT margin is Company adjusted EBIT divided by Company revenue.  This non-GAAP measure 
+is useful to management and investors because it allows users to evaluate our operating results aligned with industry 
+reporting. 
+•
+Adjusted Earnings/(Loss) Per Share (Most Comparable GAAP Measure:  Earnings/(Loss) Per Share) – Measure of 
+Company’s diluted net earnings/(loss) per share adjusted for impact of pre-tax special items (described above), tax 
+special items, and restructuring impacts in noncontrolling interests.  The measure provides investors with useful 
+information to evaluate performance of our business excluding items not indicative of earnings from ongoing operating 
+activities.
+•
+Adjusted Effective Tax Rate (Most Comparable GAAP Measure:  Effective Ta
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.027651
+Dense rank: 9 | BM25 rank: 16
+Chunk ID: Annual_Report_Ford_2025_p0056_c003
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 56
+Evidence:
+set partially by favorable 
+exchange.
+Ford Pro’s 2025 full year EBIT was $6,843 million, a decrease of $2,164 million from a year ago, with an EBIT margin 
+of 10.3%.  The lower EBIT was primarily driven by unfavorable fleet pricing (including daily rental), unfavorable mix, and 
+higher tariff-related costs.  Excluding tariffs, cost improved year-over-year, driven by lower material and warranty costs.
+Item 7.  Management’s Discussion and Analysis of Financial Condition and Results of Operations (Continued)
+50
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.027364
+Dense rank: 8 | BM25 rank: 19
+Chunk ID: Annual_Report_Ford_2025_p0054_c002
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 54
+Evidence:
+in was negative 4.4% in 2025, down from 3.2% a year ago.  Company adjusted EBIT margin 
+was 3.6% in 2025, down from 5.5% a year ago.
+The table below shows our full year 2025 net income/(loss) attributable to Ford and Company adjusted EBIT by 
+segment (in millions).
+2024
+2025
+H / (L)
+Ford Blue
+$ 
+5,269 
+$ 
+3,024 
+$ 
+(2,245) 
+Ford Model e
+ 
+(5,105)  
+(4,806)  
+299 
+Ford Pro
+ 
+9,007 
+ 
+6,843 
+ 
+(2,164) 
+Ford Credit
+ 
+1,654 
+ 
+2,557 
+ 
+903 
+Corporate Other
+ 
+(617)  
+(838)  
+(221) 
+Company Adjusted EBIT (a)
+ 
+10,208 
+ 
+6,780 
+ 
+(3,428) 
+Interest on Debt
+ 
+(1,115)  
+(1,254)  
+(139) 
+Special Items
+ 
+(1,860)  
+(17,356)  
+(15,496) 
+Taxes / Noncontrolling Interests
+ 
+(1,354)  
+3,648 
+ 
+5,002 
+Net Income/(Loss)
+$ 
+5,879 
+$ 
+(8,182) $ 
+(14,061) 
+__________
+(a)
+See Non-GAAP Financial Measure Reconciliations section for reconciliation to GAAP.
+The year-over-year decrease of $14,061 million in net income/(loss) in 2025 was primarily driven by higher special 
+items and lower Ford Blue and Ford Pro EBIT, offset partially by lower taxes.  The higher year-over-year special items 
+primarily reflect the Model e asset impairment and EV program cancellations as well as the BOSK JV disposition.  The 
+year
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.026151
+Dense rank: 4 | BM25 rank: 35
+Chunk ID: Annual_Report_TCS_2025_p0088_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+86
+Financial Performance Overview
+The discussions in this section relate to the consolidated, Rupee-denominated financial results pertaining to the year that ended March 
+31, 2025. The financial statements of Tata Consultancy Services Limited and its subsidiaries (collectively referred to as ‘TCS’ or ‘the 
+Company’) are prepared in accordance with the Indian Accounting Standards (referred to as ‘Ind AS’) prescribed under section 133 of 
+the Companies Act, 2013, read with the Companies (Indian Accounting Standards) Rules, as amended from time to time. Significant 
+accounting policies used in the preparation of the financial statements are disclosed in the notes to the consolidated financial statements.
+The following table gives an overview of the consolidated financial results of the Company:
+(₹ crore)
+FY 2025
+FY 2024*
+Amount
+% of 
+Revenue
+% Growth
+Amount
+% of 
+Revenue
+Revenue from operations
+255,324
+100.0
+6.0
+240,893
+100.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per sha
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.024675
+Dense rank: 6 | BM25 rank: 45
+Chunk ID: Annual_Report_TCS_2025_p0070_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 70
+Evidence:
+The Dividend Distribution Policy, in terms of Regulation 
+43A of the Securities and Exchange Board of India (Listing 
+Obligations and Disclosure Requirements) Regulations, 2015 
+(“SEBI Listing Regulations”), is available on the Company’s 
+website at https://on.tcs.com/Dividend.
+3. 	 Transfer to reserves
+	
+The closing balance of the retained earnings of the Company 
+for FY 2025 after all appropriation and adjustments was 
+`73,380 crore.
+4.	
+Company’s performance
+	
+On a consolidated basis, the revenue from operations for 
+FY 2025 was `2,55,324 crore, higher by 6.0% over the 
+previous year’s revenue from operations of `2,40,893 
+crore. The profit for the year attributable to shareholders 
+for FY 2025 was `48,553 crore registering a growth of 5.8% 
+over the profit for the year attributable to shareholders of 
+`45,908 crore in FY 2024.
+	
+On a standalone basis, the revenue from operations for 
+FY 2025 was `2,14,853 crore, higher by 6.2% over the 
+previous year’s revenue from operations of `2,02,359 
+crore. The profit for the year attributable to shareholders 
+in FY 2025 was `48,057 crore registering a growth of 10.3% 
+over the  profit for the year attributable to shareholders of 
+`43,559
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.024250
+Dense rank: 24 | BM25 rank: 21
+Chunk ID: Annual_Report_Ford_2025_p0063_c002
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 63
+Evidence:
+4, up from 2.5% in 2023.  Company adjusted EBIT margin was 5.5% in 
+2024, down from 5.9% in 2023.
+The table below shows our full year 2024 net income/(loss) attributable to Ford and Company adjusted EBIT by 
+segment (in millions).
+2023
+2024
+H / (L)
+Ford Blue
+$ 
+7,453 
+$ 
+5,269 
+$ 
+(2,184) 
+Ford Model e
+ 
+(4,778)  
+(5,105)  
+(327) 
+Ford Pro
+ 
+7,217 
+ 
+9,007 
+ 
+1,790 
+Ford Credit
+ 
+1,331 
+ 
+1,654 
+ 
+323 
+Corporate Other
+ 
+(807)  
+(617)  
+190 
+Company Adjusted EBIT (a)
+ 
+10,416 
+ 
+10,208 
+ 
+(208) 
+Interest on Debt
+ 
+(1,302)  
+(1,115)  
+187 
+Special Items
+ 
+(5,147)  
+(1,860)  
+3,287 
+Taxes / Noncontrolling Interests
+ 
+380 
+ 
+(1,354)  
+(1,734) 
+Net Income/(Loss)
+$ 
+4,347 
+$ 
+5,879 
+$ 
+1,532 
+__________
+(a)
+See Non-GAAP Financial Measure Reconciliations section for reconciliation to GAAP.
+The year-over-year increase of $1,532 million in net income/(loss) in 2024 was primarily driven by lower special items 
+and higher Ford Pro EBIT, offset partially by lower Ford Blue EBIT and higher taxes.  The lower year-over-year special 
+items primarily reflect the non-recurrence of a pension and OPEB remeasurement loss in 2023, a pension remeasurement 
+gain in 2024, and lower year-over-year restructu
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.023625
+Dense rank: 34 | BM25 rank: 17
+Chunk ID: Annual_Report_Ford_2025_p0064_c002
+Source: Annual_Report_Ford_2025.pdf
+Physical page: 64
+Evidence:
+olesales decreased 2% from 2023, driven primarily by the end of production of the Fiesta in 
+Europe and the Edge in North America, offset partially by higher Ranger and Bronco wholesales.  Full year 2024 revenue 
+was flat year over year, primarily reflecting favorable currency-related pricing in South America and higher outside 
+component sales revenue, offset by unfavorable exchange resulting from a stronger U.S. dollar.
+Ford Blue’s 2024 full year EBIT was $5,269 million, a decrease of $2,184 million from 2023, with an EBIT margin of 
+5.2%.  The lower EBIT was driven primarily by unfavorable exchange, adverse mix (primarily supplier-related constraints 
+and fewer F-150s due to the new model launch) and lower wholesales, and higher cost (including higher material cost for 
+new products and higher warranty costs).  Higher currency-related pricing in South America was a partial offset.
+Item 7.  Management’s Discussion and Analysis of Financial Condition and Results of Operations (Continued)
+58
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0096_c001_s001 | dense rank: - | BM25 rank: 15 | hybrid rank: 31
+Annual_Report_TCS_2025_p0088_c002 | dense rank: 1 | BM25 rank: 1 | hybrid rank: 1

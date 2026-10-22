@@ -1,0 +1,500 @@
+====================================================================================================
+Q04: What percentage of TCS revenue was profit after tax in FY2025?
+====================================================================================================
+
+Original question: What percentage of TCS revenue was profit after tax in FY2025?
+BM25 expansion: Profit After Tax / Total Revenue PAT ratio FY 2025
+BM25 query used: What percentage of TCS revenue was profit after tax in FY2025? Profit After Tax / Total Revenue PAT ratio FY 2025
+Expected target chunk IDs: Annual_Report_TCS_2025_p0096_c001_s002, Annual_Report_TCS_2025_p0088_c002
+
+Candidate counts: dense=50, BM25=50, hybrid=89
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.8235 | Annual_Report_TCS_2025_p0088_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  2 | Similarity: 0.8026 | Annual_Report_TCS_2025_p0096_c001_s002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 96
+Rank  3 | Similarity: 0.7681 | Annual_Report_TCS_2025_p0070_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 70
+Rank  4 | Similarity: 0.7615 | Annual_Report_TCS_2025_p0022_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 22
+Rank  5 | Similarity: 0.7510 | Annual_Report_Renishaw_2025_p0034_c001
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 34
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 55.1946 | Annual_Report_TCS_2025_p0096_c001_s001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 96
+Rank  2 | BM25: 51.5865 | Annual_Report_Renishaw_2025_p0028_c001
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 28
+Rank  3 | BM25: 48.9430 | Annual_Report_TCS_2025_p0088_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  4 | BM25: 48.8720 | Annual_Report_TCS_2025_p0070_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 70
+Rank  5 | BM25: 48.2130 | Annual_Report_Renishaw_2025_p0028_c002
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 28
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.032266
+Dense rank: 1 | BM25 rank: 3
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastructure and capability building. However, 
+tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to 
+the margins. 
+Averag
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.031498
+Dense rank: 3 | BM25 rank: 4
+Chunk ID: Annual_Report_TCS_2025_p0070_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 70
+Evidence:
+The Dividend Distribution Policy, in terms of Regulation 
+43A of the Securities and Exchange Board of India (Listing 
+Obligations and Disclosure Requirements) Regulations, 2015 
+(“SEBI Listing Regulations”), is available on the Company’s 
+website at https://on.tcs.com/Dividend.
+3. 	 Transfer to reserves
+	
+The closing balance of the retained earnings of the Company 
+for FY 2025 after all appropriation and adjustments was 
+`73,380 crore.
+4.	
+Company’s performance
+	
+On a consolidated basis, the revenue from operations for 
+FY 2025 was `2,55,324 crore, higher by 6.0% over the 
+previous year’s revenue from operations of `2,40,893 
+crore. The profit for the year attributable to shareholders 
+for FY 2025 was `48,553 crore registering a growth of 5.8% 
+over the profit for the year attributable to shareholders of 
+`45,908 crore in FY 2024.
+	
+On a standalone basis, the revenue from operations for 
+FY 2025 was `2,14,853 crore, higher by 6.2% over the 
+previous year’s revenue from operations of `2,02,359 
+crore. The profit for the year attributable to shareholders 
+in FY 2025 was `48,057 crore registering a growth of 10.3% 
+over the  profit for the year attributable to shareholders of 
+`43,559
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.030077
+Dense rank: 6 | BM25 rank: 7
+Chunk ID: Annual_Report_TCS_2025_p0088_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+86
+Financial Performance Overview
+The discussions in this section relate to the consolidated, Rupee-denominated financial results pertaining to the year that ended March 
+31, 2025. The financial statements of Tata Consultancy Services Limited and its subsidiaries (collectively referred to as ‘TCS’ or ‘the 
+Company’) are prepared in accordance with the Indian Accounting Standards (referred to as ‘Ind AS’) prescribed under section 133 of 
+the Companies Act, 2013, read with the Companies (Indian Accounting Standards) Rules, as amended from time to time. Significant 
+accounting policies used in the preparation of the financial statements are disclosed in the notes to the consolidated financial statements.
+The following table gives an overview of the consolidated financial results of the Company:
+(₹ crore)
+FY 2025
+FY 2024*
+Amount
+% of 
+Revenue
+% Growth
+Amount
+% of 
+Revenue
+Revenue from operations
+255,324
+100.0
+6.0
+240,893
+100.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per sha
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.029274
+Dense rank: 5 | BM25 rank: 12
+Chunk ID: Annual_Report_Renishaw_2025_p0034_c001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 34
+Evidence:
+Strategic report
+Financial review continued
+Profit and tax
+Adjusted* operating profit was 3.3% higher this year at £112.3m 
+(FY2024: £108.7m). At constant exchange rates*, Adjusted 
+operating profit would have been 1.2% higher than last year.
+Adjusted* operating profit in our Manufacturing technologies 
+segment was £109.9m, compared with £103.2m last year. In our 
+Analytical instruments and medical devices segment, Adjusted* 
+operating profit was £2.4m, compared with £5.5m last year. 
+To reflect our evolving organisational structure, see page 34, 
+we will be reporting on three segments from FY2026: Industrial 
+Metrology, Position Measurement, and Specialised Technologies.
+Financial income, net of financial expenses, for the year was 
+£6.6m, compared with £10.0m last year. This includes a £2.6m 
+increase in interest on bank deposits due to higher interest rates 
+and amounts on deposit, less £4.9m of interest payable on 
+historical tax matters. See Note 5 for a full analysis. 
+Adjusted profit before tax was £127.2m, compared with £122.6m 
+in FY2024. Statutory profit before tax was £118.0m, compared 
+with £122.6m in the previous year. 
+The FY2025 effective tax rate has increased to 29
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.028850
+Dense rank: 13 | BM25 rank: 6
+Chunk ID: Annual_Report_Renishaw_2025_p0010_c003
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 10
+Evidence:
+ to close. The growth in robot sales 
+was due to a mixture of new sales, prompted by 
+general growth in robotic surgery, and replacement 
+sales for older neuromate systems. 
+Adjusted profit before tax for the year was £127.2m 
+(FY2024: £122.6m). Adjusted* earnings per share 
+was 137.8p (FY2024: 133.2p). Adjusted measures are 
+the ones the Board uses to measure our underlying 
+trading performance. Statutory profit before tax was 
+£118.0m, (FY2024: £122.6m), leading to Statutory 
+earnings per share of 115.2p (FY2024: 133.2p). 
+Statutory profit after tax includes £13.2m of provisions 
+relating to historical and non-recurring tax matters, 
+which are excluded from adjusted measures given 
+they do not represent underlying performance and 
+we do not expect them to recur, of which a £4.9m 
+interest expense is included in statutory profit before 
+tax. Read more in the Financial review on page 32. 
+Our purpose and ambition drive 
+our strategy
+Our ambition as a manufacturing technology 
+powerhouse is to continue our track record of 
+long-term organic growth in revenue and profitability, 
+underpinned by our purpose of Transforming 
+Tomorrow Together. This drives us to work closely 
+with our cu
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.028629
+Dense rank: 2 | BM25 rank: 20
+Chunk ID: Annual_Report_TCS_2025_p0096_c001_s002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 96
+Evidence:
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+Profit After Tax / Total Revenue 
+%
+19.0
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20.6
+21.5
+21.0
+22.3
+22.3
+Ratios - Growth
+Total Revenue 
+%
+6.0
+6.8
+6.8
+17.6
+16.8
+4.6
+4.6
+7.2
+19.0
+4.4
+8.6
+14.8
+EBIT
+%
+4.8
+9.4
+7.6
+11.9
+14.1
+10.1
+7.0
+3.0
+22.8
+0.6
+5.3
+13.7
+Profit After Tax 
+%
+4.2
+10.5
+8.9
+10.0
+14.8
+3.2
+0.3
+2
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.027418
+Dense rank: 11 | BM25 rank: 15
+Chunk ID: Annual_Report_Renishaw_2025_p0033_c001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 33
+Evidence:
+FY2025 was a year of adjusted profit progress and record 
+revenue in challenging market conditions. While we have 
+continued to experience cost pressures, and are taking action 
+to move us towards our operating margin target, Adjusted* profit 
+before tax increased by 3.8% to £127.2m (FY2024: £122.6m).
+We have exceeded our target for cash flow conversion and 
+further strengthened our financial position, with cash and 
+cash equivalents and bank deposit balances at the year end 
+of £273.6m (30 June 2024: £217.8m). This includes our 
+planned reduction in capital expenditure this year, as we 
+now look to benefit from recent investments made in 
+manufacturing infrastructure. 
+Although we face global political and economic uncertainties, 
+we are well positioned for future growth opportunities and 
+unexpected market downturns.
+Financial performance
+Revenue 
+As Will has explained in his review, we achieved 3.1% growth 
+in revenue to £713.0m (FY2024: £691.3m) and so have again 
+achieved record revenue. We continue to benefit from being 
+diversified across a range of markets; while the automotive 
+market was weaker, the semiconductor and defence markets 
+were positive, and we also saw good gr
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.027242
+Dense rank: 16 | BM25 rank: 11
+Chunk ID: Annual_Report_TCS_2025_p0069_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 69
+Evidence:
+Board’s Report
+To the Members,
+The Directors present this Integrated Annual Report of 
+Tata Consultancy Services Limited (“the Company” or “TCS”) 
+along with the audited financial statements for the financial year 
+(“FY”) ended March 31, 2025.
+The consolidated performance of the Company and its 
+subsidiaries has been referred to wherever required.
+1.	
+Financial results
+(` crore)
+Standalone
+Consolidated
+Financial Year 
+2024-25 
+(FY 2025)
+Financial Year 
+2023-24 
+(FY 2024)
+Financial Year 
+2024-25 
+(FY 2025)
+Financial Year 
+2023-24 
+(FY 2024)
+Revenue from operations
+2,14,853
+2,02,359
+2,55,324
+2,40,893
+Other income
+9,642
+7,273
+3,962
+4,422
+Total income
+2,24,495
+2,09,632
+2,59,286
+2,45,315
+Expenses
+Operating expenditure
+1,56,924
+1,46,512
+1,87,917
+1,76,597
+Depreciation and amortisation expense
+4,220
+3,887
+5,242
+4,985
+Total expenses
+1,61,144
+1,50,399
+1,93,159
+1,81,582
+Profit before finance costs, exceptional item and tax
+63,351
+59,233
+66,127
+63,733
+Finance costs
+703
+673
+796
+778
+Profit before exceptional item and tax
+62,648
+58,560
+65,331
+62,955
+Exceptional item
+Settlement of legal claim
+-
+958
+-
+958
+Profit before tax
+62,648
+57,602
+65,331
+61,997
+Tax expense
+14,591
+14,043
+16,534
+15,898
+Profit f
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.025934
+Dense rank: 4 | BM25 rank: 37
+Chunk ID: Annual_Report_TCS_2025_p0022_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+Operating Profit Trend
+Financial Capital
+TCS' success is a testament to its robust business model and its 
+ability to perpetually adapt in a constantly changing technology 
+environment, ensuring it remains relevant to customers while 
+delivering value to all stakeholders.
+Key outcomes include: 
+•	
+Focus on operational excellence and cost optimization, 
+resulting in strong operating margins
+In FY 2025, TCS achieved a year-over-year revenue growth of 
+6.0%, demonstrating a resilient business performance in this 
+uncertain environment. 
+On a constant currency basis, revenue grew by 4.2%, 
+outpacing the growth in FY 2024.
+Over the past five financial years, the company recorded a 
+compound annual growth rate (CAGR) of 10.2%, highlighting 
+the resilience and scalability of its business model.
+•	
+Superior profitability, providing the financial strength to 
+invest in new capabilities, Research & Innovation, navigating 
+economic downturns and changing technology waves 
+•	
+Prudent use of working capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently hi
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.025383
+Dense rank: 12 | BM25 rank: 27
+Chunk ID: Annual_Report_Renishaw_2025_p0034_c002
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 34
+Evidence:
+rofit before tax was £127.2m, compared with £122.6m 
+in FY2024. Statutory profit before tax was £118.0m, compared 
+with £122.6m in the previous year. 
+The FY2025 effective tax rate has increased to 29.0% (FY2024: 
+21.0%) mostly as a result of historical and non-recurring tax 
+matters and the new global minimum tax. The underlying 
+effective tax rate, excluding these items, is similar to the previous 
+year. Tax matters of £9.1m relate to specific legacy arrangements 
+which we wouldn’t expect to recur. While applicable accounting 
+standards require a full provision for tax and the associated 
+interest of £4.9m we continue to seek resolution to these matters 
+which would reduce these amounts.
+Certain infrequent events can sometimes affect our financial 
+statements, prepared according to applicable International 
+Financial Reporting Standards. We exclude these events from 
+adjusted profit and earnings measures to give the Board and 
+other stakeholders another useful metric to understand and 
+compare our underlying performance. This year, we have 
+excluded costs relating to the closure of our Edinburgh research 
+facility (£2.3m), the drug delivery aspect of our Neurological 
+business (£
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0096_c001_s002 | dense rank: 2 | BM25 rank: 20 | hybrid rank: 6
+Annual_Report_TCS_2025_p0088_c002 | dense rank: 1 | BM25 rank: 3 | hybrid rank: 1

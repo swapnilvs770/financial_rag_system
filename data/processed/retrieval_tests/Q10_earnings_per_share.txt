@@ -1,0 +1,774 @@
+====================================================================================================
+Q10: What was TCS's earnings per share in FY2025?
+====================================================================================================
+
+Original question: What was TCS's earnings per share in FY2025?
+BM25 expansion: Earnings per share EPS FY 2025
+BM25 query used: What was TCS's earnings per share in FY2025? Earnings per share EPS FY 2025
+Expected target chunk IDs: Annual_Report_TCS_2025_p0088_c002, Annual_Report_TCS_2025_p0181_c001
+
+Candidate counts: dense=50, BM25=50, hybrid=89
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.8263 | Annual_Report_TCS_2025_p0088_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  2 | Similarity: 0.8013 | Annual_Report_TCS_2025_p0088_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  3 | Similarity: 0.7786 | Annual_Report_TCS_2025_p0070_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 70
+Rank  4 | Similarity: 0.7774 | Annual_Report_TCS_2025_p0013_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 13
+Rank  5 | Similarity: 0.7727 | Annual_Report_TCS_2025_p0023_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 23
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 48.0784 | Annual_Report_TCS_2025_p0023_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 23
+Rank  2 | BM25: 39.6400 | Annual_Report_TCS_2025_p0069_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 69
+Rank  3 | BM25: 39.5504 | Annual_Report_TCS_2025_p0096_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 96
+Rank  4 | BM25: 38.8724 | Annual_Report_Renishaw_2025_p0034_c003
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 34
+Rank  5 | BM25: 38.7625 | Annual_Report_TCS_2025_p0095_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 95
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.030679
+Dense rank: 1 | BM25 rank: 10
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastructure and capability building. However, 
+tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to 
+the margins. 
+Averag
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.029380
+Dense rank: 17 | BM25 rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0023_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 23
+Evidence:
+al 
+discipline and operational rigor, as well as its judicious use of 
+shareholder capital.
+Operating Cash Flow and Cash Conversion
+Shareholder Payouts
+Return on Equity
+(₹ crore)
+(₹ crore)
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+38.9%
+43.4% 46.9%
+51.3% 52.2%
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+39,949 
+41,965 
+45,097 
+OCF to Net 
+Profit Ratio
+Operating Cash 
+Flow (OCF)
+38,802 
+48,908 
+116.2%
+104.2%
+99.6%
+96.8% 100.7%
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+33,873
+38,010
+42,079
+45,588
+Shareholder Payout 
+Shareholder Payout ratio 
+47,445
+101.5% 99.2% 99.8%
+101.8% 93.9%
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+TCS has consistently grown its Earnings Per Share (EPS), 
+achieving a CAGR of 9.3% over the past five financial years. 
+This steady increase highlights the company’s growing 
+earnings and its commitment to delivering long-term value to 
+shareholders.
+Earnings Per Share
+CAGR 9.3%
+(Amount in ₹)
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+89.27 
+103.62 
+115.19 
+127.74 
+134.19 
+Financial Capital
+Integrated Annual Report 2024-25
+21
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.025253
+Dense rank: 28 | BM25 rank: 12
+Chunk ID: Annual_Report_AtlasCopco_2025_p0128_c002
+Source: Annual_Report_AtlasCopco_2025.pdf
+Physical page: 128
+Evidence:
+e to non-controlling interests
+ 
+ 
+ 
+ 
+ 
+ 
+Translation differences on foreign operations
+–10 
+– 
+–10
+3 
+– 
+3 
+Total other comprehensive income
+–14 558 
+–426
+–14 984
+6 173 
+ 146
+  6 319
+10.
+Earnings per share
+Amounts in SEK
+Basic earnings per share
+Diluted earnings per share
+2025
+2024
+2025
+2024
+Earnings per share
+5.43 
+6.11 
+ 
+ 5.42 
+ 6.10 
+The calculation of earnings per share presented above is based on profits and number of shares as detailed below.
+Profit for the year attributable to owners of the parent
+2025
+2024
+Profit for the year
+26 420 
+29 782 
+Average number of shares outstanding
+2025
+2024
+Basic weighted average number of shares outstanding 
+4  868 825 033
+4 873 635 218 
+Effect of employee stock options 
+4 186 021 
+8 018 677
+Diluted weighted average number of shares outstanding 
+4 873 011 054 
+4 881 653 895
+Potentially dilutive instruments 
+As of December 31, 2025, Atlas Copco Group had seven outstanding 
+employee stock option programs. For the 2020 program, no options were 
+issued as the EVA target for the Group was not met. The exercise price 
+including adjustment for remaining vesting costs for the 2023, 2024 and 
+2025 programs  exceeded the average share price for seri
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.024802
+Dense rank: 9 | BM25 rank: 37
+Chunk ID: Annual_Report_TCS_2025_p0012_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 12
+Evidence:
+Letter from 
+the CEO
+1
+Dear Shareholders,
+I am pleased to share that in FY 2025, we achieved two 
+extraordinary milestones crossing the US$30 billion mark 
+in revenues and the US$20 billion mark in brand value. This 
+success is a testament to the early investments we have made in 
+strengthening client relationships, building intellectual property, 
+deepening employee capabilities and expanding technology 
+ecosystem. I am grateful to every stakeholder for contributing to 
+our growth and success.  
+In a very challenging geopolitical and macro-economic 
+environment, the company reported an annual revenue of 
+₹255,324 crore in FY 2025, growing 6.0% year-on-year (4.2% in 
+constant currency). Growth Markets experienced strong demand 
+across key industries, fueled by accelerated digital adoption and 
+new client acquisitions. Governments invested 
+significantly in digital public services, creating 
+opportunities for  TCS to drive large-scale transformation. 
+Our disciplined execution and operational rigor stood out again, 
+as we delivered industry-leading margins of 24.3%, even as we 
+accelerated investments in talent and expanded capabilities. Our 
+net margin was at 19.0%. Earnings per sh
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.024615
+Dense rank: 26 | BM25 rank: 17
+Chunk ID: Annual_Report_mastercard_2024_p0082_c001
+Source: Annual_Report_mastercard_2024.pdf
+Physical page: 82
+Evidence:
+Note 4. Earnings Per Share 
+The components of basic and diluted EPS for common shares for each of the years ended December 31 were as follows:
+ 
+2024
+2023
+2022
+ 
+(in millions, except per share data)
+Numerator
+Net income
+$ 
+12,874 
+$ 
+11,195 
+$ 
+9,930 
+Denominator
+Basic weighted-average shares outstanding
+ 
+925 
+ 
+944 
+ 
+968 
+Dilutive stock options and stock units
+ 
+2 
+ 
+2 
+ 
+3 
+Diluted weighted-average shares outstanding 1
+ 
+927 
+ 
+946 
+ 
+971 
+Earnings per Share
+Basic
+$ 
+13.91 
+$ 
+11.86 
+$ 
+10.26 
+Diluted
+$ 
+13.89 
+$ 
+11.83 
+$ 
+10.22 
+Note: Table may not sum due to rounding.
+1
+For the years presented, the calculation of diluted EPS excluded a minimal amount of anti-dilutive share-based payment awards.
+Note 5. Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents 
+The following table provides the components of cash, cash equivalents, restricted cash and restricted cash equivalents reported on 
+the consolidated balance sheets that total to the amounts shown on the consolidated statements of cash flows for the years ended 
+December 31: 
+2024
+2023
+(in millions)
+Cash and cash equivalents
+$ 
+8,442 
+$ 
+8,588 
+Restricted cash and restricted cash equivalents
+Restricted cas
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.024186
+Dense rank: 39 | BM25 rank: 11
+Chunk ID: Annual_Report_mastercard_2025_p0085_c001
+Source: Annual_Report_mastercard_2025.pdf
+Physical page: 85
+Evidence:
+Note 4. Earnings Per Share 
+The components of basic and diluted EPS for common shares for each of the years ended December 31 were as follows:
+ 
+2025
+2024
+2023
+ 
+(in millions, except per share data)
+Numerator
+Net income
+$ 
+14,968 
+$ 
+12,874 
+$ 
+11,195 
+Denominator
+Basic weighted-average shares outstanding
+ 
+905 
+ 
+925 
+ 
+944 
+Dilutive stock options and stock units
+ 
+1 
+ 
+2 
+ 
+2 
+Diluted weighted-average shares outstanding 1
+ 
+906 
+ 
+927 
+ 
+946 
+Earnings per Share
+Basic
+$ 
+16.54 
+$ 
+13.91 
+$ 
+11.86 
+Diluted
+$ 
+16.52 
+$ 
+13.89 
+$ 
+11.83 
+Note: Table may not sum due to rounding.
+1
+For the years presented, the calculation of diluted EPS excluded a minimal amount of anti-dilutive share-based payment awards.
+Note 5. Investments 
+The Company’s investments on the consolidated balance sheets include both available-for-sale and held-to-maturity debt securities 
+(see Investments section below).  The Company’s strategic investments in equity securities of publicly traded and privately held 
+companies are classified within other assets on the consolidated balance sheets (see Equity Investments section below).
+Investments 
+Investments on the consolidated balance sheets consisted of the following
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.024056
+Dense rank: 29 | BM25 rank: 18
+Chunk ID: Annual_Report_mastercard_2023_p0085_c001
+Source: Annual_Report_mastercard_2023.pdf
+Physical page: 85
+Evidence:
+Note 4. Earnings Per Share 
+The components of basic and diluted EPS for common shares for each of the years ended December 31 were as follows:
+ 
+2023
+2022
+2021
+ 
+(in millions, except per share data)
+Numerator
+Net income
+$ 
+11,195 
+$ 
+9,930 
+$ 
+8,687 
+Denominator
+Basic weighted-average shares outstanding
+ 
+944 
+ 
+968 
+ 
+988 
+Dilutive stock options and stock units
+ 
+2 
+ 
+3 
+ 
+4 
+Diluted weighted-average shares outstanding 1
+ 
+946 
+ 
+971 
+ 
+992 
+Earnings per Share
+Basic
+$ 
+11.86 
+$ 
+10.26 
+$ 
+8.79 
+Diluted
+$ 
+11.83 
+$ 
+10.22 
+$ 
+8.76 
+Note: Table may not sum due to rounding.
+1
+For the years presented, the calculation of diluted EPS excluded a minimal amount of anti-dilutive share-based payment awards.
+Note 5. Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents 
+The following table provides the components of cash, cash equivalents, restricted cash and restricted cash equivalents reported on 
+the consolidated balance sheet that total to the amounts shown on the consolidated statement of cash flows for the years ended 
+December 31: 
+2023
+2022
+(in millions)
+Cash and cash equivalents
+$ 
+8,588 
+$ 
+7,008 
+Restricted cash and restricted cash equivalents
+Restricted cash for
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.022809
+Dense rank: 37 | BM25 rank: 20
+Chunk ID: Annual_Report_mastercard_2022_p0083_c001
+Source: Annual_Report_mastercard_2022.pdf
+Physical page: 83
+Evidence:
+Note 4. Earnings Per Share 
+The components of basic and diluted EPS for common shares for each of the years ended December 31 were as follows:
+ 
+2022
+2021
+2020
+ 
+(in millions, except per share data)
+Numerator
+Net income
+$ 
+9,930 
+$ 
+8,687 
+$ 
+6,411 
+Denominator
+Basic weighted-average shares outstanding
+ 
+968 
+ 
+988 
+ 
+1,002 
+Dilutive stock options and stock units
+ 
+3 
+ 
+4 
+ 
+4 
+Diluted weighted-average shares outstanding 1
+ 
+971 
+ 
+992 
+ 
+1,006 
+Earnings per Share
+Basic
+$ 
+10.26 
+$ 
+8.79 
+$ 
+6.40 
+Diluted
+$ 
+10.22 
+$ 
+8.76 
+$ 
+6.37 
+Note: Table may not sum due to rounding.
+1
+For the years presented, the calculation of diluted EPS excluded a minimal amount of anti-dilutive share-based payment awards.
+Note 5. Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents 
+The following table provides a reconciliation of cash, cash equivalents, restricted cash and restricted cash equivalents reported on 
+the consolidated balance sheet that total to the amounts shown on the consolidated statement of cash flows for the years ended 
+December 31: 
+2022
+2021
+(in millions)
+Cash and cash equivalents
+$ 
+7,008 
+$ 
+7,421 
+Restricted cash and restricted cash equivalents
+Restricted cash 
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.019810
+Dense rank: 43 | BM25 rank: 39
+Chunk ID: Annual_Report_mastercard_2025_p0053_c003
+Source: Annual_Report_mastercard_2025.pdf
+Physical page: 53
+Evidence:
+ted 
+earnings 
+per share
+($ in millions, except per share data)
+Reported - GAAP
+$ 
+13,894 
+ 57.6 % $ 
+(319) 
+ 19.4 % $ 14,968 
+$ 
+16.52 
+(Gains) losses on equity investments
+**
+** 
+88 
+ (0.1) % 
+90 
+ 
+0.10 
+Litigation provisions
+ 
+(504) 
+ 1.5 %
+**
+ 0.3 % 
+357 
+ 
+0.39 
+Adjusted - Non-GAAP
+$ 
+13,389 
+ 59.2 % $ 
+(232) 
+ 19.6 % $ 15,415 
+$ 
+17.01 
+Year ended December 31, 2024
+ Operating 
+expenses
+Operating 
+margin
+Other
+income 
+(expense)
+Effective 
+income 
+tax rate
+ Net 
+income
+ Diluted 
+earnings 
+per share
+($ in millions, except per share data)
+Reported - GAAP
+$ 
+12,585 
+ 55.3 % $ 
+(328) 
+ 15.6 % $ 12,874 
+$ 
+13.89 
+(Gains) losses on equity investments
+**
+** 
+29 
+ — % 
+25 
+ 
+0.03 
+Litigation provisions
+ 
+(680) 
+ 2.4 %
+**
+ 0.5 % 
+495 
+ 
+0.53 
+Restructuring charge
+ 
+(190) 
+ 0.7 %
+**
+ 0.1 % 
+147 
+ 
+0.16 
+Adjusted - Non-GAAP
+$ 
+11,714 
+ 58.4 % $ 
+(300) 
+ 16.2 % $ 13,541 
+$ 
+14.60 
+Year ended December 31, 2023
+ Operating 
+expenses
+Operating 
+margin
+Other
+income 
+(expense)
+Effective 
+income 
+tax rate
+ Net 
+income
+ Diluted 
+earnings 
+per share
+($ in millions, except per share data)
+Reported - GAAP
+$ 
+11,090 
+ 55.8 % $ 
+(369) 
+ 17.9 % $ 11,195 
+ 
+11.83 
+(Gains) losses on equity investments
+**
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.019075
+Dense rank: 49 | BM25 rank: 41
+Chunk ID: Annual_Report_TCS_2025_p0095_c002_s002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 95
+Evidence:
+2
+31,762
+37,163
+30,485
+29,373
+29,373
+26,356
+29,330
+36,008
+41,980
+22,822
+Net current assets
+70,010
+67,558
+66,880
+66,712
+65,959
+66,076
+65,125
+63,177
+70,047
+63,396
+65,804
+47,644
+Earnings per share in ₹
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EPS - as reported
+134.19
+127.74
+125.88
+115.1
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0088_c002 | dense rank: 1 | BM25 rank: 10 | hybrid rank: 1
+Annual_Report_TCS_2025_p0181_c001 | dense rank: - | BM25 rank: - | hybrid rank: -

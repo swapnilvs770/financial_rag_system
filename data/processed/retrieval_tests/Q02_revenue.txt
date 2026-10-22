@@ -1,0 +1,683 @@
+====================================================================================================
+Q02: What was TCS's revenue in FY2025?
+====================================================================================================
+
+Original question: What was TCS's revenue in FY2025?
+BM25 expansion: Revenue from operations total revenue FY 2025 amount
+BM25 query used: What was TCS's revenue in FY2025? Revenue from operations total revenue FY 2025 amount
+Expected target chunk IDs: Annual_Report_TCS_2025_p0181_c001, Annual_Report_TCS_2025_p0070_c001
+
+Candidate counts: dense=50, BM25=50, hybrid=89
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.7899 | Annual_Report_TCS_2025_p0088_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  2 | Similarity: 0.7626 | Annual_Report_TCS_2025_p0088_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  3 | Similarity: 0.7468 | Annual_Report_TCS_2025_p0070_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 70
+Rank  4 | Similarity: 0.7455 | Annual_Report_TCS_2025_p0309_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 309
+Rank  5 | Similarity: 0.7434 | Annual_Report_TCS_2025_p0022_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 22
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 37.1971 | Annual_Report_TCS_2025_p0070_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 70
+Rank  2 | BM25: 34.9235 | Annual_Report_Renishaw_2025_p0009_c005
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 9
+Rank  3 | BM25: 34.4443 | Annual_Report_TCS_2025_p0088_c003
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 88
+Rank  4 | BM25: 33.2131 | Annual_Report_TCS_2025_p0096_c001_s001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 96
+Rank  5 | BM25: 33.1441 | Annual_Report_Renishaw_2025_p0029_c003
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 29
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.032266
+Dense rank: 3 | BM25 rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0070_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 70
+Evidence:
+The Dividend Distribution Policy, in terms of Regulation 
+43A of the Securities and Exchange Board of India (Listing 
+Obligations and Disclosure Requirements) Regulations, 2015 
+(“SEBI Listing Regulations”), is available on the Company’s 
+website at https://on.tcs.com/Dividend.
+3. 	 Transfer to reserves
+	
+The closing balance of the retained earnings of the Company 
+for FY 2025 after all appropriation and adjustments was 
+`73,380 crore.
+4.	
+Company’s performance
+	
+On a consolidated basis, the revenue from operations for 
+FY 2025 was `2,55,324 crore, higher by 6.0% over the 
+previous year’s revenue from operations of `2,40,893 
+crore. The profit for the year attributable to shareholders 
+for FY 2025 was `48,553 crore registering a growth of 5.8% 
+over the profit for the year attributable to shareholders of 
+`45,908 crore in FY 2024.
+	
+On a standalone basis, the revenue from operations for 
+FY 2025 was `2,14,853 crore, higher by 6.2% over the 
+previous year’s revenue from operations of `2,02,359 
+crore. The profit for the year attributable to shareholders 
+in FY 2025 was `48,057 crore registering a growth of 10.3% 
+over the  profit for the year attributable to shareholders of 
+`43,559
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.030886
+Dense rank: 1 | BM25 rank: 9
+Chunk ID: Annual_Report_TCS_2025_p0088_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+00.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per share (in ₹)
+134.19
+5.1
+127.74
+* Excludes settlement of legal claim
+Analysis of revenue growth and margin performance
+On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic 
+uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around 
+Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing 
+delays and deferrals led to muted revenue growth in FY 2025.
+EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds 
+from merit-based interventions, including annual hikes, promotions, and investments in infrastructure and capability building. However, 
+tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to 
+the margins. 
+Averag
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.030835
+Dense rank: 2 | BM25 rank: 8
+Chunk ID: Annual_Report_TCS_2025_p0088_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 88
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+86
+Financial Performance Overview
+The discussions in this section relate to the consolidated, Rupee-denominated financial results pertaining to the year that ended March 
+31, 2025. The financial statements of Tata Consultancy Services Limited and its subsidiaries (collectively referred to as ‘TCS’ or ‘the 
+Company’) are prepared in accordance with the Indian Accounting Standards (referred to as ‘Ind AS’) prescribed under section 133 of 
+the Companies Act, 2013, read with the Companies (Indian Accounting Standards) Rules, as amended from time to time. Significant 
+accounting policies used in the preparation of the financial statements are disclosed in the notes to the consolidated financial statements.
+The following table gives an overview of the consolidated financial results of the Company:
+(₹ crore)
+FY 2025
+FY 2024*
+Amount
+% of 
+Revenue
+% Growth
+Amount
+% of 
+Revenue
+Revenue from operations
+255,324
+100.0
+6.0
+240,893
+100.0
+Earnings before interest and tax (EBIT) (Before other income)
+62,165
+24.3
+4.8
+59,311
+24.6
+Profit after tax attributable to shareholders of the Company
+48,553
+19.0
+4.2
+46,585
+19.3
+Earnings per sha
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.028439
+Dense rank: 7 | BM25 rank: 14
+Chunk ID: Annual_Report_TCS_2025_p0022_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+g capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently high shareholder returns
+TCS Value Creation and Distribution (FY 2021 - 25)1
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+1 GRI 201-1
+Revenue Trend
+CAGR 10.2%
+(₹ crore)
+(₹ crore)
+FY
+2021
+FY
+2022
+FY
+2023
+FY
+2024
+FY
+2025
+164,177
+191,754
+225,458
+240,893
+255,324
+In FY 2025, TCS reported an operating margin of 24.3%, a 
+marginal decline of 30 basis points compared to FY 2024. 
+This moderation was primarily attributable to the impact 
+of annual wage hikes, associates promotions, and strategic 
+investments in infrastructure and capability development. 
+These cost pressures were partially offset by improvements in 
+workforce utilization, productivity, and realization, along with 
+favourable currency movements.
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+42,481 
+48,453
+54,237 
+59,311 
+62,165 
+Operating Margin
+Operating Proﬁt
+25.9%
+25.3% 24.1% 24.6%
+24.3%
+Financial Capital
+Integrated Annual Report 2024-25
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.026631
+Dense rank: 21 | BM25 rank: 10
+Chunk ID: Annual_Report_Renishaw_2025_p0033_c001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 33
+Evidence:
+FY2025 was a year of adjusted profit progress and record 
+revenue in challenging market conditions. While we have 
+continued to experience cost pressures, and are taking action 
+to move us towards our operating margin target, Adjusted* profit 
+before tax increased by 3.8% to £127.2m (FY2024: £122.6m).
+We have exceeded our target for cash flow conversion and 
+further strengthened our financial position, with cash and 
+cash equivalents and bank deposit balances at the year end 
+of £273.6m (30 June 2024: £217.8m). This includes our 
+planned reduction in capital expenditure this year, as we 
+now look to benefit from recent investments made in 
+manufacturing infrastructure. 
+Although we face global political and economic uncertainties, 
+we are well positioned for future growth opportunities and 
+unexpected market downturns.
+Financial performance
+Revenue 
+As Will has explained in his review, we achieved 3.1% growth 
+in revenue to £713.0m (FY2024: £691.3m) and so have again 
+achieved record revenue. We continue to benefit from being 
+diversified across a range of markets; while the automotive 
+market was weaker, the semiconductor and defence markets 
+were positive, and we also saw good gr
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.024908
+Dense rank: 5 | BM25 rank: 45
+Chunk ID: Annual_Report_TCS_2025_p0022_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+Operating Profit Trend
+Financial Capital
+TCS' success is a testament to its robust business model and its 
+ability to perpetually adapt in a constantly changing technology 
+environment, ensuring it remains relevant to customers while 
+delivering value to all stakeholders.
+Key outcomes include: 
+•	
+Focus on operational excellence and cost optimization, 
+resulting in strong operating margins
+In FY 2025, TCS achieved a year-over-year revenue growth of 
+6.0%, demonstrating a resilient business performance in this 
+uncertain environment. 
+On a constant currency basis, revenue grew by 4.2%, 
+outpacing the growth in FY 2024.
+Over the past five financial years, the company recorded a 
+compound annual growth rate (CAGR) of 10.2%, highlighting 
+the resilience and scalability of its business model.
+•	
+Superior profitability, providing the financial strength to 
+invest in new capabilities, Research & Innovation, navigating 
+economic downturns and changing technology waves 
+•	
+Prudent use of working capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently hi
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.024837
+Dense rank: 33 | BM25 rank: 11
+Chunk ID: Annual_Report_TCS_2025_p0095_c001_s001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 95
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+93
+Performance Trend – 10 years 
+(` crore)
+FY 2025
+FY 2024*
+FY 2024
+FY 2023
+FY 2022
+FY 2021*
+FY 2021
+FY 2020
+FY 2019
+FY 2018
+FY 2017
+FY 2016
+Revenue from 
+operations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total revenue from 
+operations
+255,324
+240,893
+240,893
+225,458
+191,754
+164,177
+164,177
+156,949
+146,463
+123,104
+117,966
+108,646
+Revenue by geographic 
+segments
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Americas
+127,870
+127,939
+127,939
+124,336
+100,072
+84,278
+84,278
+82,000
+77,562
+66,145
+66,091
+60,011
+Europe
+79,487
+75,624
+75,624
+67,436
+61,142
+52,346
+52,346
+48,037
+43,456
+34,155
+30,038
+29,092
+India
+22,060
+13,562
+13,562
+11,271
+9,805
+8,449
+8,449
+8,964
+8,393
+7,921
+7,415
+6,729
+Others
+25,907
+23,768
+23,768
+22,415
+20,735
+19,104
+19,104
+17,948
+17,052
+14,883
+14,422
+12,814
+Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Employee cost
+145,788
+140,131
+140,131
+127,522
+107,554
+91,814
+91,814
+85,952
+78,246
+66,396
+61,621
+55,348
+Other operating cost
+42,129
+36,466
+37,424
+38,677
+31,143
+25,817
+27,035
+28,888
+28,711
+24,192
+24,034
+22,621
+Total cost (
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.024394
+Dense rank: 23 | BM25 rank: 21
+Chunk ID: Annual_Report_TCS_2025_p0089_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 89
+Evidence:
+Management Discussion and Analysis
+Integrated Annual Report 2024-25
+87
+7	
+ World Economic Outlook (Forecast based on information available as of April 4, 2025)
+Segmental Performance 
+TCS has identified business segments('Industry vertical') as reportable segments. The revenue break-up by Industry Vertical and 
+Geography provided below:
+	
+Revenue by Industry Vertical	
+Revenue by Geography
+Communication, 
+Media and
+Technology 18.0%
+Banking  Financial 
+Services and 
+Insurance 37.0%
+Latin America 1.9%
+Consumer Business 15.7%
+Life Sciences
+and
+Healthcare 10.4%
+Manufacturing 
+9.9%
+Others 9.0%
+North America 48.2%
+United Kingdom 16.8%
+Continental Europe 14.3%
+Asia Paciﬁc 8.0%
+India 8.6%
+Middle East and Africa 2.2%
+Industry Vertical
+Segment Revenue (₹ crore)
+YoY Revenue 
+Growth %
+Segment Margin (%)
+FY 2025
+FY 2024
+FY 2025 
+FY 2024 
+Banking, Financial Services and Insurance
+94,597
+90,928
+4.0
+26.6
+25.9
+Communication, Media and Technology
+45,893
+39,391
+16.5
+20.9
+27.7
+Consumer Business
+40,197
+39,357
+2.1
+27.9
+26.0
+Life Sciences and Healthcare
+26,456
+26,745
+(1.1)
+28.2
+28.5
+Manufacturing
+25,170
+23,491
+7.1
+32.7
+30.9
+Others
+23,011
+20,981
+9.7
+25.2
+22.3
+Overview of Funds Invested 
+TCS’ investment stra
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.023888
+Dense rank: 11 | BM25 rank: 42
+Chunk ID: Annual_Report_TCS_2025_p0012_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 12
+Evidence:
+Letter from 
+the CEO
+1
+Dear Shareholders,
+I am pleased to share that in FY 2025, we achieved two 
+extraordinary milestones crossing the US$30 billion mark 
+in revenues and the US$20 billion mark in brand value. This 
+success is a testament to the early investments we have made in 
+strengthening client relationships, building intellectual property, 
+deepening employee capabilities and expanding technology 
+ecosystem. I am grateful to every stakeholder for contributing to 
+our growth and success.  
+In a very challenging geopolitical and macro-economic 
+environment, the company reported an annual revenue of 
+₹255,324 crore in FY 2025, growing 6.0% year-on-year (4.2% in 
+constant currency). Growth Markets experienced strong demand 
+across key industries, fueled by accelerated digital adoption and 
+new client acquisitions. Governments invested 
+significantly in digital public services, creating 
+opportunities for  TCS to drive large-scale transformation. 
+Our disciplined execution and operational rigor stood out again, 
+as we delivered industry-leading margins of 24.3%, even as we 
+accelerated investments in talent and expanded capabilities. Our 
+net margin was at 19.0%. Earnings per sh
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.023667
+Dense rank: 9 | BM25 rank: 49
+Chunk ID: Annual_Report_TCS_2025_p0069_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 69
+Evidence:
+Board’s Report
+To the Members,
+The Directors present this Integrated Annual Report of 
+Tata Consultancy Services Limited (“the Company” or “TCS”) 
+along with the audited financial statements for the financial year 
+(“FY”) ended March 31, 2025.
+The consolidated performance of the Company and its 
+subsidiaries has been referred to wherever required.
+1.	
+Financial results
+(` crore)
+Standalone
+Consolidated
+Financial Year 
+2024-25 
+(FY 2025)
+Financial Year 
+2023-24 
+(FY 2024)
+Financial Year 
+2024-25 
+(FY 2025)
+Financial Year 
+2023-24 
+(FY 2024)
+Revenue from operations
+2,14,853
+2,02,359
+2,55,324
+2,40,893
+Other income
+9,642
+7,273
+3,962
+4,422
+Total income
+2,24,495
+2,09,632
+2,59,286
+2,45,315
+Expenses
+Operating expenditure
+1,56,924
+1,46,512
+1,87,917
+1,76,597
+Depreciation and amortisation expense
+4,220
+3,887
+5,242
+4,985
+Total expenses
+1,61,144
+1,50,399
+1,93,159
+1,81,582
+Profit before finance costs, exceptional item and tax
+63,351
+59,233
+66,127
+63,733
+Finance costs
+703
+673
+796
+778
+Profit before exceptional item and tax
+62,648
+58,560
+65,331
+62,955
+Exceptional item
+Settlement of legal claim
+-
+958
+-
+958
+Profit before tax
+62,648
+57,602
+65,331
+61,997
+Tax expense
+14,591
+14,043
+16,534
+15,898
+Profit f
+
+Target-chunk rank check
+------------------------
+Annual_Report_TCS_2025_p0181_c001 | dense rank: - | BM25 rank: - | hybrid rank: -
+Annual_Report_TCS_2025_p0070_c001 | dense rank: 3 | BM25 rank: 1 | hybrid rank: 1

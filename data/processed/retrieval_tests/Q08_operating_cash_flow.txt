@@ -1,0 +1,502 @@
+====================================================================================================
+Q08: How much operating cash flow did TCS generate in FY2025?
+====================================================================================================
+
+Original question: How much operating cash flow did TCS generate in FY2025?
+BM25 expansion: Operating cash flows cash generated FY 2025 amount
+BM25 query used: How much operating cash flow did TCS generate in FY2025? Operating cash flows cash generated FY 2025 amount
+Expected target chunk IDs: Not configured
+
+Candidate counts: dense=50, BM25=50, hybrid=86
+
+Top dense retrieval results (FAISS)
+-----------------------------------
+Rank  1 | Similarity: 0.7951 | Annual_Report_TCS_2025_p0023_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 23
+Rank  2 | Similarity: 0.7843 | Annual_Report_Amazon_2025_p0033_c005
+  Source: Annual_Report_Amazon_2025.pdf
+  Physical page: 33
+Rank  3 | Similarity: 0.7785 | Annual_Report_TCS_2025_p0022_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 22
+Rank  4 | Similarity: 0.7754 | Annual_Report_Amazon_2023_p0034_c005
+  Source: Annual_Report_Amazon_2023.pdf
+  Physical page: 34
+Rank  5 | Similarity: 0.7752 | Annual_Report_TCS_2025_p0022_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 22
+
+Top lexical retrieval results (BM25)
+------------------------------------
+Rank  1 | BM25: 46.9011 | Annual_Report_TCS_2025_p0023_c001
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 23
+Rank  2 | BM25: 46.3813 | Annual_Report_Renishaw_2025_p0028_c001
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 28
+Rank  3 | BM25: 43.4941 | Annual_Report_TCS_2025_p0023_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 23
+Rank  4 | BM25: 41.3791 | Annual_Report_TCS_2025_p0022_c002
+  Source: Annual_Report_TCS_2025.pdf
+  Physical page: 22
+Rank  5 | BM25: 37.3165 | Annual_Report_Renishaw_2025_p0163_c001
+  Source: Annual_Report_Renishaw_2025.pdf
+  Physical page: 163
+
+Top hybrid retrieval results (RRF)
+----------------------------------------
+
+--------------------------------------------------------------------------------
+Hybrid rank: 1 | RRF score: 0.032787
+Dense rank: 1 | BM25 rank: 1
+Chunk ID: Annual_Report_TCS_2025_p0023_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 23
+Evidence:
+TCS maintained an excellent cash conversion ratio exceeding 
+100%, highlighting its robust financial health and strong ability 
+to generate cash from operations. This efficiency in translating 
+profits to cash flows, enables TCS to meet financial obligations 
+and fund growth initiatives without relying on external 
+financing.
+TCS has a practice of returning substantial free cash flow to 
+shareholders and based on the company's performance, the 
+Board of Directors have declared three interim dividends of 
+₹10 each, a special dividend of ₹66, and recommended a final 
+dividend of ₹30 (pending shareholders' approval at this AGM), 
+for a total dividend of ₹126 per share for FY 2025. TCS has 
+consistently declared dividend every quarter since its listing, 
+complemented by three bonus issues and five buyback offers.
+TCS’ high and improving Return on Equity, reflects the 
+company’s ability to generate strong profitability and manage 
+resources efficiently. This highlights the company’s financial 
+discipline and operational rigor, as well as its judicious use of 
+shareholder capital.
+Operating Cash Flow and Cash Conversion
+Shareholder Payouts
+Return on Equity
+(₹ crore)
+(₹ crore)
+FY
+2021*
+FY
+
+--------------------------------------------------------------------------------
+Hybrid rank: 2 | RRF score: 0.031281
+Dense rank: 2 | BM25 rank: 6
+Chunk ID: Annual_Report_Amazon_2025_p0033_c005
+Source: Annual_Report_Amazon_2025.pdf
+Physical page: 33
+Evidence:
+$ 
+139,514 
+Investing activities
+ 
+(94,342)  
+(142,545) 
+Financing activities
+ 
+(11,812)  
+9,661 
+Our principal sources of liquidity are cash flows generated from operations and our cash, cash equivalents, and 
+marketable securities balances, which, at fair value, were $101.2 billion and $123.0 billion as of December 31, 2024 and 2025. 
+Amounts held in foreign currencies were $25.5 billion and $29.7 billion as of December 31, 2024 and 2025. Our foreign 
+currency balances include British Pounds, Canadian Dollars, Euros, Indian Rupees, and Japanese Yen.
+Cash provided by (used in) operating activities was $115.9 billion and $139.5 billion in 2024 and 2025. Our operating 
+cash flows result primarily from cash received from our consumer, seller, developer, enterprise, and content creator customers, 
+and advertisers, offset by cash payments we make for products and services, employee compensation, payment processing and 
+related transaction costs, operating leases, and interest payments. Cash received from our customers and other activities 
+generally corresponds to our net sales. The increase in operating cash flow in 2025, compared to the prior year, was due to an 
+increase in net inco
+
+--------------------------------------------------------------------------------
+Hybrid rank: 3 | RRF score: 0.031025
+Dense rank: 6 | BM25 rank: 3
+Chunk ID: Annual_Report_TCS_2025_p0023_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 23
+Evidence:
+al 
+discipline and operational rigor, as well as its judicious use of 
+shareholder capital.
+Operating Cash Flow and Cash Conversion
+Shareholder Payouts
+Return on Equity
+(₹ crore)
+(₹ crore)
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+38.9%
+43.4% 46.9%
+51.3% 52.2%
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+39,949 
+41,965 
+45,097 
+OCF to Net 
+Profit Ratio
+Operating Cash 
+Flow (OCF)
+38,802 
+48,908 
+116.2%
+104.2%
+99.6%
+96.8% 100.7%
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+33,873
+38,010
+42,079
+45,588
+Shareholder Payout 
+Shareholder Payout ratio 
+47,445
+101.5% 99.2% 99.8%
+101.8% 93.9%
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+TCS has consistently grown its Earnings Per Share (EPS), 
+achieving a CAGR of 9.3% over the past five financial years. 
+This steady increase highlights the company’s growing 
+earnings and its commitment to delivering long-term value to 
+shareholders.
+Earnings Per Share
+CAGR 9.3%
+(Amount in ₹)
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+89.27 
+103.62 
+115.19 
+127.74 
+134.19 
+Financial Capital
+Integrated Annual Report 2024-25
+21
+
+--------------------------------------------------------------------------------
+Hybrid rank: 4 | RRF score: 0.031010
+Dense rank: 5 | BM25 rank: 4
+Chunk ID: Annual_Report_TCS_2025_p0022_c002
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+g capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently high shareholder returns
+TCS Value Creation and Distribution (FY 2021 - 25)1
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim
+1 GRI 201-1
+Revenue Trend
+CAGR 10.2%
+(₹ crore)
+(₹ crore)
+FY
+2021
+FY
+2022
+FY
+2023
+FY
+2024
+FY
+2025
+164,177
+191,754
+225,458
+240,893
+255,324
+In FY 2025, TCS reported an operating margin of 24.3%, a 
+marginal decline of 30 basis points compared to FY 2024. 
+This moderation was primarily attributable to the impact 
+of annual wage hikes, associates promotions, and strategic 
+investments in infrastructure and capability development. 
+These cost pressures were partially offset by improvements in 
+workforce utilization, productivity, and realization, along with 
+favourable currency movements.
+FY
+2021*
+FY
+2022
+FY
+2023
+FY
+2024*
+FY
+2025
+42,481 
+48,453
+54,237 
+59,311 
+62,165 
+Operating Margin
+Operating Proﬁt
+25.9%
+25.3% 24.1% 24.6%
+24.3%
+Financial Capital
+Integrated Annual Report 2024-25
+20
+
+--------------------------------------------------------------------------------
+Hybrid rank: 5 | RRF score: 0.030798
+Dense rank: 3 | BM25 rank: 7
+Chunk ID: Annual_Report_TCS_2025_p0022_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 22
+Evidence:
+Operating Profit Trend
+Financial Capital
+TCS' success is a testament to its robust business model and its 
+ability to perpetually adapt in a constantly changing technology 
+environment, ensuring it remains relevant to customers while 
+delivering value to all stakeholders.
+Key outcomes include: 
+•	
+Focus on operational excellence and cost optimization, 
+resulting in strong operating margins
+In FY 2025, TCS achieved a year-over-year revenue growth of 
+6.0%, demonstrating a resilient business performance in this 
+uncertain environment. 
+On a constant currency basis, revenue grew by 4.2%, 
+outpacing the growth in FY 2024.
+Over the past five financial years, the company recorded a 
+compound annual growth rate (CAGR) of 10.2%, highlighting 
+the resilience and scalability of its business model.
+•	
+Superior profitability, providing the financial strength to 
+invest in new capabilities, Research & Innovation, navigating 
+economic downturns and changing technology waves 
+•	
+Prudent use of working capital and cash flow management, 
+resulting in robust cash conversion and increased invested 
+funds
+•	
+A strong balance sheet with zero debt, further 
+strengthening return ratios
+•	
+Consistently hi
+
+--------------------------------------------------------------------------------
+Hybrid rank: 6 | RRF score: 0.029462
+Dense rank: 15 | BM25 rank: 2
+Chunk ID: Annual_Report_Renishaw_2025_p0028_c001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 28
+Evidence:
+Strategic report
+Our key performance indicators continued
+Adjusted cash flow conversion from operating activities %
+0%
+20
+40
+60
+80
+120
+103
+26
+91
+70
+66
+100
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+Why we measure this
+This ratio assesses our efficiency in converting our operating 
+profit before tax into cash and cash equivalents. Our target is 
+to exceed 70%.
+How we measure this
+Adjusted cash flow from operating activities as a percentage 
+of Adjusted operating profit. Adjusted cash flow from operating 
+activities is defined in note 29 on page 159.
+How we performed
+This metric has improved further this year, rising from 70% last 
+year to 91% in FY2025. This improvement has been driven by 
+lower capital expenditure this year, with additions of property, 
+plant and equipment being £19m less than the prior year.
+ Operating cash conversion ratio     
+ Target range
+Return on invested capital %
+0%
+5
+10
+15
+20
+30
+17.5
+23.5
+16.1
+12.3
+12.6
+25
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+Why we measure this
+Return on invested capital (ROIC) assesses our efficiency 
+in allocating capital to profitable investments. Our target is 
+to exceed 15%.
+How we measure this
+Adjusted profit after tax before bank interest r
+
+--------------------------------------------------------------------------------
+Hybrid rank: 7 | RRF score: 0.026786
+Dense rank: 20 | BM25 rank: 10
+Chunk ID: Annual_Report_TCS_2025_p0210_c001
+Source: Annual_Report_TCS_2025.pdf
+Physical page: 210
+Evidence:
+Integrated Annual Report 2024-25
+Notes forming part of Consolidated Financial Statements
+Consolidated Financial Statements 2024-25
+208
+	
+	
+Goodwill of `706 crore and `689 crore as at March 31, 2025 and 2024, respectively, has been allocated to the TCS business in 
+France. The estimated value-in-use of this CGU, as at March 31, 2025 is based on the future cash flows using a 1.50% annual 
+growth rate for periods subsequent to the forecast period of 5 years and discount rate of 9.27%. An analysis of the sensitivity of 
+the computation to a change in key parameters (operating margin, discount rates and long term average growth rate), based on 
+reasonable assumptions, did not identify any probable scenario in which the recoverable amount of the CGU would decrease 
+below its carrying amount.
+	
+	
+The remaining amount of goodwill of `1,154 crore and `1,143 crore as at March 31, 2025 and 2024, respectively, (relating 
+to different CGUs individually immaterial) has been evaluated based on the cash flow forecasts of the related CGUs and 
+the recoverable amounts of these CGUs exceeded their carrying amounts. The estimated value-in-use of these CGUs, as at 
+March 31, 2025 is based on the future
+
+--------------------------------------------------------------------------------
+Hybrid rank: 8 | RRF score: 0.025487
+Dense rank: 17 | BM25 rank: 20
+Chunk ID: Annual_Report_Renishaw_2025_p0033_c001
+Source: Annual_Report_Renishaw_2025.pdf
+Physical page: 33
+Evidence:
+FY2025 was a year of adjusted profit progress and record 
+revenue in challenging market conditions. While we have 
+continued to experience cost pressures, and are taking action 
+to move us towards our operating margin target, Adjusted* profit 
+before tax increased by 3.8% to £127.2m (FY2024: £122.6m).
+We have exceeded our target for cash flow conversion and 
+further strengthened our financial position, with cash and 
+cash equivalents and bank deposit balances at the year end 
+of £273.6m (30 June 2024: £217.8m). This includes our 
+planned reduction in capital expenditure this year, as we 
+now look to benefit from recent investments made in 
+manufacturing infrastructure. 
+Although we face global political and economic uncertainties, 
+we are well positioned for future growth opportunities and 
+unexpected market downturns.
+Financial performance
+Revenue 
+As Will has explained in his review, we achieved 3.1% growth 
+in revenue to £713.0m (FY2024: £691.3m) and so have again 
+achieved record revenue. We continue to benefit from being 
+diversified across a range of markets; while the automotive 
+market was weaker, the semiconductor and defence markets 
+were positive, and we also saw good gr
+
+--------------------------------------------------------------------------------
+Hybrid rank: 9 | RRF score: 0.025429
+Dense rank: 4 | BM25 rank: 42
+Chunk ID: Annual_Report_Amazon_2023_p0034_c005
+Source: Annual_Report_Amazon_2023.pdf
+Physical page: 34
+Evidence:
+ and $23.5 billion as of December 31, 2022 and 2023. Our foreign 
+currency balances include British Pounds, Canadian Dollars, Euros, Indian Rupees, and Japanese Yen. 
+Cash provided by (used in) operating activities was $46.8 billion and $84.9 billion in 2022 and 2023. Our operating cash 
+flows result primarily from cash received from our consumer, seller, developer, enterprise, and content creator customers, and 
+advertisers, offset by cash payments we make for products and services, employee compensation, payment processing and 
+related transaction costs, operating leases, and interest payments. Cash received from our customers and other activities 
+generally corresponds to our net sales. The increase in operating cash flow in 2023, compared to the prior year, was due to an 
+increase in net income (loss), excluding non-cash expenses, and changes in working capital. Working capital at any specific 
+point in time is subject to many variables, including variability in demand, inventory management and category expansion, the 
+timing of cash receipts and payments, customer and vendor payment terms, and fluctuations in foreign exchange rates.
+Cash provided by (used in) investing activit
+
+--------------------------------------------------------------------------------
+Hybrid rank: 10 | RRF score: 0.023903
+Dense rank: 13 | BM25 rank: 38
+Chunk ID: Annual_Report_Amazon_2022_p0032_c004
+Source: Annual_Report_Amazon_2022.pdf
+Physical page: 32
+Evidence:
+ds for which that development occurs, as well as for prior and 
+subsequent periods. We regularly assess the likelihood of an adverse outcome resulting from these proceedings to determine the 
+adequacy of our tax accruals. Although we believe our tax estimates are reasonable, the final outcome of audits, investigations, 
+and any other tax controversies could be materially different from our historical income tax provisions and accruals.
+Liquidity and Capital Resources
+Cash flow information is as follows (in millions):
+  
+Year Ended December 31,
+ 
+2021
+2022
+Cash provided by (used in):
+Operating activities
+$ 
+46,327 $ 
+46,752 
+Investing activities
+ 
+(58,154)  
+(37,601) 
+Financing activities
+ 
+6,291  
+9,718 
+Our principal sources of liquidity are cash flows generated from operations and our cash, cash equivalents, and 
+marketable securities balances, which, at fair value, were $96.0 billion and $70.0 billion as of December 31, 2021 and 2022. 
+Amounts held in foreign currencies were $22.7 billion and $18.3 billion as of December 31, 2021 and 2022. Our foreign 
+currency balances include British Pounds, Canadian Dollars, Euros, and Japanese Yen. 
+Cash provided by (used in) operating activ
+
+Target-chunk rank check
+------------------------
+No target chunk IDs configured; inspect retrieved evidence manually.
