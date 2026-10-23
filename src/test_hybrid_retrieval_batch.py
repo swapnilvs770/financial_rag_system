@@ -78,7 +78,7 @@ TEST_QUERIES = [
         "Q06",
         "employee_expenses",
         "How much did TCS spend on employee costs in FY2025?",
-        "TCS consolidated statement of profit and loss employee benefit expenses 145788 140131 FY 2025 FY 2024",
+        "Employee cost employee benefit expenses FY 2025 amount",
         ["Annual_Report_TCS_2025_p0181_c001", "Annual_Report_TCS_2025_p0095_c001_s001"],
     ),
     (

@@ -11,10 +11,11 @@ from __future__ import annotations
 
 import re
 import sys
+import threading
 from pathlib import Path
 from typing import Any, Literal
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field, field_validator
 
@@ -43,6 +44,8 @@ app.add_middleware(
 )
 _engine = None
 _engine_error: str | None = None
+_ingestion_lock = threading.Lock()
+MAX_UPLOAD_BYTES = 50 * 1024 * 1024
 
 
 class QueryRequest(BaseModel):
@@ -80,7 +83,7 @@ def health() -> dict[str, Any]:
     return {
         "status": "ok" if _engine is not None else "degraded",
         "retrieval_ready": _engine is not None,
-        "answer_generation": "extractive_financial_rows",
+        "answer_generation": "financial_rows_plus_evidence_extractive_fallback",
         "retrieval_error": _engine_error,
     }
 
@@ -93,6 +96,51 @@ def documents() -> dict[str, Any]:
             detail=f"Retrieval engine is not ready: {_engine_error or 'not initialized'}",
         )
     return {"documents": _engine.list_documents()}
+
+
+@app.post("/api/documents/upload")
+async def upload_document(file: UploadFile = File(...)) -> dict[str, Any]:
+    """Upload, extract, chunk, embed, and index a new text-based PDF."""
+    global _engine, _engine_error
+    if _engine is None:
+        raise HTTPException(
+            status_code=503,
+            detail=f"Retrieval engine is not ready: {_engine_error or 'not initialized'}",
+        )
+    filename = Path(file.filename or "").name
+    if not filename or not filename.lower().endswith(".pdf"):
+        raise HTTPException(status_code=400, detail="Upload a PDF file with a .pdf extension.")
+    raw_dir = ROOT / "data" / "raw"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    destination = raw_dir / filename
+    if destination.exists():
+        raise HTTPException(status_code=409, detail=f"A file named '{filename}' already exists. Rename the upload to avoid overwriting it.")
+    payload = await file.read(MAX_UPLOAD_BYTES + 1)
+    await file.close()
+    if not payload:
+        raise HTTPException(status_code=400, detail="The uploaded file is empty.")
+    if len(payload) > MAX_UPLOAD_BYTES:
+        raise HTTPException(status_code=413, detail="PDF exceeds the 50 MB upload limit.")
+    # Basic PDF signature validation before writing anything to the raw library.
+    if not payload.lstrip().startswith(b"%PDF-"):
+        raise HTTPException(status_code=400, detail="The uploaded file does not have a valid PDF signature.")
+    destination.write_bytes(payload)
+    try:
+        with _ingestion_lock:
+            from ingestion import ingest_pdf
+            result = ingest_pdf(destination, ROOT, _engine.model)
+            from retrieval_engine import HybridRetrievalEngine
+            # Reload the new persistent indexes while reusing the already-loaded model.
+            _engine = HybridRetrievalEngine(project_root=ROOT, model=_engine.model)
+            _engine_error = None
+        return {"message": "PDF processed and indexed successfully.", **result,
+                "documents": _engine.list_documents()}
+    except ValueError as exc:
+        destination.unlink(missing_ok=True)
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    except Exception as exc:
+        # Keep the uploaded PDF for diagnosis only if indexing may have partially committed.
+        raise HTTPException(status_code=500, detail=f"PDF ingestion failed: {type(exc).__name__}: {exc}") from exc
 
 
 def _basis_from_text(text: str) -> str:
@@ -142,17 +190,23 @@ def _extract_financial_metric(question: str, results: list[dict[str, Any]]) -> d
         },
         {
             "key": "profit_after_tax",
-            "question_terms": ("profit after tax", "net profit", "profit for the year", "pat"),
-            "row_label": r"PROFIT FOR THE YEAR",
-            "answer_label": "profit for the year",
+            "question_terms": (
+                "profit after tax", "net profit", "profit for the year", "pat",
+                "net income", "profit attributable",
+            ),
+            "row_label": (
+                r"(?:Profit after tax attributable to shareholders of the Company|"
+                r"Profit attributable to (?:owners|shareholders)(?: of the parent| of the Company)?|"
+                r"Profit for the year|Net income|PROFIT FOR THE YEAR)"
+            ),
+            "answer_label": "profit after tax / net profit",
         },
     ]
 
     # Prefer the most specific metric match; e.g. "revenue from operations"
     # should still resolve to revenue, while "employee benefit expenses" to expenses.
     selected = next(
-        (metric for metric in metrics if any(
-            term in q for term in metric["question_terms"])),
+        (metric for metric in metrics if any(term in q for term in metric["question_terms"])),
         None,
     )
     if selected is None:
@@ -170,11 +224,35 @@ def _extract_financial_metric(question: str, results: list[dict[str, Any]]) -> d
         lower = text.lower()
         return (
             ("march 31, 2025" in lower and "march 31, 2024" in lower)
-            or ("fy2025" in lower and "fy2024" in lower)
+            or (re.search(r"fy\s*2025", lower) and re.search(r"fy\s*2024", lower))
             or ("year ended" in lower and "2025" in lower and "2024" in lower)
         )
 
     def extract_pair(text: str) -> tuple[str, str] | None:
+        # Some financial-results overview tables place multiple FY columns side by
+        # side: FY2025 Amount, % of Revenue, % Growth, FY2024 Amount, % of Revenue.
+        # In that layout, taking the first two numbers is wrong (e.g. 255,324 and
+        # 100.0). Select the first and fourth numeric cells for revenue/profit rows.
+        if selected["key"] in ("revenue", "profit_after_tax"):
+            label_match = re.search(selected["row_label"], text, re.IGNORECASE)
+            if label_match:
+                tail = text[label_match.end():label_match.end() + 500]
+                numeric_tokens = re.findall(
+                    r"(?<![A-Za-z])\d[\d,]*(?:\.\d+)?",
+                    tail,
+                )
+                table_has_percent_columns = (
+                    "% of" in text.lower() or "% growth" in text.lower()
+                    or "financial results" in text.lower()
+                )
+                if table_has_percent_columns and len(numeric_tokens) >= 4:
+                    first, fourth = numeric_tokens[0], numeric_tokens[3]
+                    return first, fourth
+                if len(numeric_tokens) >= 2:
+                    # Ordinary two-period statements have only the two amount
+                    # cells immediately following the row label.
+                    return numeric_tokens[0], numeric_tokens[1]
+
         # Standard financial-statement row: label followed directly by two values.
         match = row_pattern.search(text)
         if match:
@@ -256,8 +334,17 @@ def _extract_financial_metric(question: str, results: list[dict[str, Any]]) -> d
         # headers are not repeated in this same chunk. For note-table subtotal
         # fallback, keep the stricter year-header requirement.
         direct_row_match = row_pattern.search(text) is not None
+        has_financial_table_context = any(
+            marker in text.lower()
+            for marker in (
+                "consolidated financial results",
+                "financial performance overview",
+                "revenue from operations",
+            )
+        )
         if not has_year_headers(text) and not (
-            direct_row_match and is_primary_statement(text)
+            direct_row_match
+            and (is_primary_statement(text) or has_financial_table_context)
         ):
             continue
 
@@ -282,10 +369,12 @@ def _extract_financial_metric(question: str, results: list[dict[str, Any]]) -> d
         else "standalone" if basis == "standalone"
         else "basis not explicitly identified in the retrieved passage"
     )
-    filename = item.get("filename") or item.get(
-        "document_id") or "Source document"
+    filename = item.get("filename") or item.get("document_id") or "Source document"
     metric_label = str(selected["answer_label"])
-    prefix = "TCS's " if "tcs" in q or "employee" in q or "revenue" in q or "profit" in q else ""
+    stem = Path(str(filename)).stem
+    company_match = re.match(r"(?:Annual_Report_|annual_report_)?(.+?)(?:_20\d{2})?$", stem, re.IGNORECASE)
+    company = company_match.group(1).replace("_", " ").strip() if company_match else ""
+    prefix = f"{company}'s " if company and company.lower() not in {"annual report", "report"} else ""
     if basis in ("consolidated", "standalone"):
         answer_text = (
             f"{prefix}{basis_label} {metric_label} was ₹{chosen['value_2025']} crore "
@@ -316,7 +405,6 @@ def _extract_financial_metric(question: str, results: list[dict[str, Any]]) -> d
         ),
     }
 
-
 def _build_answer(question: str, results: list[dict[str, Any]]) -> dict[str, Any]:
     metric_answer = _extract_financial_metric(question, results)
     if metric_answer:
@@ -330,27 +418,91 @@ def _build_answer(question: str, results: list[dict[str, Any]]) -> dict[str, Any
             "sources": [],
         }
 
-    # Conservative fallback: provide citations and snippets, but don't pretend
-    # that a generative model has synthesized a full answer.
+    # Evidence-grounded fallback for non-tabular questions. Select sentences
+    # using question-term overlap; do not claim to perform abstractive synthesis.
+    # This supports qualitative questions without requiring an external LLM key.
+    stop_words = {
+        "what", "which", "when", "where", "who", "why", "how", "much", "many",
+        "does", "did", "was", "were", "is", "are", "the", "a", "an", "of",
+        "in", "on", "for", "to", "and", "or", "from", "with", "by", "about",
+        "company", "report", "please", "tell", "me", "their", "its", "this",
+        "that", "year", "years", "fy", "during", "compare", "explain", "summarize",
+    }
+    terms = {
+        token for token in re.findall(r"[a-z][a-z0-9-]{2,}", question.lower())
+        if token not in stop_words
+    }
+    ranked_sentences: list[tuple[int, int, dict[str, Any], str]] = []
+    for result_index, item in enumerate(results):
+        text = str(item.get("text", "")).strip()
+        # PDFs frequently flatten tables; keep line breaks as useful boundaries.
+        pieces = re.split(r"(?<=[.!?])\\s+|\\n+", text)
+        seen = set()
+        for sentence in pieces:
+            sentence = re.sub(r"\\s+", " ", sentence).strip(" -|\\t")
+            if len(sentence) < 25:
+                continue
+            normalized = sentence.lower()
+            overlap = sum(1 for term in terms if term in normalized)
+            # Retain a little evidence for short or paraphrased questions, but
+            # never return a generic success message as though it were an answer.
+            if overlap:
+                key = normalized[:240]
+                if key not in seen:
+                    ranked_sentences.append((overlap, -result_index, item, sentence))
+                    seen.add(key)
+    ranked_sentences.sort(key=lambda row: (row[0], row[1]), reverse=True)
+
     sources = []
-    for item in results[:3]:
-        sources.append({
-            "filename": item.get("filename"),
-            "document_id": item.get("document_id"),
-            "page_number": item.get("page_number"),
-            "chunk_id": item.get("chunk_id"),
-            "basis": _basis_from_text(str(item.get("text", ""))),
-            "supporting_text": str(item.get("text", ""))[:900],
-        })
+    used_sentences = []
+    used_chunks = set()
+    for overlap, _, item, sentence in ranked_sentences[:4]:
+        used_sentences.append(sentence[:650])
+        cid = item.get("chunk_id") or (item.get("filename"), item.get("page_number"))
+        if cid not in used_chunks:
+            used_chunks.add(cid)
+            sources.append({
+                "filename": item.get("filename"),
+                "document_id": item.get("document_id"),
+                "page_number": item.get("page_number"),
+                "chunk_id": item.get("chunk_id"),
+                "basis": _basis_from_text(str(item.get("text", ""))),
+                "supporting_text": str(item.get("text", ""))[:900],
+            })
+
+    if used_sentences:
+        answer_text = "The retrieved evidence states: " + " ".join(used_sentences)
+        status = "answered"
+        answer_type = "extractive_evidence"
+        note = (
+            "This is an extractive answer assembled from sentences in retrieved passages, "
+            "not an LLM-generated interpretation. Check the cited pages and surrounding context."
+        )
+    else:
+        answer_text = (
+            "I retrieved passages, but could not identify a sentence that directly answers "
+            "this question. Try naming the metric, reporting period, or topic more precisely, "
+            "or inspect the retrieved evidence before drawing a conclusion."
+        )
+        status = "insufficient_evidence"
+        answer_type = "none"
+        note = "No answer was inferred because question-relevant sentence evidence was not identified."
+        for item in results[:3]:
+            sources.append({
+                "filename": item.get("filename"),
+                "document_id": item.get("document_id"),
+                "page_number": item.get("page_number"),
+                "chunk_id": item.get("chunk_id"),
+                "basis": _basis_from_text(str(item.get("text", ""))),
+                "supporting_text": str(item.get("text", ""))[:900],
+            })
+
     return {
-        "status": "evidence_found",
-        "answer": (
-            "Relevant evidence was retrieved, but this API currently generates "
-            "answers only for supported extractive financial rows. Review the cited "
-            "evidence below; no unsupported summary has been generated."
-        ),
-        "answer_type": "none",
+        "status": status,
+        "answer": answer_text,
+        "answer_type": answer_type,
         "sources": sources,
+        "note": note,
     }
 
 
@@ -383,7 +535,7 @@ def query(request: QueryRequest) -> dict[str, Any]:
         return {
             **retrieval,
             "answer": _build_answer(request.question, results),
-            "answer_generation": "extractive_financial_rows",
+            "answer_generation": "financial_rows_plus_evidence_extractive_fallback",
         }
     except ValueError as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc

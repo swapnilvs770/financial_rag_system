@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import {
-  Activity, ArrowUpRight, BookOpen, CheckCircle2, ChevronDown, CircleHelp,
+  Activity, ArrowUpRight, BookOpen, CheckCircle2, ChevronDown, CircleHelp, Upload,
   Clock3, Command, Database, FileSearch, FileText, Filter, Layers3,
   LoaderCircle, MessageSquareText, PanelLeftClose, Search, Send, ShieldCheck,
   SlidersHorizontal, Sparkles, XCircle
@@ -39,6 +39,9 @@ function App() {
   const [response, setResponse] = useState(null);
   const [showSettings, setShowSettings] = useState(false);
   const [activeNav, setActiveNav] = useState("Ask a question");
+  const [uploading, setUploading] = useState(false);
+  const [uploadMessage, setUploadMessage] = useState("");
+  const [uploadError, setUploadError] = useState("");
 
   useEffect(() => {
     let alive = true;
@@ -114,6 +117,42 @@ function App() {
       setError(`${e.message || "Could not reach the API."} Check that FastAPI is running at ${API_BASE}.`);
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function uploadDocument(file) {
+    if (!file) return;
+    setUploadMessage("");
+    setUploadError("");
+    if (!file.name.toLowerCase().endsWith(".pdf")) {
+      setUploadError("Please select a PDF file.");
+      return;
+    }
+    const formData = new FormData();
+    formData.append("file", file);
+    setUploading(true);
+    try {
+      const res = await fetch(`${API_BASE}/api/documents/upload`, {
+        method: "POST",
+        body: formData
+      });
+      const payload = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(payload?.detail || `Upload failed (${res.status}).`);
+      const docsRes = await fetch(`${API_BASE}/api/documents`);
+      if (docsRes.ok) {
+        const docsPayload = await docsRes.json();
+        const parsed = extractDocuments(docsPayload);
+        setDocuments(parsed);
+        if (payload.document_id) {
+          setSelectedDocument(payload.document_id);
+          setScope("document");
+        }
+      }
+      setUploadMessage(`${payload.filename || file.name} indexed successfully (${payload.page_count ?? "?"} pages, ${payload.chunk_count ?? "?"} chunks).`);
+    } catch (e) {
+      setUploadError(e.message || "Could not upload this PDF.");
+    } finally {
+      setUploading(false);
     }
   }
 
@@ -221,6 +260,25 @@ function App() {
               <StatCard icon={FileText} label="Available reports" value={documentsLoading ? "Loading…" : String(documents.length || "—")} />
               <StatCard icon={ShieldCheck} label="Answer approach" value="Evidence-first" />
             </div>
+
+            <section className="mt-6 rounded-2xl border border-white/[0.09] bg-[#0d1324] p-5 sm:p-6">
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                <div className="flex items-start gap-3">
+                  <div className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-cyan-400/[0.09] text-cyan-300"><Upload size={18} /></div>
+                  <div>
+                    <h2 className="text-sm font-semibold text-slate-100">Add an annual report</h2>
+                    <p className="mt-1 max-w-xl text-xs leading-5 text-slate-500">Upload a text-based PDF. FinSight extracts page text, creates chunks, embeds them, updates FAISS and BM25, and makes the report searchable.</p>
+                  </div>
+                </div>
+                <label className={`inline-flex cursor-pointer items-center gap-2 rounded-xl border border-indigo-400/25 bg-indigo-500/10 px-4 py-2.5 text-xs font-semibold text-indigo-200 transition hover:bg-indigo-500/20 ${uploading ? "pointer-events-none opacity-60" : ""}`}>
+                  {uploading ? <LoaderCircle size={15} className="animate-spin" /> : <Upload size={15} />}
+                  {uploading ? "Processing PDF…" : "Choose PDF"}
+                  <input type="file" accept="application/pdf,.pdf" className="hidden" disabled={uploading} onChange={e => { const file = e.target.files?.[0]; uploadDocument(file); e.target.value = ""; }} />
+                </label>
+              </div>
+              {uploadMessage && <div className="mt-4 rounded-lg border border-emerald-400/15 bg-emerald-400/[0.05] px-3 py-2.5 text-xs leading-5 text-emerald-200">{uploadMessage}</div>}
+              {uploadError && <div className="mt-4 rounded-lg border border-rose-400/15 bg-rose-400/[0.05] px-3 py-2.5 text-xs leading-5 text-rose-200">{uploadError}</div>}
+            </section>
 
             <section className="mt-8 overflow-hidden rounded-2xl border border-white/[0.09] bg-[#0d1324] shadow-glow">
               <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/[0.07] px-5 py-4 sm:px-6">
